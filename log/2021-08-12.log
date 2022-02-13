@@ -1,0 +1,15 @@
+[2021-08-12 12:53:19,543] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 13:06:11,308] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 14:08:56,103] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 14:08:56,132] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-08-12 14:08:56,443] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-08-12 14:09:52,963] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 14:09:55,294] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-08-12 14:09:56,080] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-08-12 14:18:03,957] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 14:20:14,752] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 14:20:16,975] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-08-12 14:20:18,039] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-08-12 15:02:20,860] I Kiwoom.py | Kiwoom-__init__-0044 I DEBUG    > Kiwoom() class start.
+[2021-08-12 15:02:25,066] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-08-12 15:02:26,122] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!

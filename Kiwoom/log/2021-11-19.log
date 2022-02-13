@@ -1,0 +1,36 @@
+[2021-11-19 23:42:25,426] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-19 23:43:10,230] I Kiwoom.py | Kiwoom-get_login_info-0708 I DEBUG    > 계좌번호 : 8010187611
+[2021-11-19 23:43:10,878] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-11-19 23:43:10,880] I Kiwoom.py | Kiwoom-_opw00001-0771 I DEBUG    > 예수금 : 43874573
+[2021-11-19 23:43:10,946] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-11-19 23:43:10,948] I Kiwoom.py | Kiwoom-_opw00018-0932 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 56,590,624 - -2,126,522 - -3.76
+[2021-11-19 23:43:10,953] I Kiwoom.py | Kiwoom-_opw00018-0960 I DEBUG    > sPreNext : 
+[2021-11-19 23:43:10,982] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-11-19 23:43:11,133] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-11-19 23:43:14,163] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-11-19 23:43:17,094] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-11-19 23:43:17,095] I Kiwoom.py | Kiwoom-read_code-0440 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-11-19 23:43:55,904] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-19 23:44:02,591] I Kiwoom.py | Kiwoom-get_login_info-0708 I DEBUG    > 계좌번호 : 8010187611
+[2021-11-19 23:44:03,119] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-11-19 23:44:03,120] I Kiwoom.py | Kiwoom-_opw00001-0771 I DEBUG    > 예수금 : 43874573
+[2021-11-19 23:44:03,186] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-11-19 23:44:03,189] I Kiwoom.py | Kiwoom-_opw00018-0932 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 56,590,624 - -2,126,522 - -3.76
+[2021-11-19 23:44:03,191] I Kiwoom.py | Kiwoom-_opw00018-0960 I DEBUG    > sPreNext : 
+[2021-11-19 23:44:03,220] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-11-19 23:44:03,359] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-11-19 23:44:06,375] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-11-19 23:44:09,086] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-11-19 23:44:09,086] I Kiwoom.py | Kiwoom-read_code-0440 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-11-19 23:47:52,374] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-19 23:47:59,500] I Kiwoom.py | Kiwoom-get_login_info-0711 I DEBUG    > 계좌번호 : 8010187611
+[2021-11-19 23:48:00,114] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-11-19 23:48:00,116] I Kiwoom.py | Kiwoom-_opw00001-0774 I DEBUG    > 예수금 : 43874573
+[2021-11-19 23:48:00,185] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-11-19 23:48:00,187] I Kiwoom.py | Kiwoom-_opw00018-0935 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 56,590,624 - -2,126,522 - -3.76
+[2021-11-19 23:48:00,190] I Kiwoom.py | Kiwoom-_opw00018-0963 I DEBUG    > sPreNext : 
+[2021-11-19 23:48:00,219] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-11-19 23:48:00,342] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-11-19 23:48:03,361] I Kiwoom.py | Kiwoom-msg_slot-0244 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-11-19 23:48:06,206] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-11-19 23:48:06,207] I Kiwoom.py | Kiwoom-read_code-0440 I DEBUG    > SUCCESS UPDATE meme_portfolio

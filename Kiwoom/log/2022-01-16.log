@@ -1,0 +1,4 @@
+[2022-01-16 10:39:25,223] I Kiwoom.py | Kiwoom-__init__-0056 I DEBUG    > Kiwoom() class start.
+[2022-01-16 10:39:36,282] I Kiwoom.py | Kiwoom-get_login_info-0888 I DEBUG    > 계좌번호 : 8016293411
+[2022-01-16 10:40:01,723] I Kiwoom.py | Kiwoom-__init__-0056 I DEBUG    > Kiwoom() class start.
+[2022-01-16 13:51:39,609] I Kiwoom.py | Kiwoom-get_login_info-0888 I DEBUG    > 계좌번호 : 

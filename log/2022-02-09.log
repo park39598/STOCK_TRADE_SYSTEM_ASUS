@@ -1,0 +1,39 @@
+[2022-02-09 09:28:50,498] I Kiwoom.py | Kiwoom-__init__-0057 I DEBUG    > Kiwoom() class start.
+[2022-02-09 09:28:50,498] I Kiwoom.py | Kiwoom-__init__-0059 I DEBUG    > 2022-02-03_Ver
+[2022-02-09 09:29:15,697] I Kiwoom.py | Kiwoom-get_login_info-0922 I DEBUG    > 계좌번호 : 8016293411
+[2022-02-09 09:29:21,491] I Kiwoom.py | Kiwoom-msg_slot-0403 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2022-02-09 09:29:21,492] I Kiwoom.py | Kiwoom-_opw00001-0986 I DEBUG    > 예수금 : 80421571
+[2022-02-09 09:29:21,559] I Kiwoom.py | Kiwoom-msg_slot-0403 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2022-02-09 09:29:21,563] I Kiwoom.py | Kiwoom-_opw00018-1148 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 15,730,045 - 503,971 - 3.20
+[2022-02-09 09:29:21,565] I Kiwoom.py | Kiwoom-_opw00018-1177 I DEBUG    > sPreNext : 
+[2022-02-09 09:29:21,813] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2022-02-09 09:29:22,409] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2022-02-09 09:29:22,468] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2022-02-09 09:29:22,880] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20211126_DATA FROM DB!
+[2022-02-09 09:29:23,097] I Kiwoom.py | Kiwoom-Set_Condition_Receive-0259 I DEBUG    > 조건검색 조회 요청 성공
+[2022-02-09 09:29:23,394] I Kiwoom.py | Kiwoom-_OnReceiveTrCondition-0268 I DEBUG    > 039310;049960;067010;168330;263020;
+[2022-02-09 09:29:27,943] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2022-02-09 09:29:27,944] I Kiwoom.py | Kiwoom-read_code-0638 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2022-02-09 09:29:27,974] I Kiwoom.py | Kiwoom-msg_slot-0403 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2022-02-09 09:29:43,550] I DATA_PROC.py | Kiwoom-order_emit-0054 I DEBUG    > order_queue put :['매도', ['신규매도', '6001', '8016293411', 2, '214430', '000000000000111', 0, '03', '']]
+[2022-02-09 09:29:43,571] I Kiwoom.py | Kiwoom-msg_slot-0403 I DEBUG    > 스크린: 6001, 요청이름: 신규매도, tr코드: KOA_NORMAL_SELL_KQ_ORD --- [100000] 모의투자 매도주문완료
+[2022-02-09 09:30:06,964] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2022-02-09 11:07:50,815] I DATA_PROC.py | Kiwoom-order_emit-0054 I DEBUG    > order_queue put :['매도', ['신규매도', '6001', '8016293411', 2, '032940', '000000000000654', 0, '03', '']]
+[2022-02-09 11:07:50,924] I Kiwoom.py | Kiwoom-msg_slot-0403 I DEBUG    > 스크린: 6001, 요청이름: 신규매도, tr코드: KOA_NORMAL_SELL_KQ_ORD --- [100000] 모의투자 매도주문완료
+[2022-02-09 11:12:37,864] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2022-02-09 15:19:59,872] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:20:59,874] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:21:59,875] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:22:59,767] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:23:59,862] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:24:59,864] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:25:59,865] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:26:59,867] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:27:59,759] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:28:59,854] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:29:09,758] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:29:19,865] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:29:29,863] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:29:39,860] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:29:49,858] I Kiwoom.py | Kiwoom-_receive_real_data-0767 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2022-02-09 15:29:59,855] I Kiwoom.py | Kiwoom-_receive_real_data-0770 I DEBUG    > 3시30분 장 종료

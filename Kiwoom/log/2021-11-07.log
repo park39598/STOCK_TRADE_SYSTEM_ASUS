@@ -1,0 +1,258 @@
+[2021-11-07 15:46:17,315] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:46:42,636] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:46:42,665] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:46:42,682] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:47:03,742] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:47:03,772] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:47:03,778] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:49:11,393] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:49:11,416] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:49:11,433] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:49:29,741] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:49:29,756] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:49:29,777] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:49:29,791] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:50:06,231] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:50:06,262] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:50:06,268] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:50:06,294] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:50:37,423] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:50:37,449] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:50:37,466] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:50:37,470] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:52:09,440] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:52:09,473] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:52:09,491] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:52:09,505] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:52:09,507] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 15:53:31,470] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:53:31,501] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:53:31,519] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:53:31,547] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:53:31,549] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 15:53:31,549] I Kiwoom.py | Kiwoom-quant_algo_fnc-1205 I DEBUG    > 2021/06 최신 Finance DATA OK..
+[2021-11-07 15:53:31,549] I Kiwoom.py | Kiwoom-quant_algo_fnc-1206 I DEBUG    > [] 최신 rim DATA 업데이트 필요!..
+[2021-11-07 15:54:20,064] I Kiwoom.py | Kiwoom-get_login_info-0678 I DEBUG    > 계좌번호 : 8010187611
+[2021-11-07 15:54:54,072] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:54:54,105] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:54:54,124] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:54:54,138] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:55:38,526] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:55:38,563] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:55:38,580] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:55:38,594] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 15:59:46,459] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 15:59:46,493] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 15:59:46,498] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 15:59:46,524] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:00:32,731] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:00:32,731] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:00:32,731] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:00:33,420] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:01:09,249] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:01:09,275] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:01:09,293] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:01:09,307] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:01:09,308] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:01:09,309] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:01:09,309] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:01:09,994] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:02:49,098] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:02:49,111] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:02:49,135] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:02:49,140] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:02:49,142] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:02:49,142] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:02:49,143] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:02:50,059] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:03:29,225] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:03:29,261] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:03:29,279] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:03:29,308] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:03:29,310] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:03:29,310] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:03:29,311] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:03:29,988] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:03:54,424] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:03:54,458] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:03:54,475] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:03:54,503] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:03:54,505] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:03:54,505] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:03:54,506] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:03:55,214] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:31:31,049] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:31:31,087] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:31:31,104] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:31:31,133] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:31:31,134] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:31:31,135] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:31:31,135] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:31:31,809] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:34:31,228] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:34:31,261] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:34:31,278] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:34:31,293] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:34:31,295] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:34:31,295] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:34:31,296] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:34:31,976] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:37:14,277] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:37:14,308] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:37:14,324] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:37:14,354] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:37:14,355] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:37:14,356] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:37:14,356] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:37:15,033] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:39:43,305] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:39:43,337] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:39:43,354] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:39:43,368] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:39:43,370] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:39:43,370] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:39:43,371] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:39:44,037] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:42:26,966] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:42:26,993] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:42:27,011] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:42:27,015] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:42:27,017] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:42:27,017] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:42:27,017] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:42:33,028] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:42:33,056] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:42:33,073] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:42:33,088] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:42:33,090] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:42:33,090] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:42:33,091] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:42:33,791] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:46:08,240] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:46:08,275] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:46:08,293] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:46:08,307] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:46:08,309] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:46:08,309] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:46:08,309] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:46:08,994] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 16:58:03,592] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 16:58:03,617] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 16:58:03,634] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 16:58:03,663] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 16:58:03,665] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 16:58:03,665] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 16:58:03,665] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 16:58:04,373] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:01:52,068] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:01:52,097] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:01:52,115] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:01:52,129] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:01:52,131] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:01:52,131] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:01:52,131] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:01:52,795] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:04:03,472] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:04:03,486] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:04:03,504] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:04:03,519] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:04:03,520] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:04:03,521] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:04:03,521] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:04:04,213] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:05:23,221] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:05:23,259] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:05:23,277] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:05:23,305] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:05:23,307] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:05:23,307] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:05:23,307] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:05:23,973] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:06:08,820] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:06:08,833] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:06:08,856] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:06:08,870] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:06:08,872] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:06:08,872] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:06:08,872] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:06:09,552] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:18:56,071] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:18:56,095] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:18:56,113] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:18:56,127] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:18:56,129] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:18:56,129] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:18:56,130] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:18:56,811] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:19:26,137] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:19:26,165] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:19:26,183] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:19:26,212] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:19:26,214] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:19:26,214] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:19:26,215] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:19:26,937] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:23:11,061] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:23:11,097] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:23:11,115] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:23:11,119] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:23:11,121] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:23:11,121] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:23:11,122] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:23:11,800] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:24:40,921] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:24:40,935] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:24:40,963] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:24:40,977] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:24:40,979] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:24:40,979] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:24:40,979] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:24:41,653] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:25:21,640] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:25:21,677] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:25:21,682] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:25:21,709] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:25:21,711] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:25:21,711] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:25:21,711] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:25:22,393] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:44:52,793] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:44:52,822] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:44:52,838] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:44:52,853] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:44:52,855] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:44:52,855] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:44:52,856] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:44:53,530] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:47:05,869] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:47:05,904] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:47:05,921] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:47:05,950] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:47:05,952] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:47:05,953] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:47:05,953] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:47:06,642] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:51:04,926] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:51:04,938] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:51:04,962] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:51:04,965] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:51:04,966] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:51:04,967] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:51:04,967] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:51:05,231] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:51:11,464] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:51:11,480] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:51:11,485] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:51:11,489] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:51:11,491] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:51:11,491] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:51:11,492] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:51:12,175] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!
+[2021-11-07 17:51:37,157] I Kiwoom.py | Kiwoom-__init__-0051 I DEBUG    > Kiwoom() class start.
+[2021-11-07 17:51:37,169] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_value_list TABLE LIST FROM DB!
+[2021-11-07 17:51:37,184] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_finance TABLE LIST FROM DB!
+[2021-11-07 17:51:37,200] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-11-07 17:51:37,201] I Kiwoom.py | Kiwoom-quant_algo_fnc-1112 I DEBUG    > 가치평가 file_path : F:\OneDrive\Data\ValueTool\Valuetool\가치평가 tool 20211105.xlsb
+[2021-11-07 17:51:37,201] I Kiwoom.py | Kiwoom-quant_algo_fnc-1116 I DEBUG    > 2021/06 최신 Finance DATA OK....
+[2021-11-07 17:51:37,201] I Kiwoom.py | Kiwoom-quant_algo_fnc-1117 I DEBUG    > 20211105 최신 rim DATA OK....
+[2021-11-07 17:51:37,450] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20210611_DATA FROM DB!

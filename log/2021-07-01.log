@@ -1,0 +1,88 @@
+[2021-07-01 08:39:18,353] I Kiwoom.py | Kiwoom-__init__-0037 I DEBUG    > Kiwoom() class start.
+[2021-07-01 08:39:18,496] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD fs_last_update_DATA FROM DB!
+[2021-07-01 08:39:19,433] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD now_finance_excel_DATA FROM DB!
+[2021-07-01 08:39:23,612] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-07-01 08:39:23,719] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-07-01 08:40:09,257] I Kiwoom.py | Kiwoom-get_login_info-0658 I DEBUG    > 계좌번호 : 8000905911
+[2021-07-01 08:40:10,059] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-07-01 08:40:10,061] I Kiwoom.py | Kiwoom-_opw00001-0721 I DEBUG    > 예수금 : 29954245
+[2021-07-01 08:40:10,181] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-07-01 08:40:10,183] I Kiwoom.py | Kiwoom-_opw00018-0882 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 68,208,853 - 156,939 - 0.23
+[2021-07-01 08:40:10,184] I Kiwoom.py | Kiwoom-_opw00018-0910 I DEBUG    > sPreNext : 
+[2021-07-01 08:40:13,213] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-07-01 08:40:13,278] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD meme_portfolio_DATA FROM DB!
+[2021-07-01 08:40:16,721] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-07-01 08:40:16,722] I Kiwoom.py | Kiwoom-read_code-0403 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-07-01 08:40:54,773] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:41:54,761] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:42:54,767] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:43:54,763] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:44:54,754] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:45:54,768] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:46:54,760] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:47:54,766] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:48:54,753] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:49:54,756] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:50:54,756] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:51:54,763] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:52:54,764] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:53:54,751] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:54:54,749] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:55:54,755] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:56:04,758] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:56:14,750] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:56:24,747] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:56:34,761] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:56:44,746] I Kiwoom.py | Kiwoom-_receive_real_data-0503 I DEBUG    > 장 시작 전
+[2021-07-01 08:56:54,845] I Kiwoom.py | Kiwoom-_receive_real_data-0506 I DEBUG    > 장 시작
+[2021-07-01 08:56:58,571] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:58,573] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:58,576] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:58,603] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:58,680] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:58,681] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:58,684] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:58,711] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:58,788] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:58,789] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:58,791] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:58,835] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:58,897] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:58,897] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:58,901] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:58,944] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:59,005] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,006] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,008] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:59,021] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:59,113] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,113] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,115] I Kiwoom.py | Kiwoom-order_stock-0163 I DEBUG    > 주문 전달 실패
+[2021-07-01 08:56:59,223] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,224] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,226] I Kiwoom.py | Kiwoom-order_stock-0163 I DEBUG    > 주문 전달 실패
+[2021-07-01 08:56:59,331] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,331] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,333] I Kiwoom.py | Kiwoom-order_stock-0163 I DEBUG    > 주문 전달 실패
+[2021-07-01 08:56:59,442] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,443] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,444] I Kiwoom.py | Kiwoom-order_stock-0163 I DEBUG    > 주문 전달 실패
+[2021-07-01 08:56:59,551] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,552] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,554] I Kiwoom.py | Kiwoom-order_stock-0163 I DEBUG    > 주문 전달 실패
+[2021-07-01 08:56:59,660] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,661] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,663] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:59,676] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:59,769] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,770] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,772] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:59,800] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:59,878] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,878] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,881] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:56:59,894] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.
+[2021-07-01 08:56:59,986] I DATA_PROC.py | Kiwoom-process_data-0084 I DEBUG    > 매수조건 통과 002200 
+[2021-07-01 08:56:59,987] I DATA_PROC.py | Kiwoom-order_emit-0048 I DEBUG    > order_queue put :['매수', ['신규매수', '6001', '8000905911', 1, '002200', 34, 28600.0, '00', '']]
+[2021-07-01 08:56:59,989] I Kiwoom.py | Kiwoom-order_stock-0161 I DEBUG    > 신규매수 전달 성공
+[2021-07-01 08:57:00,031] I Kiwoom.py | Kiwoom-msg_slot-0227 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [RC4027] 모의투자 상/하한가 오류입니다.

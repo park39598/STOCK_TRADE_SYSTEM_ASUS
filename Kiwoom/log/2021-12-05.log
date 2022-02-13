@@ -1,0 +1,109 @@
+[2021-12-05 15:38:34,461] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 15:39:00,853] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 15:39:09,548] I Kiwoom.py | Kiwoom-get_login_info-0729 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 15:39:11,390] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 15:39:11,391] I Kiwoom.py | Kiwoom-_opw00001-0792 I DEBUG    > 예수금 : 59582214
+[2021-12-05 15:39:11,469] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 15:39:11,471] I Kiwoom.py | Kiwoom-_opw00018-0953 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 15:39:11,473] I Kiwoom.py | Kiwoom-_opw00018-0981 I DEBUG    > sPreNext : 
+[2021-12-05 15:39:12,804] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 15:39:14,149] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 15:39:51,185] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 15:39:56,219] I Kiwoom.py | Kiwoom-get_login_info-0729 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 15:39:57,037] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 15:39:57,039] I Kiwoom.py | Kiwoom-_opw00001-0792 I DEBUG    > 예수금 : 59582214
+[2021-12-05 15:39:57,105] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 15:39:57,106] I Kiwoom.py | Kiwoom-_opw00018-0953 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 15:39:57,108] I Kiwoom.py | Kiwoom-_opw00018-0981 I DEBUG    > sPreNext : 
+[2021-12-05 15:39:57,398] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 15:39:57,863] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 15:40:24,700] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 15:40:29,922] I Kiwoom.py | Kiwoom-get_login_info-0729 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 15:40:30,824] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 15:40:30,825] I Kiwoom.py | Kiwoom-_opw00001-0792 I DEBUG    > 예수금 : 59582214
+[2021-12-05 15:40:30,903] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 15:40:30,905] I Kiwoom.py | Kiwoom-_opw00018-0953 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 15:40:30,907] I Kiwoom.py | Kiwoom-_opw00018-0981 I DEBUG    > sPreNext : 
+[2021-12-05 15:40:30,989] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 15:40:31,470] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 15:41:42,440] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 15:41:48,407] I Kiwoom.py | Kiwoom-get_login_info-0729 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 15:41:49,179] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 15:41:49,181] I Kiwoom.py | Kiwoom-_opw00001-0792 I DEBUG    > 예수금 : 59582214
+[2021-12-05 15:41:49,248] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 15:41:49,249] I Kiwoom.py | Kiwoom-_opw00018-0953 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 15:41:49,251] I Kiwoom.py | Kiwoom-_opw00018-0981 I DEBUG    > sPreNext : 
+[2021-12-05 15:41:49,420] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 15:41:49,806] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 15:41:52,855] I Kiwoom.py | Kiwoom-msg_slot-0261 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-12-05 15:41:57,262] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-12-05 15:41:57,262] I Kiwoom.py | Kiwoom-read_code-0458 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-12-05 16:08:53,972] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:12:27,072] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:12:36,035] I Kiwoom.py | Kiwoom-get_login_info-0754 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:12:36,261] I Kiwoom.py | Kiwoom-msg_slot-0286 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:12:36,262] I Kiwoom.py | Kiwoom-_opw00001-0817 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:12:36,330] I Kiwoom.py | Kiwoom-msg_slot-0286 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:12:36,332] I Kiwoom.py | Kiwoom-_opw00018-0978 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:12:36,335] I Kiwoom.py | Kiwoom-_opw00018-1006 I DEBUG    > sPreNext : 
+[2021-12-05 16:12:36,520] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:12:37,012] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:14:06,421] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:14:14,538] I Kiwoom.py | Kiwoom-get_login_info-0755 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:14:14,562] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:14:14,564] I Kiwoom.py | Kiwoom-_opw00001-0818 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:14:14,632] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:14:14,634] I Kiwoom.py | Kiwoom-_opw00018-0979 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:14:14,636] I Kiwoom.py | Kiwoom-_opw00018-1007 I DEBUG    > sPreNext : 
+[2021-12-05 16:14:14,832] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:14:15,153] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:14:49,398] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:14:57,907] I Kiwoom.py | Kiwoom-get_login_info-0755 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:14:57,933] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:14:57,935] I Kiwoom.py | Kiwoom-_opw00001-0818 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:14:58,002] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:14:58,004] I Kiwoom.py | Kiwoom-_opw00018-0979 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:14:58,006] I Kiwoom.py | Kiwoom-_opw00018-1007 I DEBUG    > sPreNext : 
+[2021-12-05 16:14:58,083] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:14:58,299] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:16:24,446] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:16:29,849] I Kiwoom.py | Kiwoom-get_login_info-0755 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:16:29,868] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:16:29,869] I Kiwoom.py | Kiwoom-_opw00001-0818 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:16:29,937] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:16:29,938] I Kiwoom.py | Kiwoom-_opw00018-0979 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:16:29,941] I Kiwoom.py | Kiwoom-_opw00018-1007 I DEBUG    > sPreNext : 
+[2021-12-05 16:16:30,031] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:16:30,334] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:17:06,108] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:17:11,462] I Kiwoom.py | Kiwoom-get_login_info-0755 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:17:11,485] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:17:11,488] I Kiwoom.py | Kiwoom-_opw00001-0818 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:17:11,555] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:17:11,556] I Kiwoom.py | Kiwoom-_opw00018-0979 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:17:11,559] I Kiwoom.py | Kiwoom-_opw00018-1007 I DEBUG    > sPreNext : 
+[2021-12-05 16:17:11,677] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:17:11,892] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:18:22,295] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:18:27,774] I Kiwoom.py | Kiwoom-get_login_info-0755 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:18:27,792] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:18:27,794] I Kiwoom.py | Kiwoom-_opw00001-0818 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:18:27,862] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:18:27,863] I Kiwoom.py | Kiwoom-_opw00018-0979 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:18:27,866] I Kiwoom.py | Kiwoom-_opw00018-1007 I DEBUG    > sPreNext : 
+[2021-12-05 16:18:27,904] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:18:28,167] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:18:28,328] I Kiwoom.py | Kiwoom-Set_Condition_Receive-0203 I DEBUG    > 조건검색 조회 요청 성공
+[2021-12-05 16:18:31,182] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-12-05 16:18:35,075] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-12-05 16:18:35,075] I Kiwoom.py | Kiwoom-read_code-0484 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-12-05 16:19:44,515] I Kiwoom.py | Kiwoom-__init__-0053 I DEBUG    > Kiwoom() class start.
+[2021-12-05 16:19:51,002] I Kiwoom.py | Kiwoom-get_login_info-0755 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-05 16:19:51,027] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-05 16:19:51,028] I Kiwoom.py | Kiwoom-_opw00001-0818 I DEBUG    > 예수금 : 59582214
+[2021-12-05 16:19:51,096] I Kiwoom.py | Kiwoom-msg_slot-0287 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-05 16:19:51,098] I Kiwoom.py | Kiwoom-_opw00018-0979 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 38,290,680 - -934,101 - -2.44
+[2021-12-05 16:19:51,100] I Kiwoom.py | Kiwoom-_opw00018-1007 I DEBUG    > sPreNext : 
+[2021-12-05 16:19:51,132] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-05 16:19:51,284] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-05 16:19:51,456] I Kiwoom.py | Kiwoom-Set_Condition_Receive-0203 I DEBUG    > 조건검색 조회 요청 성공

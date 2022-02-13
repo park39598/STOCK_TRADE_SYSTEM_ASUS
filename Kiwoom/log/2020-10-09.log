@@ -1,0 +1,8 @@
+[2020-10-09 23:53:57,810] I Kiwoom.py | Kiwoom-__init__-0065 I DEBUG    > Kiwoom() class start.
+[2020-10-09 23:54:18,116] I Kiwoom.py | Kiwoom-get_login_info-0614 I DEBUG    > 계좌번호 : 8146379811
+[2020-10-09 23:54:18,890] I Kiwoom.py | Kiwoom-msg_slot-0188 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-10-09 23:54:18,891] I Kiwoom.py | Kiwoom-_opw00001-0675 I DEBUG    > 예수금 : 96710298
+[2020-10-09 23:54:18,980] I Kiwoom.py | Kiwoom-msg_slot-0188 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-10-09 23:54:18,981] I Kiwoom.py | Kiwoom-_opw00018-0836 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 3,278,525 - -3,100 - -0.09
+[2020-10-09 23:54:18,982] I Kiwoom.py | Kiwoom-_opw00018-0864 I DEBUG    > sPreNext : 
+[2020-10-09 23:54:22,000] I Kiwoom.py | Kiwoom-msg_slot-0188 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
