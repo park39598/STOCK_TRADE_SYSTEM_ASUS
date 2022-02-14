@@ -1,0 +1,48 @@
+[2021-12-14 13:45:31,425] I Kiwoom.py | Kiwoom-__init__-0056 I DEBUG    > Kiwoom() class start.
+[2021-12-14 13:46:00,219] I Kiwoom.py | Kiwoom-get_login_info-0862 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-14 13:46:01,289] I Kiwoom.py | Kiwoom-msg_slot-0385 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-14 13:46:01,290] I Kiwoom.py | Kiwoom-_opw00001-0925 I DEBUG    > 예수금 : 61049345
+[2021-12-14 13:46:01,356] I Kiwoom.py | Kiwoom-msg_slot-0385 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-14 13:46:01,357] I Kiwoom.py | Kiwoom-_opw00018-1086 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 36,237,525 - 28,523 - 0.08
+[2021-12-14 13:46:01,360] I Kiwoom.py | Kiwoom-_opw00018-1114 I DEBUG    > sPreNext : 
+[2021-12-14 13:46:01,625] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-14 13:46:01,996] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-14 13:46:02,017] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-12-14 13:46:02,372] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20211126_DATA FROM DB!
+[2021-12-14 13:46:02,578] I Kiwoom.py | Kiwoom-Set_Condition_Receive-0243 I DEBUG    > 조건검색 조회 요청 성공
+[2021-12-14 13:46:02,918] I Kiwoom.py | Kiwoom-_OnReceiveTrCondition-0252 I DEBUG    > 001515;005690;041920;075180;336160;
+[2021-12-14 13:46:05,436] I Kiwoom.py | Kiwoom-msg_slot-0385 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-12-14 13:46:08,040] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-12-14 13:46:08,041] I Kiwoom.py | Kiwoom-read_code-0582 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-12-14 14:06:04,202] I Kiwoom.py | Kiwoom-__init__-0056 I DEBUG    > Kiwoom() class start.
+[2021-12-14 14:06:14,258] I Kiwoom.py | Kiwoom-get_login_info-0863 I DEBUG    > 계좌번호 : 8010187611
+[2021-12-14 14:06:14,980] I Kiwoom.py | Kiwoom-msg_slot-0385 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 모의투자 조회완료
+[2021-12-14 14:06:14,981] I Kiwoom.py | Kiwoom-_opw00001-0926 I DEBUG    > 예수금 : 61049345
+[2021-12-14 14:06:15,059] I Kiwoom.py | Kiwoom-msg_slot-0385 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-12-14 14:06:15,060] I Kiwoom.py | Kiwoom-_opw00018-1087 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 36,237,525 - 37,511 - 0.10
+[2021-12-14 14:06:15,062] I Kiwoom.py | Kiwoom-_opw00018-1115 I DEBUG    > sPreNext : 
+[2021-12-14 14:06:15,070] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_portfolio TABLE LIST FROM DB!
+[2021-12-14 14:06:15,186] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 강환국_울트라_소형주_DATA FROM DB!
+[2021-12-14 14:06:15,197] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD stocks_rim TABLE LIST FROM DB!
+[2021-12-14 14:06:15,519] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SUCCESS LOAD 20211126_DATA FROM DB!
+[2021-12-14 14:06:15,672] I Kiwoom.py | Kiwoom-Set_Condition_Receive-0243 I DEBUG    > 조건검색 조회 요청 성공
+[2021-12-14 14:06:16,035] I Kiwoom.py | Kiwoom-_OnReceiveTrCondition-0252 I DEBUG    > 001515;005690;041920;075180;336160;
+[2021-12-14 14:06:18,552] I Kiwoom.py | Kiwoom-msg_slot-0385 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2021-12-14 14:06:21,064] I MySQL_control.py | Kiwoom-logging_print-0065 I DEBUG    > SAVE SUCCESS TO DB!
+[2021-12-14 14:06:21,064] I Kiwoom.py | Kiwoom-read_code-0582 I DEBUG    > SUCCESS UPDATE meme_portfolio
+[2021-12-14 15:19:59,439] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:20:59,435] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:21:59,435] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:22:59,430] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:23:59,434] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:24:59,438] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:25:59,433] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:26:59,433] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:27:59,429] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:28:59,430] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:29:09,428] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:29:19,431] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:29:29,428] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:29:39,428] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:29:49,428] I Kiwoom.py | Kiwoom-_receive_real_data-0709 I DEBUG    > 장 종료, 동시호가로 넘어감
+[2021-12-14 15:29:59,422] I Kiwoom.py | Kiwoom-_receive_real_data-0712 I DEBUG    > 3시30분 장 종료

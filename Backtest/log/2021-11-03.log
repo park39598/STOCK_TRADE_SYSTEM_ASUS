@@ -1,0 +1,1268 @@
+[2021-11-03 00:01:08,647] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 2010.0 :  
+[2021-11-03 00:01:08,744] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 669.37 :  
+[2021-11-03 00:01:13,888] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2325.0 :  
+[2021-11-03 00:01:13,889] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 17000.0 :  
+[2021-11-03 00:01:13,891] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 892.0 :  
+[2021-11-03 00:01:13,892] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 7510.0 :  
+[2021-11-03 00:01:13,894] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3140.0 :  
+[2021-11-03 00:01:13,895] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4650.0 :  
+[2021-11-03 00:01:13,896] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 1300.0 :  
+[2021-11-03 00:01:13,897] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2330.0 :  
+[2021-11-03 00:01:13,898] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4250.0 :  
+[2021-11-03 00:01:13,899] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4500.0 :  
+[2021-11-03 00:01:13,901] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2040.0 :  
+[2021-11-03 00:01:13,902] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2245.0 :  
+[2021-11-03 00:01:13,903] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 1720.0 :  
+[2021-11-03 00:01:13,904] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2240.0 :  
+[2021-11-03 00:01:13,905] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4970.0 :  
+[2021-11-03 00:01:13,906] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4855.0 :  
+[2021-11-03 00:01:13,907] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4680.0 :  
+[2021-11-03 00:01:13,908] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 6691.0 :  
+[2021-11-03 00:01:13,910] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3806.0 :  
+[2021-11-03 00:01:13,911] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4950.0 :  
+[2021-11-03 00:01:13,912] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 5700.0 :  
+[2021-11-03 00:01:13,913] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2660.0 :  
+[2021-11-03 00:01:13,914] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 7090.0 :  
+[2021-11-03 00:01:13,915] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4930.0 :  
+[2021-11-03 00:01:13,917] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2756.0 :  
+[2021-11-03 00:01:13,918] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 6229.0 :  
+[2021-11-03 00:01:13,919] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 818.0 :  
+[2021-11-03 00:01:13,920] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 11650.0 :  
+[2021-11-03 00:01:13,921] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2710.0 :  
+[2021-11-03 00:01:19,299] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3775.0 :  
+[2021-11-03 00:01:19,301] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 5240.0 :  
+[2021-11-03 00:01:19,302] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 7550.0 :  
+[2021-11-03 00:01:19,303] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 8120.0 :  
+[2021-11-03 00:01:19,305] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3155.0 :  
+[2021-11-03 00:01:19,306] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 8904.0 :  
+[2021-11-03 00:01:19,307] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2855.0 :  
+[2021-11-03 00:01:19,308] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2745.0 :  
+[2021-11-03 00:01:19,309] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4310.0 :  
+[2021-11-03 00:01:19,310] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2307.0 :  
+[2021-11-03 00:01:19,311] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3220.0 :  
+[2021-11-03 00:01:19,312] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6303.0 :  
+[2021-11-03 00:01:19,313] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4720.0 :  
+[2021-11-03 00:01:19,314] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 61800.0 :  
+[2021-11-03 00:01:19,315] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 12650.0 :  
+[2021-11-03 00:01:19,316] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4090.0 :  
+[2021-11-03 00:01:19,317] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4050.0 :  
+[2021-11-03 00:01:19,318] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3135.0 :  
+[2021-11-03 00:01:19,319] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4220.0 :  
+[2021-11-03 00:01:19,321] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 1915.0 :  
+[2021-11-03 00:01:19,322] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2912.0 :  
+[2021-11-03 00:01:19,323] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3715.0 :  
+[2021-11-03 00:01:19,324] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3741.0 :  
+[2021-11-03 00:01:19,325] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 19000.0 :  
+[2021-11-03 00:01:19,326] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6370.0 :  
+[2021-11-03 00:01:19,327] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 5090.0 :  
+[2021-11-03 00:01:19,328] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6210.0 :  
+[2021-11-03 00:01:19,329] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6640.0 :  
+[2021-11-03 00:01:19,330] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 68600.0 :  
+[2021-11-03 00:01:24,729] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3295.0 :  
+[2021-11-03 00:01:24,731] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 6290.0 :  
+[2021-11-03 00:01:24,732] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 19050.0 :  
+[2021-11-03 00:01:24,733] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7790.0 :  
+[2021-11-03 00:01:24,735] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 4295.0 :  
+[2021-11-03 00:01:24,736] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7250.0 :  
+[2021-11-03 00:01:24,737] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3265.0 :  
+[2021-11-03 00:01:24,738] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 10650.0 :  
+[2021-11-03 00:01:24,739] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 5240.0 :  
+[2021-11-03 00:01:24,740] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3590.0 :  
+[2021-11-03 00:01:24,741] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 4485.0 :  
+[2021-11-03 00:01:24,743] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3800.0 :  
+[2021-11-03 00:01:24,744] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 12750.0 :  
+[2021-11-03 00:01:24,745] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7430.0 :  
+[2021-11-03 00:01:24,746] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 22100.0 :  
+[2021-11-03 00:01:24,747] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 1670.0 :  
+[2021-11-03 00:01:24,748] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 6840.0 :  
+[2021-11-03 00:01:24,749] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 4185.0 :  
+[2021-11-03 00:01:24,750] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 1930.0 :  
+[2021-11-03 00:01:24,751] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 5880.0 :  
+[2021-11-03 00:01:24,752] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3685.0 :  
+[2021-11-03 00:01:24,753] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 5000.0 :  
+[2021-11-03 00:01:24,754] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 63100.0 :  
+[2021-11-03 00:01:24,756] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7710.0 :  
+[2021-11-03 00:01:24,757] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 9150.0 :  
+[2021-11-03 00:01:24,758] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3067.0 :  
+[2021-11-03 00:01:24,759] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3100.0 :  
+[2021-11-03 00:01:24,760] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3350.0 :  
+[2021-11-03 00:01:24,761] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 2167.0 :  
+[2021-11-03 00:01:24,762] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 1850.0 :  
+[2021-11-03 00:01:30,143] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 783.0 :  
+[2021-11-03 00:01:30,145] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2955.0 :  
+[2021-11-03 00:01:30,146] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 6710.0 :  
+[2021-11-03 00:01:30,148] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 8140.0 :  
+[2021-11-03 00:01:30,149] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3465.0 :  
+[2021-11-03 00:01:30,150] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2850.0 :  
+[2021-11-03 00:01:30,151] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 726.0 :  
+[2021-11-03 00:01:30,152] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 8670.0 :  
+[2021-11-03 00:01:30,153] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 21900.0 :  
+[2021-11-03 00:01:30,154] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4000.0 :  
+[2021-11-03 00:01:30,155] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3570.0 :  
+[2021-11-03 00:01:30,157] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2940.0 :  
+[2021-11-03 00:01:30,158] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 1345.0 :  
+[2021-11-03 00:01:30,159] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3860.0 :  
+[2021-11-03 00:01:30,160] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 6330.0 :  
+[2021-11-03 00:01:30,161] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3425.0 :  
+[2021-11-03 00:01:30,162] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 6370.0 :  
+[2021-11-03 00:01:30,163] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2765.0 :  
+[2021-11-03 00:01:30,164] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4020.0 :  
+[2021-11-03 00:01:30,165] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3380.0 :  
+[2021-11-03 00:01:30,166] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 58100.0 :  
+[2021-11-03 00:01:30,167] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 5309.0 :  
+[2021-11-03 00:01:30,168] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 12450.0 :  
+[2021-11-03 00:01:30,169] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4005.0 :  
+[2021-11-03 00:01:30,171] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 5750.0 :  
+[2021-11-03 00:01:30,172] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4280.0 :  
+[2021-11-03 00:01:30,173] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4785.0 :  
+[2021-11-03 00:01:30,174] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 481.0 :  
+[2021-11-03 00:01:30,175] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4510.0 :  
+[2021-11-03 00:01:35,617] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5600.0 :  
+[2021-11-03 00:01:35,618] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 6180.0 :  
+[2021-11-03 00:01:35,620] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5300.0 :  
+[2021-11-03 00:01:35,621] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 9830.0 :  
+[2021-11-03 00:01:35,622] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 3470.0 :  
+[2021-11-03 00:01:35,623] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 3930.0 :  
+[2021-11-03 00:01:35,624] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5600.0 :  
+[2021-11-03 00:01:35,625] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2920.0 :  
+[2021-11-03 00:01:35,626] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 6500.0 :  
+[2021-11-03 00:01:35,627] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2300.0 :  
+[2021-11-03 00:01:35,629] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 321.0 :  
+[2021-11-03 00:01:35,630] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 1875.0 :  
+[2021-11-03 00:01:35,631] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5454.0 :  
+[2021-11-03 00:01:35,632] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 3430.0 :  
+[2021-11-03 00:01:35,633] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5020.0 :  
+[2021-11-03 00:01:35,634] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 4250.0 :  
+[2021-11-03 00:01:35,635] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 4655.0 :  
+[2021-11-03 00:01:35,636] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 4230.0 :  
+[2021-11-03 00:01:35,637] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2091.0 :  
+[2021-11-03 00:01:35,639] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2230.0 :  
+[2021-11-03 00:01:35,640] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 6820.0 :  
+[2021-11-03 00:01:35,641] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5146.0 :  
+[2021-11-03 00:01:35,642] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 58600.0 :  
+[2021-11-03 00:01:35,643] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2035.0 :  
+[2021-11-03 00:01:35,644] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 1359.0 :  
+[2021-11-03 00:01:35,645] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2680.0 :  
+[2021-11-03 00:01:35,646] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2925.0 :  
+[2021-11-03 00:01:35,647] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 1505.0 :  
+[2021-11-03 00:01:35,648] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 7970.0 :  
+[2021-11-03 00:01:35,649] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 8810.0 :  
+[2021-11-03 00:01:41,213] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2475.0 :  
+[2021-11-03 00:01:41,215] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2595.0 :  
+[2021-11-03 00:01:41,216] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1445.0 :  
+[2021-11-03 00:01:41,217] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2735.0 :  
+[2021-11-03 00:01:41,218] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 420.0 :  
+[2021-11-03 00:01:41,219] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2385.0 :  
+[2021-11-03 00:01:41,220] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 10000.0 :  
+[2021-11-03 00:01:41,221] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3040.0 :  
+[2021-11-03 00:01:41,222] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3295.0 :  
+[2021-11-03 00:01:41,224] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 5290.0 :  
+[2021-11-03 00:01:41,225] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3480.0 :  
+[2021-11-03 00:01:41,226] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2572.0 :  
+[2021-11-03 00:01:41,227] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3110.0 :  
+[2021-11-03 00:01:41,228] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2205.0 :  
+[2021-11-03 00:01:41,229] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 5294.0 :  
+[2021-11-03 00:01:41,230] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1517.0 :  
+[2021-11-03 00:01:41,231] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 800.0 :  
+[2021-11-03 00:01:41,233] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1850.0 :  
+[2021-11-03 00:01:41,234] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 935.0 :  
+[2021-11-03 00:01:41,235] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2285.0 :  
+[2021-11-03 00:01:41,236] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3277.0 :  
+[2021-11-03 00:01:41,237] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2270.0 :  
+[2021-11-03 00:01:41,238] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3895.0 :  
+[2021-11-03 00:01:41,239] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1835.0 :  
+[2021-11-03 00:01:41,240] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 571.0 :  
+[2021-11-03 00:01:41,241] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2195.0 :  
+[2021-11-03 00:01:41,242] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3363.0 :  
+[2021-11-03 00:01:41,243] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1540.0 :  
+[2021-11-03 00:01:41,244] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 4825.0 :  
+[2021-11-03 00:01:47,402] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3670.0 :  
+[2021-11-03 00:01:47,404] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2810.0 :  
+[2021-11-03 00:01:47,405] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 6890.0 :  
+[2021-11-03 00:01:47,406] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2875.0 :  
+[2021-11-03 00:01:47,407] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 1330.0 :  
+[2021-11-03 00:01:47,408] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2350.0 :  
+[2021-11-03 00:01:47,409] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 7760.0 :  
+[2021-11-03 00:01:47,411] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 903.0 :  
+[2021-11-03 00:01:47,412] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3180.0 :  
+[2021-11-03 00:01:47,413] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 17200.0 :  
+[2021-11-03 00:01:47,414] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 18050.0 :  
+[2021-11-03 00:01:47,415] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3405.0 :  
+[2021-11-03 00:01:47,416] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2825.0 :  
+[2021-11-03 00:01:47,417] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 1180.0 :  
+[2021-11-03 00:01:47,418] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 9970.0 :  
+[2021-11-03 00:01:47,419] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 1970.0 :  
+[2021-11-03 00:01:47,420] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 4815.0 :  
+[2021-11-03 00:01:47,421] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 4100.0 :  
+[2021-11-03 00:01:47,422] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2715.0 :  
+[2021-11-03 00:01:47,424] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3695.0 :  
+[2021-11-03 00:01:47,425] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2055.0 :  
+[2021-11-03 00:01:47,426] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 10227.0 :  
+[2021-11-03 00:01:47,427] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 635.0 :  
+[2021-11-03 00:01:47,428] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 4525.0 :  
+[2021-11-03 00:01:47,429] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 7640.0 :  
+[2021-11-03 00:01:47,430] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 6696.0 :  
+[2021-11-03 00:01:47,431] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2715.0 :  
+[2021-11-03 00:01:47,432] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 14650.0 :  
+[2021-11-03 00:01:53,442] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 8072.0 :  
+[2021-11-03 00:01:53,443] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 7800.0 :  
+[2021-11-03 00:01:53,444] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 8420.0 :  
+[2021-11-03 00:01:53,445] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3080.0 :  
+[2021-11-03 00:01:53,446] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1540.0 :  
+[2021-11-03 00:01:53,447] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5130.0 :  
+[2021-11-03 00:01:53,448] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5430.0 :  
+[2021-11-03 00:01:53,450] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 16150.0 :  
+[2021-11-03 00:01:53,451] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 2895.0 :  
+[2021-11-03 00:01:53,452] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5120.0 :  
+[2021-11-03 00:01:53,453] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 10938.0 :  
+[2021-11-03 00:01:53,455] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1990.0 :  
+[2021-11-03 00:01:53,457] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 7560.0 :  
+[2021-11-03 00:01:53,458] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 94300.0 :  
+[2021-11-03 00:01:53,459] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 4135.0 :  
+[2021-11-03 00:01:53,461] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3105.0 :  
+[2021-11-03 00:01:53,462] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 30750.0 :  
+[2021-11-03 00:01:53,463] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5450.0 :  
+[2021-11-03 00:01:53,464] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5200.0 :  
+[2021-11-03 00:01:53,465] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 2230.0 :  
+[2021-11-03 00:01:53,466] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1860.0 :  
+[2021-11-03 00:01:53,467] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 4240.0 :  
+[2021-11-03 00:01:53,468] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1975.0 :  
+[2021-11-03 00:01:53,469] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 7555.0 :  
+[2021-11-03 00:01:53,470] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1695.0 :  
+[2021-11-03 00:01:53,471] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1325.0 :  
+[2021-11-03 00:01:53,472] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3790.0 :  
+[2021-11-03 00:01:53,474] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3000.0 :  
+[2021-11-03 00:01:53,475] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3460.0 :  
+[2021-11-03 00:01:59,315] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 15700.0 :  
+[2021-11-03 00:01:59,317] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 5450.0 :  
+[2021-11-03 00:01:59,318] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 1770.0 :  
+[2021-11-03 00:01:59,320] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 7510.0 :  
+[2021-11-03 00:01:59,321] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 9220.0 :  
+[2021-11-03 00:01:59,322] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 13600.0 :  
+[2021-11-03 00:01:59,323] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 5820.0 :  
+[2021-11-03 00:01:59,325] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 3780.0 :  
+[2021-11-03 00:01:59,326] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6230.0 :  
+[2021-11-03 00:01:59,327] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 4750.0 :  
+[2021-11-03 00:01:59,328] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 8048.0 :  
+[2021-11-03 00:01:59,329] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 3885.0 :  
+[2021-11-03 00:01:59,331] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 2730.0 :  
+[2021-11-03 00:01:59,332] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 847.0 :  
+[2021-11-03 00:01:59,333] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6920.0 :  
+[2021-11-03 00:01:59,334] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 4680.0 :  
+[2021-11-03 00:01:59,335] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 11300.0 :  
+[2021-11-03 00:01:59,336] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 11351.0 :  
+[2021-11-03 00:01:59,337] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 1790.0 :  
+[2021-11-03 00:01:59,338] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 9199.0 :  
+[2021-11-03 00:01:59,339] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 42100.0 :  
+[2021-11-03 00:01:59,340] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6210.0 :  
+[2021-11-03 00:01:59,341] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 15100.0 :  
+[2021-11-03 00:01:59,343] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 2850.0 :  
+[2021-11-03 00:01:59,344] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6694.0 :  
+[2021-11-03 00:01:59,345] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 5750.0 :  
+[2021-11-03 00:01:59,346] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 7580.0 :  
+[2021-11-03 00:01:59,347] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 9420.0 :  
+[2021-11-03 00:01:59,348] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 12071.0 :  
+[2021-11-03 00:01:59,349] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 17000.0 :  
+[2021-11-03 00:02:05,332] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 1600.0 :  
+[2021-11-03 00:02:05,333] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 4840.0 :  
+[2021-11-03 00:02:05,335] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 856.0 :  
+[2021-11-03 00:02:05,336] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 11800.0 :  
+[2021-11-03 00:02:05,337] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 5910.0 :  
+[2021-11-03 00:02:05,338] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 18450.0 :  
+[2021-11-03 00:02:05,339] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 4015.0 :  
+[2021-11-03 00:02:05,340] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 7062.0 :  
+[2021-11-03 00:02:05,341] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 46000.0 :  
+[2021-11-03 00:02:05,342] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 6110.0 :  
+[2021-11-03 00:02:05,343] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 18300.0 :  
+[2021-11-03 00:02:05,344] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 16655.0 :  
+[2021-11-03 00:02:05,345] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 7030.0 :  
+[2021-11-03 00:02:05,346] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 9150.0 :  
+[2021-11-03 00:02:05,347] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 2550.0 :  
+[2021-11-03 00:02:05,348] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 1210.0 :  
+[2021-11-03 00:02:05,350] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 16000.0 :  
+[2021-11-03 00:02:05,351] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 2135.0 :  
+[2021-11-03 00:02:05,352] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 17250.0 :  
+[2021-11-03 00:02:05,353] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 7600.0 :  
+[2021-11-03 00:02:05,354] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 2725.0 :  
+[2021-11-03 00:02:05,355] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 81700.0 :  
+[2021-11-03 00:02:05,356] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 31750.0 :  
+[2021-11-03 00:02:05,357] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 13900.0 :  
+[2021-11-03 00:02:05,358] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 6000.0 :  
+[2021-11-03 00:02:05,359] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 13350.0 :  
+[2021-11-03 00:02:05,360] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 33700.0 :  
+[2021-11-03 00:02:05,361] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 53500.0 :  
+[2021-11-03 00:02:05,362] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 7640.0 :  
+[2021-11-03 00:02:05,364] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3726917.626365639 / 3200.0 :  
+[2021-11-03 00:02:11,205] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 4655.0 :  
+[2021-11-03 00:02:11,207] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 10850.0 :  
+[2021-11-03 00:02:11,208] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 4095.0 :  
+[2021-11-03 00:02:11,209] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 6890.0 :  
+[2021-11-03 00:02:11,210] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 13400.0 :  
+[2021-11-03 00:02:11,211] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 21500.0 :  
+[2021-11-03 00:02:11,212] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 5110.0 :  
+[2021-11-03 00:02:11,213] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 1380.0 :  
+[2021-11-03 00:02:11,214] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 1875.0 :  
+[2021-11-03 00:02:11,215] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 5140.0 :  
+[2021-11-03 00:02:11,216] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 12250.0 :  
+[2021-11-03 00:02:11,217] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 8770.0 :  
+[2021-11-03 00:02:11,218] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 24583.0 :  
+[2021-11-03 00:02:11,219] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 7130.0 :  
+[2021-11-03 00:02:11,221] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 13300.0 :  
+[2021-11-03 00:02:11,222] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 11250.0 :  
+[2021-11-03 00:02:11,223] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 3480.0 :  
+[2021-11-03 00:02:11,224] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 5720.0 :  
+[2021-11-03 00:02:11,225] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 6330.0 :  
+[2021-11-03 00:02:11,226] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 10300.0 :  
+[2021-11-03 00:02:11,227] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 9280.0 :  
+[2021-11-03 00:02:11,228] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 7170.0 :  
+[2021-11-03 00:02:11,229] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 24052.0 :  
+[2021-11-03 00:02:11,230] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 2700.0 :  
+[2021-11-03 00:02:11,231] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 1385.0 :  
+[2021-11-03 00:02:11,232] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 15350.0 :  
+[2021-11-03 00:02:11,233] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 8940.0 :  
+[2021-11-03 00:02:11,234] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 4405.0 :  
+[2021-11-03 00:02:11,236] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 3570.0 :  
+[2021-11-03 00:02:11,237] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4015232.5476304945 / 7720.0 :  
+[2021-11-03 00:02:17,110] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 10450.0 :  
+[2021-11-03 00:02:17,111] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 5180.0 :  
+[2021-11-03 00:02:17,113] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 15300.0 :  
+[2021-11-03 00:02:17,114] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 4300.0 :  
+[2021-11-03 00:02:17,115] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 6720.0 :  
+[2021-11-03 00:02:17,116] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 5280.0 :  
+[2021-11-03 00:02:17,117] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 11400.0 :  
+[2021-11-03 00:02:17,118] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 11550.0 :  
+[2021-11-03 00:02:17,120] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 4840.0 :  
+[2021-11-03 00:02:17,121] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 8200.0 :  
+[2021-11-03 00:02:17,122] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 1360.0 :  
+[2021-11-03 00:02:17,123] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 16100.0 :  
+[2021-11-03 00:02:17,124] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 2000.0 :  
+[2021-11-03 00:02:17,125] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 5480.0 :  
+[2021-11-03 00:02:17,126] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 11750.0 :  
+[2021-11-03 00:02:17,127] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 6520.0 :  
+[2021-11-03 00:02:17,128] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 6540.0 :  
+[2021-11-03 00:02:17,129] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 9160.0 :  
+[2021-11-03 00:02:17,131] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 13600.0 :  
+[2021-11-03 00:02:17,132] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 83200.0 :  
+[2021-11-03 00:02:17,133] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 5100.0 :  
+[2021-11-03 00:02:17,134] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 31750.0 :  
+[2021-11-03 00:02:17,135] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 3420.0 :  
+[2021-11-03 00:02:17,136] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 7430.0 :  
+[2021-11-03 00:02:17,137] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 3380.0 :  
+[2021-11-03 00:02:17,138] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 16500.0 :  
+[2021-11-03 00:02:17,139] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 830.0 :  
+[2021-11-03 00:02:17,140] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 6040.0 :  
+[2021-11-03 00:02:17,141] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3816834.2355779964 / 7110.0 :  
+[2021-11-03 00:02:23,129] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 5680.0 :  
+[2021-11-03 00:02:23,131] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 7380.0 :  
+[2021-11-03 00:02:23,132] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 2395.0 :  
+[2021-11-03 00:02:23,134] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 5450.0 :  
+[2021-11-03 00:02:23,135] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 83300.0 :  
+[2021-11-03 00:02:23,136] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 71900.0 :  
+[2021-11-03 00:02:23,137] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 14715.0 :  
+[2021-11-03 00:02:23,138] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 1100.0 :  
+[2021-11-03 00:02:23,139] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 22200.0 :  
+[2021-11-03 00:02:23,140] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 1800.0 :  
+[2021-11-03 00:02:23,141] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 14600.0 :  
+[2021-11-03 00:02:23,142] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 14300.0 :  
+[2021-11-03 00:02:23,143] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 3225.0 :  
+[2021-11-03 00:02:23,144] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 15250.0 :  
+[2021-11-03 00:02:23,145] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 6930.0 :  
+[2021-11-03 00:02:23,146] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 35450.0 :  
+[2021-11-03 00:02:23,147] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 2740.0 :  
+[2021-11-03 00:02:23,149] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 41500.0 :  
+[2021-11-03 00:02:23,150] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 35800.0 :  
+[2021-11-03 00:02:23,151] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 2965.0 :  
+[2021-11-03 00:02:23,152] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 12100.0 :  
+[2021-11-03 00:02:23,153] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 29700.0 :  
+[2021-11-03 00:02:23,154] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 3550.0 :  
+[2021-11-03 00:02:23,155] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 1400.0 :  
+[2021-11-03 00:02:23,156] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 10600.0 :  
+[2021-11-03 00:02:23,157] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 60600.0 :  
+[2021-11-03 00:02:23,158] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 12550.0 :  
+[2021-11-03 00:02:23,159] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 5450.0 :  
+[2021-11-03 00:02:23,160] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3786793.2364667705 / 7210.0 :  
+[2021-11-03 00:02:29,148] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 6310.0 :  
+[2021-11-03 00:02:29,150] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 3910.0 :  
+[2021-11-03 00:02:29,151] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 15916.0 :  
+[2021-11-03 00:02:29,152] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 5390.0 :  
+[2021-11-03 00:02:29,153] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 12100.0 :  
+[2021-11-03 00:02:29,154] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 6518.0 :  
+[2021-11-03 00:02:29,155] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 1670.0 :  
+[2021-11-03 00:02:29,156] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 7127.0 :  
+[2021-11-03 00:02:29,157] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 520.0 :  
+[2021-11-03 00:02:29,158] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 2870.0 :  
+[2021-11-03 00:02:29,159] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 11337.0 :  
+[2021-11-03 00:02:29,160] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 16533.0 :  
+[2021-11-03 00:02:29,161] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 10000.0 :  
+[2021-11-03 00:02:29,162] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 16800.0 :  
+[2021-11-03 00:02:29,163] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 3860.0 :  
+[2021-11-03 00:02:29,164] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 13550.0 :  
+[2021-11-03 00:02:29,165] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 2648.0 :  
+[2021-11-03 00:02:29,166] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 45600.0 :  
+[2021-11-03 00:02:29,167] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 4130.0 :  
+[2021-11-03 00:02:29,168] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 4700.0 :  
+[2021-11-03 00:02:29,170] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 6802.0 :  
+[2021-11-03 00:02:29,171] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 9000.0 :  
+[2021-11-03 00:02:29,172] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 4995.0 :  
+[2021-11-03 00:02:29,173] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 14600.0 :  
+[2021-11-03 00:02:29,174] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 5905.0 :  
+[2021-11-03 00:02:29,175] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 2735.0 :  
+[2021-11-03 00:02:29,176] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 3925.0 :  
+[2021-11-03 00:02:29,177] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 2130.0 :  
+[2021-11-03 00:02:29,178] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 830.0 :  
+[2021-11-03 00:02:29,179] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2618291.193365678 / 6700.0 :  
+[2021-11-03 00:02:35,963] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 11600.0 :  
+[2021-11-03 00:02:35,964] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 7990.0 :  
+[2021-11-03 00:02:35,965] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 14100.0 :  
+[2021-11-03 00:02:35,967] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 18119.0 :  
+[2021-11-03 00:02:35,968] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 2560.0 :  
+[2021-11-03 00:02:35,969] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 3940.0 :  
+[2021-11-03 00:02:35,970] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 12161.0 :  
+[2021-11-03 00:02:35,971] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 3555.0 :  
+[2021-11-03 00:02:35,972] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 17300.0 :  
+[2021-11-03 00:02:35,973] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 221.0 :  
+[2021-11-03 00:02:35,974] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 8800.0 :  
+[2021-11-03 00:02:35,975] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 5130.0 :  
+[2021-11-03 00:02:35,976] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 2535.0 :  
+[2021-11-03 00:02:35,977] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 16500.0 :  
+[2021-11-03 00:02:35,979] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 6079.0 :  
+[2021-11-03 00:02:35,980] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 6160.0 :  
+[2021-11-03 00:02:35,981] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 3430.0 :  
+[2021-11-03 00:02:35,982] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 4160.0 :  
+[2021-11-03 00:02:35,983] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 11950.0 :  
+[2021-11-03 00:02:35,984] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 1530.0 :  
+[2021-11-03 00:02:35,985] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 5790.0 :  
+[2021-11-03 00:02:35,986] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 10047.0 :  
+[2021-11-03 00:02:35,987] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 7720.0 :  
+[2021-11-03 00:02:35,989] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 9390.0 :  
+[2021-11-03 00:02:35,990] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 13150.0 :  
+[2021-11-03 00:02:35,991] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 15500.0 :  
+[2021-11-03 00:02:35,993] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 5377.0 :  
+[2021-11-03 00:02:35,994] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 11800.0 :  
+[2021-11-03 00:02:35,995] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 15400.0 :  
+[2021-11-03 00:02:35,996] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3633539.0455818265 / 12900.0 :  
+[2021-11-03 00:02:42,743] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 5200.0 :  
+[2021-11-03 00:02:42,745] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 7080.0 :  
+[2021-11-03 00:02:42,746] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 11950.0 :  
+[2021-11-03 00:02:42,747] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 2475.0 :  
+[2021-11-03 00:02:42,748] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 5200.0 :  
+[2021-11-03 00:02:42,749] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 10800.0 :  
+[2021-11-03 00:02:42,750] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 25550.0 :  
+[2021-11-03 00:02:42,752] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 10200.0 :  
+[2021-11-03 00:02:42,752] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 7390.0 :  
+[2021-11-03 00:02:42,753] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 12350.0 :  
+[2021-11-03 00:02:42,754] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 4770.0 :  
+[2021-11-03 00:02:42,755] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 6700.0 :  
+[2021-11-03 00:02:42,757] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 9720.0 :  
+[2021-11-03 00:02:42,758] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 7900.0 :  
+[2021-11-03 00:02:42,759] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 4710.0 :  
+[2021-11-03 00:02:42,760] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 4705.0 :  
+[2021-11-03 00:02:42,761] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 12900.0 :  
+[2021-11-03 00:02:42,763] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 13300.0 :  
+[2021-11-03 00:02:42,764] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 28900.0 :  
+[2021-11-03 00:02:42,765] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 37000.0 :  
+[2021-11-03 00:02:42,766] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 8470.0 :  
+[2021-11-03 00:02:42,768] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 13700.0 :  
+[2021-11-03 00:02:42,769] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 7650.0 :  
+[2021-11-03 00:02:42,770] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 3010.0 :  
+[2021-11-03 00:02:42,771] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 10850.0 :  
+[2021-11-03 00:02:42,772] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 11000.0 :  
+[2021-11-03 00:02:42,773] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 11979.0 :  
+[2021-11-03 00:02:42,774] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 56600.0 :  
+[2021-11-03 00:02:42,776] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 7930.0 :  
+[2021-11-03 00:02:42,777] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4074688.382926232 / 8010.0 :  
+[2021-11-03 00:02:46,676] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 6691.0 :  
+[2021-11-03 00:02:50,614] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 122814554.97996116 / 11320.0 :  
+[2021-11-03 00:02:54,477] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 114462418.98664457 / 3395.0 :  
+[2021-11-03 00:02:58,410] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 44462754.89733878 / 2655.0 :  
+[2021-11-03 00:02:58,411] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 44462754.89733878 / 10260.0 :  
+[2021-11-03 00:03:02,317] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 41066726.81370773 / 8550.0 :  
+[2021-11-03 00:03:02,319] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 41066726.81370773 / 6230.0 :  
+[2021-11-03 00:03:06,199] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 61719608.185192965 / 4830.0 :  
+[2021-11-03 00:03:11,507] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 2810.0 :  
+[2021-11-03 00:03:11,509] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 6890.0 :  
+[2021-11-03 00:03:11,510] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 2875.0 :  
+[2021-11-03 00:03:11,511] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 1330.0 :  
+[2021-11-03 00:03:11,512] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 7760.0 :  
+[2021-11-03 00:03:11,513] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 903.0 :  
+[2021-11-03 00:03:11,515] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 3180.0 :  
+[2021-11-03 00:03:11,516] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 17200.0 :  
+[2021-11-03 00:03:11,517] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 18050.0 :  
+[2021-11-03 00:03:11,518] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 3405.0 :  
+[2021-11-03 00:03:11,519] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 4815.0 :  
+[2021-11-03 00:03:11,520] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 4100.0 :  
+[2021-11-03 00:03:11,521] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 2715.0 :  
+[2021-11-03 00:03:11,522] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 3695.0 :  
+[2021-11-03 00:03:11,523] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 2055.0 :  
+[2021-11-03 00:03:11,524] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 4525.0 :  
+[2021-11-03 00:03:11,525] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 6696.0 :  
+[2021-11-03 00:03:11,526] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 2715.0 :  
+[2021-11-03 00:03:11,528] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 4210.0 :  
+[2021-11-03 00:03:11,529] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 8320.0 :  
+[2021-11-03 00:03:11,530] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 1170.0 :  
+[2021-11-03 00:03:11,531] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 1660.0 :  
+[2021-11-03 00:03:11,533] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 3735.0 :  
+[2021-11-03 00:03:11,534] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 4230.0 :  
+[2021-11-03 00:03:11,535] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 8210.0 :  
+[2021-11-03 00:03:11,536] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 8670.0 :  
+[2021-11-03 00:03:11,537] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 6290.0 :  
+[2021-11-03 00:03:11,538] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2180704.972375777 / 2825.0 :  
+[2021-11-03 00:03:16,510] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 1540.0 :  
+[2021-11-03 00:03:16,511] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 5130.0 :  
+[2021-11-03 00:03:16,512] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 5430.0 :  
+[2021-11-03 00:03:16,513] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 2895.0 :  
+[2021-11-03 00:03:16,514] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 5120.0 :  
+[2021-11-03 00:03:16,515] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 10938.0 :  
+[2021-11-03 00:03:16,516] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 7560.0 :  
+[2021-11-03 00:03:16,518] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 94300.0 :  
+[2021-11-03 00:03:16,519] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 3105.0 :  
+[2021-11-03 00:03:16,520] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 30750.0 :  
+[2021-11-03 00:03:16,522] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 2230.0 :  
+[2021-11-03 00:03:16,523] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 1860.0 :  
+[2021-11-03 00:03:16,524] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 4240.0 :  
+[2021-11-03 00:03:16,525] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 1975.0 :  
+[2021-11-03 00:03:16,526] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 1695.0 :  
+[2021-11-03 00:03:16,528] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 1325.0 :  
+[2021-11-03 00:03:16,529] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 3790.0 :  
+[2021-11-03 00:03:16,530] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 8760.0 :  
+[2021-11-03 00:03:16,531] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 47853.0 :  
+[2021-11-03 00:03:16,532] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 8760.0 :  
+[2021-11-03 00:03:16,533] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 8480.0 :  
+[2021-11-03 00:03:16,534] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 21700.0 :  
+[2021-11-03 00:03:16,535] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 6178.0 :  
+[2021-11-03 00:03:16,537] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 6930.0 :  
+[2021-11-03 00:03:16,538] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 2970.0 :  
+[2021-11-03 00:03:16,539] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 9600.0 :  
+[2021-11-03 00:03:16,540] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 5350.0 :  
+[2021-11-03 00:03:16,542] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 8830.0 :  
+[2021-11-03 00:03:16,543] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 2010.0 :  
+[2021-11-03 00:03:16,544] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2564022.4549756423 / 7130.0 :  
+[2021-11-03 00:03:26,016] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 1770.0 :  
+[2021-11-03 00:03:26,018] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 9130.0 :  
+[2021-11-03 00:03:26,019] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 5450.0 :  
+[2021-11-03 00:03:26,020] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 25124.0 :  
+[2021-11-03 00:03:26,021] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 7510.0 :  
+[2021-11-03 00:03:26,022] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4650.0 :  
+[2021-11-03 00:03:26,023] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 7510.0 :  
+[2021-11-03 00:03:26,024] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 15700.0 :  
+[2021-11-03 00:03:26,026] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 1300.0 :  
+[2021-11-03 00:03:26,027] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2325.0 :  
+[2021-11-03 00:03:26,028] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 9220.0 :  
+[2021-11-03 00:03:26,029] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3140.0 :  
+[2021-11-03 00:03:26,030] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4250.0 :  
+[2021-11-03 00:03:26,031] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3500.0 :  
+[2021-11-03 00:03:26,032] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2330.0 :  
+[2021-11-03 00:03:26,033] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 892.0 :  
+[2021-11-03 00:03:26,034] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 17000.0 :  
+[2021-11-03 00:03:26,035] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 12300.0 :  
+[2021-11-03 00:03:26,036] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 6693.0 :  
+[2021-11-03 00:03:26,037] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 36706.0 :  
+[2021-11-03 00:03:26,038] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 12350.0 :  
+[2021-11-03 00:03:26,039] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 13600.0 :  
+[2021-11-03 00:03:26,041] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 177500.0 :  
+[2021-11-03 00:03:26,042] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 5820.0 :  
+[2021-11-03 00:03:26,043] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 21600.0 :  
+[2021-11-03 00:03:26,044] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 35450.0 :  
+[2021-11-03 00:03:26,045] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3780.0 :  
+[2021-11-03 00:03:26,046] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 12000.0 :  
+[2021-11-03 00:03:26,047] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4500.0 :  
+[2021-11-03 00:03:35,674] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 8120.0 :  
+[2021-11-03 00:03:35,675] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 5240.0 :  
+[2021-11-03 00:03:35,677] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 39800.0 :  
+[2021-11-03 00:03:35,678] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 3775.0 :  
+[2021-11-03 00:03:35,679] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 7550.0 :  
+[2021-11-03 00:03:35,680] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 12135.0 :  
+[2021-11-03 00:03:35,681] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 856.0 :  
+[2021-11-03 00:03:35,682] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 4840.0 :  
+[2021-11-03 00:03:35,683] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 3155.0 :  
+[2021-11-03 00:03:35,684] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 65055.0 :  
+[2021-11-03 00:03:35,685] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 40850.0 :  
+[2021-11-03 00:03:35,686] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 11800.0 :  
+[2021-11-03 00:03:35,687] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 6978.0 :  
+[2021-11-03 00:03:35,689] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 530293.0 :  
+[2021-11-03 00:03:35,690] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 5910.0 :  
+[2021-11-03 00:03:35,691] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 28100.0 :  
+[2021-11-03 00:03:35,692] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 17600.0 :  
+[2021-11-03 00:03:35,693] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 806000.0 :  
+[2021-11-03 00:03:35,694] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 18450.0 :  
+[2021-11-03 00:03:35,695] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 4015.0 :  
+[2021-11-03 00:03:35,696] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 322000.0 :  
+[2021-11-03 00:03:35,697] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 24650.0 :  
+[2021-11-03 00:03:35,698] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 25350.0 :  
+[2021-11-03 00:03:35,699] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 7062.0 :  
+[2021-11-03 00:03:35,700] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 8904.0 :  
+[2021-11-03 00:03:35,701] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 2855.0 :  
+[2021-11-03 00:03:35,702] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 46000.0 :  
+[2021-11-03 00:03:35,704] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 28831.0 :  
+[2021-11-03 00:03:35,705] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 2745.0 :  
+[2021-11-03 00:03:35,706] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3651531.4371338286 / 23850.0 :  
+[2021-11-03 00:03:45,129] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 4095.0 :  
+[2021-11-03 00:03:45,131] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 7250.0 :  
+[2021-11-03 00:03:45,132] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 10850.0 :  
+[2021-11-03 00:03:45,133] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 6290.0 :  
+[2021-11-03 00:03:45,135] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 3295.0 :  
+[2021-11-03 00:03:45,136] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 4295.0 :  
+[2021-11-03 00:03:45,137] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 4655.0 :  
+[2021-11-03 00:03:45,138] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 19050.0 :  
+[2021-11-03 00:03:45,139] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 3265.0 :  
+[2021-11-03 00:03:45,140] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 10650.0 :  
+[2021-11-03 00:03:45,141] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 17633.0 :  
+[2021-11-03 00:03:45,142] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 7790.0 :  
+[2021-11-03 00:03:45,143] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 6890.0 :  
+[2021-11-03 00:03:45,144] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 50300.0 :  
+[2021-11-03 00:03:45,145] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 16150.0 :  
+[2021-11-03 00:03:45,146] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 32350.0 :  
+[2021-11-03 00:03:45,147] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 13400.0 :  
+[2021-11-03 00:03:45,149] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 21500.0 :  
+[2021-11-03 00:03:45,150] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 18575.0 :  
+[2021-11-03 00:03:45,151] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 50215.0 :  
+[2021-11-03 00:03:45,152] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 5110.0 :  
+[2021-11-03 00:03:45,153] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 16200.0 :  
+[2021-11-03 00:03:45,154] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 1380.0 :  
+[2021-11-03 00:03:45,155] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 25050.0 :  
+[2021-11-03 00:03:45,156] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 184000.0 :  
+[2021-11-03 00:03:45,157] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 36350.0 :  
+[2021-11-03 00:03:45,158] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 143328.0 :  
+[2021-11-03 00:03:45,159] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 5240.0 :  
+[2021-11-03 00:03:45,161] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 29758.0 :  
+[2021-11-03 00:03:45,162] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3776074.0735438582 / 3590.0 :  
+[2021-11-03 00:03:54,585] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 6710.0 :  
+[2021-11-03 00:03:54,587] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 2955.0 :  
+[2021-11-03 00:03:54,588] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 783.0 :  
+[2021-11-03 00:03:54,589] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 2850.0 :  
+[2021-11-03 00:03:54,590] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 15566.0 :  
+[2021-11-03 00:03:54,591] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 10450.0 :  
+[2021-11-03 00:03:54,593] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 3465.0 :  
+[2021-11-03 00:03:54,594] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 726.0 :  
+[2021-11-03 00:03:54,595] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 5180.0 :  
+[2021-11-03 00:03:54,596] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 8140.0 :  
+[2021-11-03 00:03:54,597] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 15300.0 :  
+[2021-11-03 00:03:54,598] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 31800.0 :  
+[2021-11-03 00:03:54,599] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 71300.0 :  
+[2021-11-03 00:03:54,600] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 4300.0 :  
+[2021-11-03 00:03:54,601] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 4480.0 :  
+[2021-11-03 00:03:54,603] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 65100.0 :  
+[2021-11-03 00:03:54,604] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 6720.0 :  
+[2021-11-03 00:03:54,605] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 8670.0 :  
+[2021-11-03 00:03:54,606] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 21900.0 :  
+[2021-11-03 00:03:54,607] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 12600.0 :  
+[2021-11-03 00:03:54,608] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 23000.0 :  
+[2021-11-03 00:03:54,609] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 3745.0 :  
+[2021-11-03 00:03:54,610] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 22900.0 :  
+[2021-11-03 00:03:54,611] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 4000.0 :  
+[2021-11-03 00:03:54,613] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 1165.0 :  
+[2021-11-03 00:03:54,614] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 5280.0 :  
+[2021-11-03 00:03:54,615] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 11400.0 :  
+[2021-11-03 00:03:54,616] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3823475.7520722677 / 22100.0 :  
+[2021-11-03 00:04:04,149] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 3470.0 :  
+[2021-11-03 00:04:04,151] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 2920.0 :  
+[2021-11-03 00:04:04,152] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 38929.0 :  
+[2021-11-03 00:04:04,153] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5600.0 :  
+[2021-11-03 00:04:04,154] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5300.0 :  
+[2021-11-03 00:04:04,155] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 6180.0 :  
+[2021-11-03 00:04:04,156] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 6500.0 :  
+[2021-11-03 00:04:04,157] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 7380.0 :  
+[2021-11-03 00:04:04,158] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5600.0 :  
+[2021-11-03 00:04:04,159] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5680.0 :  
+[2021-11-03 00:04:04,160] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 9830.0 :  
+[2021-11-03 00:04:04,161] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 3930.0 :  
+[2021-11-03 00:04:04,163] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 19300.0 :  
+[2021-11-03 00:04:04,164] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 2300.0 :  
+[2021-11-03 00:04:04,165] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 1266000.0 :  
+[2021-11-03 00:04:04,165] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 49800.0 :  
+[2021-11-03 00:04:04,167] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5450.0 :  
+[2021-11-03 00:04:04,168] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 83300.0 :  
+[2021-11-03 00:04:04,169] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 71900.0 :  
+[2021-11-03 00:04:04,170] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 1875.0 :  
+[2021-11-03 00:04:04,171] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 14715.0 :  
+[2021-11-03 00:04:04,172] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 234000.0 :  
+[2021-11-03 00:04:04,173] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 1100.0 :  
+[2021-11-03 00:04:04,174] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5454.0 :  
+[2021-11-03 00:04:04,176] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 3430.0 :  
+[2021-11-03 00:04:04,177] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 22200.0 :  
+[2021-11-03 00:04:04,178] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 14600.0 :  
+[2021-11-03 00:04:04,179] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 14300.0 :  
+[2021-11-03 00:04:04,180] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 12850.0 :  
+[2021-11-03 00:04:04,181] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3589247.8874313957 / 5020.0 :  
+[2021-11-03 00:04:14,287] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 6310.0 :  
+[2021-11-03 00:04:14,288] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 1445.0 :  
+[2021-11-03 00:04:14,290] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 36180.0 :  
+[2021-11-03 00:04:14,291] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 2595.0 :  
+[2021-11-03 00:04:14,292] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 2475.0 :  
+[2021-11-03 00:04:14,293] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 2735.0 :  
+[2021-11-03 00:04:14,294] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 2385.0 :  
+[2021-11-03 00:04:14,295] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 13950.0 :  
+[2021-11-03 00:04:14,296] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 166500.0 :  
+[2021-11-03 00:04:14,298] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 58400.0 :  
+[2021-11-03 00:04:14,299] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 3910.0 :  
+[2021-11-03 00:04:14,300] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 10000.0 :  
+[2021-11-03 00:04:14,301] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 133500.0 :  
+[2021-11-03 00:04:14,302] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 54300.0 :  
+[2021-11-03 00:04:14,303] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 4945.0 :  
+[2021-11-03 00:04:14,304] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 52100.0 :  
+[2021-11-03 00:04:14,305] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 12650.0 :  
+[2021-11-03 00:04:14,306] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 9280.0 :  
+[2021-11-03 00:04:14,307] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 77553.0 :  
+[2021-11-03 00:04:14,308] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 10800.0 :  
+[2021-11-03 00:04:14,309] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 16650.0 :  
+[2021-11-03 00:04:14,310] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 35620.0 :  
+[2021-11-03 00:04:14,311] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 15916.0 :  
+[2021-11-03 00:04:14,313] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 5390.0 :  
+[2021-11-03 00:04:14,314] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 21100.0 :  
+[2021-11-03 00:04:14,315] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 12100.0 :  
+[2021-11-03 00:04:14,316] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 6518.0 :  
+[2021-11-03 00:04:14,317] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 2891447.5064185713 / 22600.0 :  
+[2021-11-03 00:04:26,407] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 41780.0 :  
+[2021-11-03 00:04:26,409] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 3670.0 :  
+[2021-11-03 00:04:26,410] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 12150.0 :  
+[2021-11-03 00:04:26,411] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 11600.0 :  
+[2021-11-03 00:04:26,412] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 7990.0 :  
+[2021-11-03 00:04:26,413] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 16400.0 :  
+[2021-11-03 00:04:26,414] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 14100.0 :  
+[2021-11-03 00:04:26,415] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 18119.0 :  
+[2021-11-03 00:04:26,417] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 26300.0 :  
+[2021-11-03 00:04:26,418] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 5330.0 :  
+[2021-11-03 00:04:26,419] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 6570.0 :  
+[2021-11-03 00:04:26,420] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 2560.0 :  
+[2021-11-03 00:04:26,421] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 14500.0 :  
+[2021-11-03 00:04:26,422] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 3940.0 :  
+[2021-11-03 00:04:26,424] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 12161.0 :  
+[2021-11-03 00:04:26,425] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 36350.0 :  
+[2021-11-03 00:04:26,426] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 8560.0 :  
+[2021-11-03 00:04:26,427] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 89900.0 :  
+[2021-11-03 00:04:26,428] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 471500.0 :  
+[2021-11-03 00:04:26,429] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 16700.0 :  
+[2021-11-03 00:04:26,430] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 3555.0 :  
+[2021-11-03 00:04:26,431] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 2810.0 :  
+[2021-11-03 00:04:26,433] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 41700.0 :  
+[2021-11-03 00:04:26,434] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 6890.0 :  
+[2021-11-03 00:04:26,435] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 28250.0 :  
+[2021-11-03 00:04:26,436] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 19250.0 :  
+[2021-11-03 00:04:26,437] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 17300.0 :  
+[2021-11-03 00:04:26,438] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 29879.0 :  
+[2021-11-03 00:04:26,439] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 292147.0 :  
+[2021-11-03 00:04:26,441] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3596323.988467433 / 14050.0 :  
+[2021-11-03 00:04:38,629] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 83000.0 :  
+[2021-11-03 00:04:38,631] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 8072.0 :  
+[2021-11-03 00:04:38,632] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 5200.0 :  
+[2021-11-03 00:04:38,633] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 7080.0 :  
+[2021-11-03 00:04:38,634] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 26500.0 :  
+[2021-11-03 00:04:38,636] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 11650.0 :  
+[2021-11-03 00:04:38,637] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 11950.0 :  
+[2021-11-03 00:04:38,638] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 2475.0 :  
+[2021-11-03 00:04:38,639] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 46300.0 :  
+[2021-11-03 00:04:38,640] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 103000.0 :  
+[2021-11-03 00:04:38,641] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 9760.0 :  
+[2021-11-03 00:04:38,642] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 5200.0 :  
+[2021-11-03 00:04:38,644] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 118500.0 :  
+[2021-11-03 00:04:38,645] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 21836.0 :  
+[2021-11-03 00:04:38,646] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 10800.0 :  
+[2021-11-03 00:04:38,647] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 25550.0 :  
+[2021-11-03 00:04:38,648] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 35950.0 :  
+[2021-11-03 00:04:38,649] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 10200.0 :  
+[2021-11-03 00:04:38,650] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 231000.0 :  
+[2021-11-03 00:04:38,651] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 120667.0 :  
+[2021-11-03 00:04:38,652] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 7800.0 :  
+[2021-11-03 00:04:38,653] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 127000.0 :  
+[2021-11-03 00:04:38,654] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 7390.0 :  
+[2021-11-03 00:04:38,656] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 12350.0 :  
+[2021-11-03 00:04:38,657] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 4770.0 :  
+[2021-11-03 00:04:38,658] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 8420.0 :  
+[2021-11-03 00:04:38,659] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 3080.0 :  
+[2021-11-03 00:04:38,660] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 94500.0 :  
+[2021-11-03 00:04:38,661] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 42950.0 :  
+[2021-11-03 00:04:38,662] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4310954.152500277 / 6700.0 :  
+[2021-11-03 00:06:14,449] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 2010.0 :  
+[2021-11-03 00:06:14,547] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 669.37 :  
+[2021-11-03 00:09:17,068] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 2010.0 :  
+[2021-11-03 00:09:17,160] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 100000000.0 / 669.37 :  
+[2021-11-03 00:09:22,517] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-1/ 2019-3/ 29 :  
+[2021-11-03 00:09:22,522] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2325.0 :  
+[2021-11-03 00:09:22,524] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 17000.0 :  
+[2021-11-03 00:09:22,525] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 892.0 :  
+[2021-11-03 00:09:22,526] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 7510.0 :  
+[2021-11-03 00:09:22,528] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3140.0 :  
+[2021-11-03 00:09:22,529] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4650.0 :  
+[2021-11-03 00:09:22,531] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 1300.0 :  
+[2021-11-03 00:09:22,532] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2330.0 :  
+[2021-11-03 00:09:22,534] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4250.0 :  
+[2021-11-03 00:09:22,535] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4500.0 :  
+[2021-11-03 00:09:22,537] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2040.0 :  
+[2021-11-03 00:09:22,538] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2245.0 :  
+[2021-11-03 00:09:22,539] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 1720.0 :  
+[2021-11-03 00:09:22,540] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2240.0 :  
+[2021-11-03 00:09:22,541] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4970.0 :  
+[2021-11-03 00:09:22,542] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4855.0 :  
+[2021-11-03 00:09:22,543] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4680.0 :  
+[2021-11-03 00:09:22,545] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 6691.0 :  
+[2021-11-03 00:09:22,546] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 3806.0 :  
+[2021-11-03 00:09:22,547] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4950.0 :  
+[2021-11-03 00:09:22,548] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 5700.0 :  
+[2021-11-03 00:09:22,549] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2660.0 :  
+[2021-11-03 00:09:22,550] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 7090.0 :  
+[2021-11-03 00:09:22,551] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 4930.0 :  
+[2021-11-03 00:09:22,553] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2756.0 :  
+[2021-11-03 00:09:22,554] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 6229.0 :  
+[2021-11-03 00:09:22,555] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 818.0 :  
+[2021-11-03 00:09:22,556] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 11650.0 :  
+[2021-11-03 00:09:22,557] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3448275.8620689656 / 2710.0 :  
+[2021-11-03 00:09:27,977] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-4/ 2019-6/ 29 :  
+[2021-11-03 00:09:27,982] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3775.0 :  
+[2021-11-03 00:09:27,984] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 5240.0 :  
+[2021-11-03 00:09:27,985] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 7550.0 :  
+[2021-11-03 00:09:27,986] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 8120.0 :  
+[2021-11-03 00:09:27,987] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3155.0 :  
+[2021-11-03 00:09:27,988] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 8904.0 :  
+[2021-11-03 00:09:27,989] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2855.0 :  
+[2021-11-03 00:09:27,991] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2745.0 :  
+[2021-11-03 00:09:27,992] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4310.0 :  
+[2021-11-03 00:09:27,993] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2307.0 :  
+[2021-11-03 00:09:27,994] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3220.0 :  
+[2021-11-03 00:09:27,995] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6303.0 :  
+[2021-11-03 00:09:27,996] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4720.0 :  
+[2021-11-03 00:09:27,998] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 61800.0 :  
+[2021-11-03 00:09:27,999] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 12650.0 :  
+[2021-11-03 00:09:28,000] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4090.0 :  
+[2021-11-03 00:09:28,001] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4050.0 :  
+[2021-11-03 00:09:28,002] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3135.0 :  
+[2021-11-03 00:09:28,003] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 4220.0 :  
+[2021-11-03 00:09:28,004] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 1915.0 :  
+[2021-11-03 00:09:28,005] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 2912.0 :  
+[2021-11-03 00:09:28,006] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3715.0 :  
+[2021-11-03 00:09:28,008] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 3741.0 :  
+[2021-11-03 00:09:28,009] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 19000.0 :  
+[2021-11-03 00:09:28,010] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6370.0 :  
+[2021-11-03 00:09:28,011] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 5090.0 :  
+[2021-11-03 00:09:28,012] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6210.0 :  
+[2021-11-03 00:09:28,013] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 6640.0 :  
+[2021-11-03 00:09:28,015] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4013047.5444452767 / 68600.0 :  
+[2021-11-03 00:09:33,460] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-7/ 2019-9/ 30 :  
+[2021-11-03 00:09:33,464] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3295.0 :  
+[2021-11-03 00:09:33,466] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 6290.0 :  
+[2021-11-03 00:09:33,467] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 19050.0 :  
+[2021-11-03 00:09:33,468] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7790.0 :  
+[2021-11-03 00:09:33,469] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 4295.0 :  
+[2021-11-03 00:09:33,470] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7250.0 :  
+[2021-11-03 00:09:33,471] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3265.0 :  
+[2021-11-03 00:09:33,472] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 10650.0 :  
+[2021-11-03 00:09:33,474] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 5240.0 :  
+[2021-11-03 00:09:33,475] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3590.0 :  
+[2021-11-03 00:09:33,476] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 4485.0 :  
+[2021-11-03 00:09:33,477] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3800.0 :  
+[2021-11-03 00:09:33,478] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 12750.0 :  
+[2021-11-03 00:09:33,479] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7430.0 :  
+[2021-11-03 00:09:33,480] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 22100.0 :  
+[2021-11-03 00:09:33,482] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 1670.0 :  
+[2021-11-03 00:09:33,483] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 6840.0 :  
+[2021-11-03 00:09:33,484] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 4185.0 :  
+[2021-11-03 00:09:33,485] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 1930.0 :  
+[2021-11-03 00:09:33,486] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 5880.0 :  
+[2021-11-03 00:09:33,487] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3685.0 :  
+[2021-11-03 00:09:33,488] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 5000.0 :  
+[2021-11-03 00:09:33,489] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 63100.0 :  
+[2021-11-03 00:09:33,490] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 7710.0 :  
+[2021-11-03 00:09:33,491] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 9150.0 :  
+[2021-11-03 00:09:33,493] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3067.0 :  
+[2021-11-03 00:09:33,494] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3100.0 :  
+[2021-11-03 00:09:33,495] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 3350.0 :  
+[2021-11-03 00:09:33,496] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 2167.0 :  
+[2021-11-03 00:09:33,497] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4028787.322177598 / 1850.0 :  
+[2021-11-03 00:09:38,901] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-10/ 2019-12/ 29 :  
+[2021-11-03 00:09:38,905] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 783.0 :  
+[2021-11-03 00:09:38,907] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2955.0 :  
+[2021-11-03 00:09:38,908] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 6710.0 :  
+[2021-11-03 00:09:38,909] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 8140.0 :  
+[2021-11-03 00:09:38,910] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3465.0 :  
+[2021-11-03 00:09:38,912] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2850.0 :  
+[2021-11-03 00:09:38,913] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 726.0 :  
+[2021-11-03 00:09:38,914] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 8670.0 :  
+[2021-11-03 00:09:38,915] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 21900.0 :  
+[2021-11-03 00:09:38,916] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4000.0 :  
+[2021-11-03 00:09:38,917] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3570.0 :  
+[2021-11-03 00:09:38,919] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2940.0 :  
+[2021-11-03 00:09:38,920] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 1345.0 :  
+[2021-11-03 00:09:38,921] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3860.0 :  
+[2021-11-03 00:09:38,922] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 6330.0 :  
+[2021-11-03 00:09:38,923] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3425.0 :  
+[2021-11-03 00:09:38,924] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 6370.0 :  
+[2021-11-03 00:09:38,925] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 2765.0 :  
+[2021-11-03 00:09:38,926] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4020.0 :  
+[2021-11-03 00:09:38,928] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 3380.0 :  
+[2021-11-03 00:09:38,929] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 58100.0 :  
+[2021-11-03 00:09:38,930] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 5309.0 :  
+[2021-11-03 00:09:38,931] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 12450.0 :  
+[2021-11-03 00:09:38,932] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4005.0 :  
+[2021-11-03 00:09:38,933] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 5750.0 :  
+[2021-11-03 00:09:38,935] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4280.0 :  
+[2021-11-03 00:09:38,936] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4785.0 :  
+[2021-11-03 00:09:38,937] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 481.0 :  
+[2021-11-03 00:09:38,938] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4118652.6420896347 / 4510.0 :  
+[2021-11-03 00:09:44,344] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-1/ 2020-3/ 30 :  
+[2021-11-03 00:09:44,348] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5600.0 :  
+[2021-11-03 00:09:44,350] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 6180.0 :  
+[2021-11-03 00:09:44,351] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5300.0 :  
+[2021-11-03 00:09:44,353] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 9830.0 :  
+[2021-11-03 00:09:44,354] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 3470.0 :  
+[2021-11-03 00:09:44,355] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 3930.0 :  
+[2021-11-03 00:09:44,357] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5600.0 :  
+[2021-11-03 00:09:44,358] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2920.0 :  
+[2021-11-03 00:09:44,359] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 6500.0 :  
+[2021-11-03 00:09:44,360] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2300.0 :  
+[2021-11-03 00:09:44,361] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 321.0 :  
+[2021-11-03 00:09:44,362] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 1875.0 :  
+[2021-11-03 00:09:44,364] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5454.0 :  
+[2021-11-03 00:09:44,365] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 3430.0 :  
+[2021-11-03 00:09:44,366] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5020.0 :  
+[2021-11-03 00:09:44,367] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 4250.0 :  
+[2021-11-03 00:09:44,368] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 4655.0 :  
+[2021-11-03 00:09:44,369] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 4230.0 :  
+[2021-11-03 00:09:44,371] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2091.0 :  
+[2021-11-03 00:09:44,372] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2230.0 :  
+[2021-11-03 00:09:44,374] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 6820.0 :  
+[2021-11-03 00:09:44,375] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 5146.0 :  
+[2021-11-03 00:09:44,376] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 58600.0 :  
+[2021-11-03 00:09:44,377] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2035.0 :  
+[2021-11-03 00:09:44,378] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 1359.0 :  
+[2021-11-03 00:09:44,380] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2680.0 :  
+[2021-11-03 00:09:44,381] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 2925.0 :  
+[2021-11-03 00:09:44,382] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 1505.0 :  
+[2021-11-03 00:09:44,383] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 7970.0 :  
+[2021-11-03 00:09:44,384] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4048703.9663846795 / 8810.0 :  
+[2021-11-03 00:09:49,941] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-4/ 2020-6/ 29 :  
+[2021-11-03 00:09:49,945] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2475.0 :  
+[2021-11-03 00:09:49,947] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2595.0 :  
+[2021-11-03 00:09:49,949] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1445.0 :  
+[2021-11-03 00:09:49,950] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2735.0 :  
+[2021-11-03 00:09:49,951] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 420.0 :  
+[2021-11-03 00:09:49,952] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2385.0 :  
+[2021-11-03 00:09:49,953] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 10000.0 :  
+[2021-11-03 00:09:49,954] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3040.0 :  
+[2021-11-03 00:09:49,955] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3295.0 :  
+[2021-11-03 00:09:49,956] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 5290.0 :  
+[2021-11-03 00:09:49,957] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3480.0 :  
+[2021-11-03 00:09:49,958] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2572.0 :  
+[2021-11-03 00:09:49,959] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3110.0 :  
+[2021-11-03 00:09:49,960] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2205.0 :  
+[2021-11-03 00:09:49,962] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 5294.0 :  
+[2021-11-03 00:09:49,963] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1517.0 :  
+[2021-11-03 00:09:49,964] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 800.0 :  
+[2021-11-03 00:09:49,965] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1850.0 :  
+[2021-11-03 00:09:49,966] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 935.0 :  
+[2021-11-03 00:09:49,967] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2285.0 :  
+[2021-11-03 00:09:49,968] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3277.0 :  
+[2021-11-03 00:09:49,969] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2270.0 :  
+[2021-11-03 00:09:49,971] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3895.0 :  
+[2021-11-03 00:09:49,972] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1835.0 :  
+[2021-11-03 00:09:49,973] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 571.0 :  
+[2021-11-03 00:09:49,974] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 2195.0 :  
+[2021-11-03 00:09:49,975] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 3363.0 :  
+[2021-11-03 00:09:49,976] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 1540.0 :  
+[2021-11-03 00:09:49,977] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3040490.8390991716 / 4825.0 :  
+[2021-11-03 00:09:56,249] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-7/ 2020-9/ 28 :  
+[2021-11-03 00:09:56,254] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3670.0 :  
+[2021-11-03 00:09:56,255] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2810.0 :  
+[2021-11-03 00:09:56,256] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 6890.0 :  
+[2021-11-03 00:09:56,257] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2875.0 :  
+[2021-11-03 00:09:56,258] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 1330.0 :  
+[2021-11-03 00:09:56,260] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2350.0 :  
+[2021-11-03 00:09:56,261] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 7760.0 :  
+[2021-11-03 00:09:56,262] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 903.0 :  
+[2021-11-03 00:09:56,263] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3180.0 :  
+[2021-11-03 00:09:56,264] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 17200.0 :  
+[2021-11-03 00:09:56,265] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 18050.0 :  
+[2021-11-03 00:09:56,266] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3405.0 :  
+[2021-11-03 00:09:56,267] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2825.0 :  
+[2021-11-03 00:09:56,268] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 1180.0 :  
+[2021-11-03 00:09:56,270] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 9970.0 :  
+[2021-11-03 00:09:56,271] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 1970.0 :  
+[2021-11-03 00:09:56,272] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 4815.0 :  
+[2021-11-03 00:09:56,273] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 4100.0 :  
+[2021-11-03 00:09:56,274] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2715.0 :  
+[2021-11-03 00:09:56,275] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 3695.0 :  
+[2021-11-03 00:09:56,276] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2055.0 :  
+[2021-11-03 00:09:56,277] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 10227.0 :  
+[2021-11-03 00:09:56,278] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 635.0 :  
+[2021-11-03 00:09:56,279] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 4525.0 :  
+[2021-11-03 00:09:56,280] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 7640.0 :  
+[2021-11-03 00:09:56,281] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 6696.0 :  
+[2021-11-03 00:09:56,282] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 2715.0 :  
+[2021-11-03 00:09:56,283] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 4075980.188728693 / 14650.0 :  
+[2021-11-03 00:10:02,314] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-10/ 2020-12/ 29 :  
+[2021-11-03 00:10:02,319] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 8072.0 :  
+[2021-11-03 00:10:02,321] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 7800.0 :  
+[2021-11-03 00:10:02,322] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 8420.0 :  
+[2021-11-03 00:10:02,323] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3080.0 :  
+[2021-11-03 00:10:02,324] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1540.0 :  
+[2021-11-03 00:10:02,325] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5130.0 :  
+[2021-11-03 00:10:02,327] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5430.0 :  
+[2021-11-03 00:10:02,328] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 16150.0 :  
+[2021-11-03 00:10:02,329] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 2895.0 :  
+[2021-11-03 00:10:02,331] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5120.0 :  
+[2021-11-03 00:10:02,332] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 10938.0 :  
+[2021-11-03 00:10:02,333] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1990.0 :  
+[2021-11-03 00:10:02,334] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 7560.0 :  
+[2021-11-03 00:10:02,335] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 94300.0 :  
+[2021-11-03 00:10:02,336] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 4135.0 :  
+[2021-11-03 00:10:02,337] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3105.0 :  
+[2021-11-03 00:10:02,338] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 30750.0 :  
+[2021-11-03 00:10:02,339] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5450.0 :  
+[2021-11-03 00:10:02,341] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 5200.0 :  
+[2021-11-03 00:10:02,342] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 2230.0 :  
+[2021-11-03 00:10:02,343] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1860.0 :  
+[2021-11-03 00:10:02,344] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 4240.0 :  
+[2021-11-03 00:10:02,345] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1975.0 :  
+[2021-11-03 00:10:02,347] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 7555.0 :  
+[2021-11-03 00:10:02,348] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1695.0 :  
+[2021-11-03 00:10:02,349] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 1325.0 :  
+[2021-11-03 00:10:02,350] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3790.0 :  
+[2021-11-03 00:10:02,351] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3000.0 :  
+[2021-11-03 00:10:02,352] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 5117658.369005209 / 3460.0 :  
+[2021-11-03 00:10:08,385] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-1/ 2019-3/ 30 :  
+[2021-11-03 00:10:08,389] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 15700.0 :  
+[2021-11-03 00:10:08,391] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 5450.0 :  
+[2021-11-03 00:10:08,392] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 1770.0 :  
+[2021-11-03 00:10:08,393] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 7510.0 :  
+[2021-11-03 00:10:08,394] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 9220.0 :  
+[2021-11-03 00:10:08,395] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 13600.0 :  
+[2021-11-03 00:10:08,397] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 5820.0 :  
+[2021-11-03 00:10:08,398] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 3780.0 :  
+[2021-11-03 00:10:08,399] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6230.0 :  
+[2021-11-03 00:10:08,400] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 4750.0 :  
+[2021-11-03 00:10:08,402] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 8048.0 :  
+[2021-11-03 00:10:08,403] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 3885.0 :  
+[2021-11-03 00:10:08,404] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 2730.0 :  
+[2021-11-03 00:10:08,405] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 847.0 :  
+[2021-11-03 00:10:08,406] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6920.0 :  
+[2021-11-03 00:10:08,407] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 4680.0 :  
+[2021-11-03 00:10:08,409] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 11300.0 :  
+[2021-11-03 00:10:08,410] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 11351.0 :  
+[2021-11-03 00:10:08,411] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 1790.0 :  
+[2021-11-03 00:10:08,412] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 9199.0 :  
+[2021-11-03 00:10:08,413] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 42100.0 :  
+[2021-11-03 00:10:08,414] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6210.0 :  
+[2021-11-03 00:10:08,416] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 15100.0 :  
+[2021-11-03 00:10:08,417] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 2850.0 :  
+[2021-11-03 00:10:08,418] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 6694.0 :  
+[2021-11-03 00:10:08,419] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 5750.0 :  
+[2021-11-03 00:10:08,420] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 7580.0 :  
+[2021-11-03 00:10:08,421] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 9420.0 :  
+[2021-11-03 00:10:08,422] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 12071.0 :  
+[2021-11-03 00:10:08,423] I BACKTEST_quarter_mysql.py | finance_data-back_test_Beta-0080 I DEBUG    > 3333333.3333333335 / 17000.0 :  
+[2021-11-03 00:10:32,217] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-1/ 2019-3/ 29 :  
+[2021-11-03 00:10:37,539] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-4/ 2019-6/ 29 :  
+[2021-11-03 00:10:43,000] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-7/ 2019-9/ 30 :  
+[2021-11-03 00:10:48,363] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-10/ 2019-12/ 29 :  
+[2021-11-03 00:10:53,682] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-1/ 2020-3/ 30 :  
+[2021-11-03 00:10:59,187] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-4/ 2020-6/ 29 :  
+[2021-11-03 00:11:05,344] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-7/ 2020-9/ 28 :  
+[2021-11-03 00:11:11,339] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-10/ 2020-12/ 29 :  
+[2021-11-03 00:11:17,207] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-1/ 2019-3/ 30 :  
+[2021-11-03 00:11:23,110] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-4/ 2019-6/ 30 :  
+[2021-11-03 00:11:28,900] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-7/ 2019-9/ 30 :  
+[2021-11-03 00:11:34,770] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-10/ 2019-12/ 29 :  
+[2021-11-03 00:11:40,762] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-1/ 2020-3/ 29 :  
+[2021-11-03 00:11:46,807] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-4/ 2020-6/ 30 :  
+[2021-11-03 00:11:53,607] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-7/ 2020-9/ 30 :  
+[2021-11-03 00:12:00,407] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-10/ 2020-12/ 30 :  
+[2021-11-03 00:12:04,291] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-1/ 2019-3/ 1 :  
+[2021-11-03 00:12:08,240] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-4/ 2019-6/ 1 :  
+[2021-11-03 00:12:12,054] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-7/ 2019-9/ 1 :  
+[2021-11-03 00:12:15,896] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-10/ 2019-12/ 2 :  
+[2021-11-03 00:12:19,776] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-1/ 2020-3/ 2 :  
+[2021-11-03 00:12:23,799] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-4/ 2020-6/ 1 :  
+[2021-11-03 00:12:29,098] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-7/ 2020-9/ 28 :  
+[2021-11-03 00:12:34,070] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-10/ 2020-12/ 30 :  
+[2021-11-03 00:12:43,562] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-1/ 2019-3/ 29 :  
+[2021-11-03 00:12:53,143] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-4/ 2019-6/ 30 :  
+[2021-11-03 00:13:02,526] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-7/ 2019-9/ 30 :  
+[2021-11-03 00:13:11,948] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2019-10/ 2019-12/ 28 :  
+[2021-11-03 00:13:21,532] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-1/ 2020-3/ 30 :  
+[2021-11-03 00:13:31,819] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-4/ 2020-6/ 28 :  
+[2021-11-03 00:13:44,752] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-7/ 2020-9/ 30 :  
+[2021-11-03 00:13:56,491] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 2020-10/ 2020-12/ 30 :  
+[2021-11-03 00:15:50,886] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 6/ 2019-1 /2019-6 /29 
+[2021-11-03 00:15:56,312] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 6/ 2019-7 /2019-12 /30 
+[2021-11-03 00:16:01,648] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 6/ 2020-1 /2020-6 /30 
+[2021-11-03 00:16:07,834] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 6/ 2020-7 /2020-12 /28 
+[2021-11-03 00:16:13,691] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-1 /2019-3 /30 
+[2021-11-03 00:16:19,574] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 00:16:25,302] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 00:16:31,085] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 00:16:37,013] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 00:16:43,021] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-4 /2020-6 /30 
+[2021-11-03 00:16:49,782] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 00:16:56,485] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 00:17:00,372] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /1 
+[2021-11-03 00:17:04,196] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /1 
+[2021-11-03 00:17:08,024] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /1 
+[2021-11-03 00:17:11,935] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /2 
+[2021-11-03 00:17:15,876] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /2 
+[2021-11-03 00:17:19,789] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /1 
+[2021-11-03 00:17:25,038] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 00:17:30,065] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 00:17:56,812] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 00:18:02,225] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /29 
+[2021-11-03 00:18:07,667] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 00:18:13,044] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 00:18:18,396] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /30 
+[2021-11-03 00:18:23,995] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /29 
+[2021-11-03 00:18:30,486] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 00:18:36,603] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /29 
+[2021-11-03 00:18:42,439] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-1 /2019-3 /30 
+[2021-11-03 00:18:48,468] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 00:18:54,415] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 00:19:00,533] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 00:19:06,615] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 00:19:12,839] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-4 /2020-6 /30 
+[2021-11-03 00:19:19,722] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 00:19:26,456] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 00:19:30,343] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /1 
+[2021-11-03 00:19:34,239] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /1 
+[2021-11-03 00:19:37,977] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /1 
+[2021-11-03 00:19:41,937] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /2 
+[2021-11-03 00:21:32,404] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 00:21:52,557] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /29 
+[2021-11-03 00:22:12,661] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 00:22:32,564] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 00:22:52,553] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /30 
+[2021-11-03 00:23:13,063] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /29 
+[2021-11-03 00:23:35,834] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 00:23:57,778] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /29 
+[2021-11-03 00:24:19,733] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-1 /2019-3 /30 
+[2021-11-03 00:24:41,869] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 00:25:03,487] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 00:25:25,344] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 00:25:47,603] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 00:26:10,132] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-4 /2020-6 /30 
+[2021-11-03 00:26:35,118] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 00:26:59,997] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 00:27:14,282] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /1 
+[2021-11-03 00:27:28,365] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /1 
+[2021-11-03 00:27:42,518] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /1 
+[2021-11-03 00:27:56,709] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /2 
+[2021-11-03 00:28:10,839] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /2 
+[2021-11-03 00:28:25,088] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /1 
+[2021-11-03 00:28:44,374] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 00:29:02,738] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 00:29:38,187] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 00:30:14,129] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 00:30:49,141] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 00:31:24,317] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-10 /2019-12 /28 
+[2021-11-03 00:32:00,013] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-1 /2020-3 /30 
+[2021-11-03 00:32:36,655] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-4 /2020-6 /28 
+[2021-11-03 00:33:21,237] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 00:34:04,626] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 23:18:53,835] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 23:19:18,703] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 23:19:24,051] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /29 
+[2021-11-03 23:19:29,419] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:19:34,751] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 23:19:40,114] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /30 
+[2021-11-03 23:19:45,703] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /29 
+[2021-11-03 23:19:51,984] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 23:19:58,044] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /29 
+[2021-11-03 23:20:03,959] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-1 /2019-3 /30 
+[2021-11-03 23:20:09,862] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 23:20:15,605] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:20:21,427] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 23:20:27,358] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 23:20:33,228] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-4 /2020-6 /30 
+[2021-11-03 23:20:40,010] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 23:20:46,720] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 23:20:51,353] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 23:20:55,884] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /29 
+[2021-11-03 23:21:00,442] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:21:05,103] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 23:21:09,751] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 23:22:47,181] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 23:22:52,394] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /29 
+[2021-11-03 23:22:57,744] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:23:02,955] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 23:23:08,274] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /30 
+[2021-11-03 23:23:13,627] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /29 
+[2021-11-03 23:23:19,733] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 23:23:25,678] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /29 
+[2021-11-03 23:23:31,441] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-1 /2019-3 /30 
+[2021-11-03 23:23:37,274] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 23:23:42,994] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:23:48,748] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 23:23:54,576] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 23:24:00,383] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-4 /2020-6 /30 
+[2021-11-03 23:24:07,095] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 23:24:13,804] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 중형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 23:24:18,344] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 23:24:22,750] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-4 /2019-6 /29 
+[2021-11-03 23:24:27,207] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:24:32,098] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2019-10 /2019-12 /29 
+[2021-11-03 23:24:36,580] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-1 /2020-3 /29 
+[2021-11-03 23:24:41,507] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-4 /2020-6 /29 
+[2021-11-03 23:24:46,769] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-7 /2020-9 /28 
+[2021-11-03 23:24:51,660] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / 소형주/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 23:25:00,981] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-1 /2019-3 /29 
+[2021-11-03 23:25:10,361] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-4 /2019-6 /30 
+[2021-11-03 23:25:19,512] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-7 /2019-9 /30 
+[2021-11-03 23:25:28,672] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2019-10 /2019-12 /28 
+[2021-11-03 23:25:37,957] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-1 /2020-3 /30 
+[2021-11-03 23:25:47,472] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-4 /2020-6 /28 
+[2021-11-03 23:25:59,343] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-7 /2020-9 /30 
+[2021-11-03 23:26:10,898] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0814 I DEBUG    > 강환국_울트라 / TOTAL/ 3/ 2020-10 /2020-12 /30 
+[2021-11-03 23:31:20,002] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2013-1 /2013-12 /28 
+[2021-11-03 23:31:24,903] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2014-1 /2014-12 /29 
+[2021-11-03 23:31:29,725] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2015-1 /2015-12 /29 
+[2021-11-03 23:31:34,809] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2016-1 /2016-12 /27 
+[2021-11-03 23:31:39,921] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2017-1 /2017-12 /29 
+[2021-11-03 23:31:45,246] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2018-1 /2018-12 /28 
+[2021-11-03 23:31:50,415] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2019-1 /2019-12 /29 
+[2021-11-03 23:31:55,680] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2020-1 /2020-12 /30 
+[2021-11-03 23:32:00,280] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2013-1 /2013-12 /30 
+[2021-11-03 23:32:05,565] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2014-1 /2014-12 /30 
+[2021-11-03 23:32:10,953] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2015-1 /2015-12 /29 
+[2021-11-03 23:32:16,558] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2016-1 /2016-12 /29 
+[2021-11-03 23:32:22,351] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2017-1 /2017-12 /30 
+[2021-11-03 23:32:28,258] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2018-1 /2018-12 /27 
+[2021-11-03 23:32:34,040] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2019-1 /2019-12 /30 
+[2021-11-03 23:32:39,901] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 중형주/ 12/ 2020-1 /2020-12 /29 
+[2021-11-03 23:32:44,078] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2013-1 /2013-12 /29 
+[2021-11-03 23:32:48,179] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2014-1 /2014-12 /30 
+[2021-11-03 23:32:52,619] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2015-1 /2015-12 /30 
+[2021-11-03 23:32:56,994] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2016-1 /2016-12 /29 
+[2021-11-03 23:33:01,234] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2017-1 /2017-12 /30 
+[2021-11-03 23:33:05,819] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2018-1 /2018-12 /29 
+[2021-11-03 23:33:10,410] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2019-1 /2019-12 /29 
+[2021-11-03 23:33:15,197] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2020-1 /2020-12 /29 
+[2021-11-03 23:33:22,106] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2013-1 /2013-12 /30 
+[2021-11-03 23:33:30,140] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2014-1 /2014-12 /30 
+[2021-11-03 23:33:38,630] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2015-1 /2015-12 /30 
+[2021-11-03 23:33:47,881] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2016-1 /2016-12 /27 
+[2021-11-03 23:33:57,255] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2017-1 /2017-12 /28 
+[2021-11-03 23:34:06,875] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2018-1 /2018-12 /27 
+[2021-11-03 23:34:16,184] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2019-1 /2019-12 /29 
+[2021-11-03 23:34:25,552] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / TOTAL/ 12/ 2020-1 /2020-12 /30 
+[2021-11-03 23:38:26,711] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2007-1 /2007-12 /30 
+[2021-11-03 23:38:30,837] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2008-1 /2008-12 /29 
+[2021-11-03 23:38:35,174] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2009-1 /2009-12 /29 
+[2021-11-03 23:38:39,643] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2010-1 /2010-12 /30 
+[2021-11-03 23:38:44,319] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2011-1 /2011-12 /30 
+[2021-11-03 23:38:49,029] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2012-1 /2012-12 /29 
+[2021-11-03 23:38:53,248] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2013-1 /2013-12 /29 
+[2021-11-03 23:38:57,455] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2014-1 /2014-12 /30 
+[2021-11-03 23:39:01,888] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2015-1 /2015-12 /30 
+[2021-11-03 23:39:06,292] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2016-1 /2016-12 /29 
+[2021-11-03 23:39:10,604] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2017-1 /2017-12 /30 
+[2021-11-03 23:39:15,212] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2018-1 /2018-12 /29 
+[2021-11-03 23:39:19,845] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2019-1 /2019-12 /29 
+[2021-11-03 23:39:24,514] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2020-1 /2020-12 /29 
+[2021-11-03 23:44:40,583] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2007-1 /2007-12 /30 
+[2021-11-03 23:44:44,765] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2008-1 /2008-12 /29 
+[2021-11-03 23:44:49,182] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2009-1 /2009-12 /29 
+[2021-11-03 23:44:53,625] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2010-1 /2010-12 /30 
+[2021-11-03 23:44:58,347] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2011-1 /2011-12 /30 
+[2021-11-03 23:45:03,118] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2012-1 /2012-12 /29 
+[2021-11-03 23:45:07,423] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2013-1 /2013-12 /29 
+[2021-11-03 23:45:11,682] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2014-1 /2014-12 /30 
+[2021-11-03 23:45:16,175] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2015-1 /2015-12 /30 
+[2021-11-03 23:45:20,655] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2016-1 /2016-12 /29 
+[2021-11-03 23:45:25,056] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2017-1 /2017-12 /30 
+[2021-11-03 23:45:29,758] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2018-1 /2018-12 /29 
+[2021-11-03 23:45:34,592] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2019-1 /2019-12 /29 
+[2021-11-03 23:45:39,313] I BACKTEST_quarter_mysql.py | finance_data-rebal_backtest_excel-0816 I DEBUG    > 강환국_울트라 / 소형주/ 12/ 2020-1 /2020-12 /29 
