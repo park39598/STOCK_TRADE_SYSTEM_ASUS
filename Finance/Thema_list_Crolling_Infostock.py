@@ -105,6 +105,8 @@ if __name__ == "__main__":
     sector='자율주행'
     start='2018-01-01'
     end = '2019-01-01'
+    #test.Get_Thema_Number_Name()
     total=test.Make_Sector_index(sector,start,end)
     print(total.head())
+    total['sector_index'].plot()
 

@@ -64,6 +64,11 @@ class DB_control(Create_DB):
         else:
             self.logging.logger.debug(str)
 
+    def DB_TABLE_DEL(self, skima_name, table_name):
+        self.create_engine(skima_name)
+        sql = "DROP TABLE {}".format(str(table_name))
+        self.cursor.execute(sql)
+
     def DB_SAVE(self, skima_name, table_name, temp_df, multi_index=False):
         self.create_engine(skima_name)
         if multi_index == True:
