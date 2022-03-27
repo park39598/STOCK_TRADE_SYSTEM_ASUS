@@ -69,14 +69,14 @@ class DB_control(Create_DB):
         sql = "DROP TABLE {}".format(str(table_name))
         self.cursor.execute(sql)
 
-    def DB_SAVE(self, skima_name, table_name, temp_df, multi_index=False):
+    def DB_SAVE(self, skima_name, table_name, temp_df, multi_index=False, replace='replace'):
         self.create_engine(skima_name)
         if multi_index == True:
             temp_df = temp_df.reset_index().T.reset_index().T
         else:
             temp_df = temp_df.reset_index()
         ##### DB체크
-        temp_df.to_sql(table_name, con=self.engine, if_exists='replace', index=False)
+        temp_df.to_sql(table_name, con=self.engine, if_exists=replace, index=False)
         self.logging_print("SAVE SUCCESS TO DB!")
 
         ##### 조회 결과는 테이블이 없을경우 None을 반환하고 있을 경우 1을 반환한다.
