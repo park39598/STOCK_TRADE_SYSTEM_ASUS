@@ -5,6 +5,7 @@ from Finance import finance_data
 from collections import namedtuple
 import datetime
 import numpy as np
+from Finance.Thema_list_Crolling_Infostock import *
 ##04/14
 #알고리즘 구조체변수 구조바꾸기 [0],[1],[2].....
 #알고리즘 현황 TAB수정
@@ -18,9 +19,9 @@ class MyWindow(QMainWindow, form_class):
         self.timer = QTimer(self)
         self.timer2 = QTimer(self)
 
-        self.fs = finance_data.Finance_data()
-        self.pr = finance_data.Price_data()
-        self.quant = python_quant.Quant_Strategy()
+        #self.fs = finance_data.Finance_data()
+        #self.pr = finance_data.Price_data()
+        #self.quant = python_quant.Quant_Strategy()
         # 키움 로그인
         self.kiwoom = Kiwoom()
         self.kiwoom.comm_connect()
@@ -40,19 +41,6 @@ class MyWindow(QMainWindow, form_class):
         else:
             pass
 
-        #투자알고리즘 선택버튼
-        self.radioButton_2.clicked.connect(self.quant_algorithm_sel)    #마법공식
-        self.radioButton_3.clicked.connect(self.quant_algorithm_sel)    #신마법공식
-        self.radioButton_4.clicked.connect(self.quant_algorithm_sel)    #저PER저PBR
-        self.radioButton_5.clicked.connect(self.quant_algorithm_sel)    #고ROE저PER
-        self.radioButton_6.clicked.connect(self.quant_algorithm_sel)    #BJ가치투자전략
-        #리밸런싱 선택
-        self.radioButton_7.clicked.connect(self.rebalancing_sel)    #절대모멘텀+동일가중
-        self.radioButton_8.clicked.connect(self.rebalancing_sel)    #스토캐스틱+동일가중
-        self.radioButton_9.clicked.connect(self.rebalancing_sel)    #지수이평선+동일가중
-        self.radioButton_10.clicked.connect(self.rebalancing_sel)   #듀얼모멘텀+동일가중
-        self.radioButton_11.clicked.connect(self.rebalancing_sel)   #BJ리밸런싱
-        self.radioButton_12.clicked.connect(self.rebalancing_sel)   #주기리밸런싱
 
     def UI_Initiation(self):
         self.timer.start(1000)
@@ -72,8 +60,26 @@ class MyWindow(QMainWindow, form_class):
         self.pushButton_3.clicked.connect(self.algorithm_add)  # 알고리즘 추가
         self.pushButton_4.clicked.connect(self.get_trade_list)
         self.pushButton_8.clicked.connect(self.update_PriceData)
+        # 투자알고리즘 선택버튼
+        self.radioButton_2.clicked.connect(self.quant_algorithm_sel)  # 마법공식
+        self.radioButton_3.clicked.connect(self.quant_algorithm_sel)  # 신마법공식
+        self.radioButton_4.clicked.connect(self.quant_algorithm_sel)  # 저PER저PBR
+        self.radioButton_5.clicked.connect(self.quant_algorithm_sel)  # 고ROE저PER
+        self.radioButton_6.clicked.connect(self.quant_algorithm_sel)  # BJ가치투자전략
+        # 리밸런싱 선택
+        self.radioButton_7.clicked.connect(self.rebalancing_sel)  # 절대모멘텀+동일가중
+        self.radioButton_8.clicked.connect(self.rebalancing_sel)  # 스토캐스틱+동일가중
+        self.radioButton_9.clicked.connect(self.rebalancing_sel)  # 지수이평선+동일가중
+        self.radioButton_10.clicked.connect(self.rebalancing_sel)  # 듀얼모멘텀+동일가중
+        self.radioButton_11.clicked.connect(self.rebalancing_sel)  # BJ리밸런싱
+        self.radioButton_12.clicked.connect(self.rebalancing_sel)  # 주기리밸런싱
 
         self.check_rebalance_time()
+
+
+
+
+
     def init_systemparameter(self):
         #parameter load
         try:
@@ -123,6 +129,8 @@ class MyWindow(QMainWindow, form_class):
         except:
             ret = False
         return ret
+
+
 
     def algorithm_add(self):
         quant_sel = self.quant_algorithm_sel()

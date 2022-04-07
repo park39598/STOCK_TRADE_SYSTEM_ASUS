@@ -189,6 +189,17 @@ class DB_control(Create_DB):
         self.logging_print("SUCCESS LOAD {} TABLE LIST FROM DB!".format(skima_name))
         return table_list
 
+    def DB_LOAD_LATEST_TABLE(self, skima_name):
+        self.create_cursor(skima_name)
+        sql = "SHOW TABLES"
+        self.cursor.execute(sql)
+        table_temp_list = self.cursor.fetchall()
+        table_list = []
+        for table in table_temp_list:
+            table_list.append(table[0])
+        self.logging_print("SUCCESS LOAD {} TABLE LIST FROM DB!".format(skima_name))
+        return table_list[-1]
+
     # 특정행 제거
     def DB_DEL_ROW_FROM_TABLE(self, skima_name, sql):
         self.create_cursor(skima_name)

@@ -1,4 +1,5 @@
 import requests
+from PyQt5.QtCore import pyqtSignal, QObject
 from bs4 import BeautifulSoup
 import os
 import FinanceDataReader as fdr
@@ -17,13 +18,18 @@ import re
 
 #thema_url='http://m.infostock.co.kr/sector/sector_detail.asp?theme=2%uCC28%uC804%uC9C0&mode=w&code='
 
-class Crolling_ThemaList_Infostock():
+class Crolling_ThemaList_Infostock(QObject):
+    Msg_trigger = pyqtSignal(str)
+    UpdateState = pyqtSignal(int)
     def __init__(self, logging=False):
+        super().__init__()
         if logging == False: pass
         else : self.logging = logging
         self.main_url='http://m.infostock.co.kr/sector/sector.asp?mode=w'
         self.thema_url='http://m.infostock.co.kr/sector/sector_detail.asp?theme=2%uCC28%uC804%uC9C0&mode=w&code='
         self.DB = DataBase.MySQL_control.DB_control()
+        self.Updatemin_val = 1
+        self.Updatemax_val = 262
     # 크롤릴을 위해서는 Thema의 넘버가 필요함...
     def preprocess_ThemaList(self,df):
         thema = df[1]
@@ -134,13 +140,16 @@ class Crolling_ThemaList_Infostock():
         '''
     def Make_Thema_Profit_List(self, start, end, update='replace'):
         table_list = self.DB.DB_LOAD_TABLE_LIST("stocks_thema_list")
-
+        #self.Updatemin_val = 0
+        #self.Updatemax_val = len(table_list)-1
         for i, sector in enumerate(tqdm.tqdm(table_list)):
-            sector_profit_AVG = self.Make_Sector_index(sector,start,end)
+            sector_profit_AVG = self.Make_Sector_index(sector, start, end)
             sector_profit_AVG.name = str(sector)
             if i == 0 : total_profit_AVG_df =  sector_profit_AVG.copy()
             else : total_profit_AVG_df = pd.concat([total_profit_AVG_df,sector_profit_AVG],axis=1)
-        self.DB.DB_SAVE("stocks_thema_index",'total_AVG', total_profit_AVG_df)
+            self.UpdateState.emit(i)
+        self.DB.DB_SAVE("stocks_thema_index",'total_avg', total_profit_AVG_df)
+        self.Msg_trigger.emit("DB_ThemaUpdate 완료")
         return total_profit_AVG_df
 
     def Make_Thema_Period_Profit(self):
@@ -153,8 +162,7 @@ class Crolling_ThemaList_Infostock():
             now = now - datetime.timedelta(days=2)
 
         if total_profit_AVG_df.index[-1] != now:
-            pass
-            #self.logging.logger.info("Thema별 최신가격 정보 UPDATE 필요")
+            self.Msg_trigger.emit("Thema별 최신가격 정보 UPDATE 필요")
 
         total_thema_period_profit_df = pd.DataFrame(data=None, columns=['0주전','1주전','2주전','3주전','4주전','5일','10일','15일','20일','25일'], index=total_profit_AVG_df.columns)
         term_e = 0
@@ -164,20 +172,21 @@ class Crolling_ThemaList_Infostock():
             start_day = now - datetime.timedelta(weeks=(x))- datetime.timedelta(days=(1))
             temp = total_profit_AVG_df.loc[start_day:end_day]
             col = str(x-1) + "주전"
-            total_thema_period_profit_df[col] = temp.sum(axis=0)
+            total_thema_period_profit_df[col] = temp.sum(axis=0)*100
 
             end_day = now - datetime.timedelta(weeks=0)
             start_day = now - datetime.timedelta(days=x*5)- datetime.timedelta(days=(1))
             temp = total_profit_AVG_df.loc[start_day:end_day]
             col = str(x*5) + "일"
-            total_thema_period_profit_df[col] = temp.sum(axis=0)
+            total_thema_period_profit_df[col] = temp.sum(axis=0)*100
 
         return total_thema_period_profit_df
 
-    def Make_Visulize_Thema_Period_Profit(self):
+    def Make_Visualize_Thema_Period_Profit(self, period, update=True):
+        #period=[1주전, 2주전, 3주전, 4주전, 5주전, 5일, 10일, 15일, 20일, 25일]
         df = self.Make_Thema_Period_Profit()
-        df = df.sort_values(by="0주전", ascending=False)
-        df.iloc[:20].plot()
+        df = df.sort_values(by=period, ascending=False)
+        #df.iloc[:10].plot()
         return df
 
 
@@ -190,5 +199,5 @@ if __name__ == "__main__":
     end = datetime.datetime.now()
     #test.Get_Thema_Number_Name()
 
-    tt = test.Make_Visulize_Thema_Period_Profit()
+    tt = test.Make_Thema_Profit_List()
     print(tt.head())
