@@ -536,13 +536,12 @@ if __name__ == "__main__":
     path = os.path.join(current_path.parent.parent.parent, v_path)
 
     #exel_path=r'ValueTool\차단해제및재무분기데이터 수집\20_4Q_21_1Q\value tool 20210723.xlsb'
-    rim_path = r'F:\OneDrive - Office 365\ValueTool\Valuetool'
-
+    # eval data update to DB
+    Get_eval = GET_RIM_DATA(path)
+    Get_eval.get_eval_info()
     # 분기데이터 추출 엑셀매크로 실행
-    #test=GET_RIM_DATA(path)
-    test=GET_EXCEL_DATA(path)
+    #test=GET_EXCEL_DATA(path)
     #test.Get_Stocks_Finance_Quarter()
-
     # rim, 가치평가 sheet table 업데이트 시.,,..,
     #test = GET_RIM_DATA(rim_path)
 
