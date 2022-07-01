@@ -101,6 +101,7 @@ class Quant_Strategy:
 
     def update_invest_now(self):
         pass
+
     def get_value_rank_now(self, total_df, value_type=None, quality_type=None, num=20, rim_on=True, fs_comp_del_on=True, BJ_Filter=True, apply_rim_L=2):
         #total_df = self.SQL.DB_LOAD_Table(self.fs.EXCEL_NOW_FS_TABLE, self.fs.DB_FS_EXCEL_PATH)
         #total_df = self.fs.get_Finance_now_excel()
@@ -113,8 +114,8 @@ class Quant_Strategy:
         #    temp_data = self.pr.make_jongmok_price_data(code, 1)
         #    total_df.loc['A'+ code]['현재가'] = temp_data['A'+code][0]
         #total_df['EV'] = total_df['시가총액(억)'].astype('float') - total_df['순현금'].astype('float')
-        total_df['부채비율'] = total_df['부채비율'].replace("-",0).astype('float')*100
-        total_df['유동비율'] = total_df['유동비율'].replace("-", 0).astype('float') * 100
+        total_df['부채비율'] = total_df['부채비율'].replace("-",0).astype('float')
+        total_df['유동비율'] = total_df['유동비율'].replace("-", 0).astype('float')
         print_list = ['종목']
         if BJ_Filter:
             total_df = total_df[(total_df['부채비율'] < 100) & (total_df['유동비율'] > 200)]
@@ -1007,7 +1008,6 @@ class Quant_Strategy:
                             total_df['할인율'] + (1-self.fs.rim_L2))
 
         #RIM_ROE = RIM_ROE[index_date]
-
         total_df = total_df.dropna(axis=0, subset=['지배주주지분'], inplace=False)
         total_df.columns = [[index_date] * len(total_df.columns), total_df.columns]
         #total_df['지배주주지분'].replace(0, np.nan).dropna()

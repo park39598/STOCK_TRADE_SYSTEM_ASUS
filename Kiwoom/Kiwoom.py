@@ -1,31 +1,33 @@
 import re
 import sys
 import os
+import threading
+
 import tqdm
+import schedule
 import time
+#import schedule
 from PyQt5.QtCore import pyqtSignal
 ROOT_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 sys.path.append(ROOT_DIR)
+
 from pathlib import Path
 import math
 from PyQt5.QtTest import QTest
 from PyQt5.QtWidgets import *
 from PyQt5.QAxContainer import *
 from PyQt5.QtCore import *
-
 #from Kiwoom.config.kiwoomType import *
 from config.kiwoomType import *
 #from Kiwoom.config.log_class import *
 from config.log_class import *
 import Finance.finance_data
-import FinanceDataReader as fdr
+#import FinanceDataReader as fdr
 from Finance.make_quarter_finance_from_valuesheet import GET_RIM_DATA
 from Finance.make_quarter_finance_from_valuesheet import GET_EXCEL_DATA
 
-
 import Finance.finance_data
 import pandas as pd
-
 import datetime
 
 import Trade_Algrithm.python_quant
@@ -40,12 +42,15 @@ TR_REQ_TIME_INTERVAL = 0.6
 from Kiwoom.DATA_PROC import *
 #import DATA_PROC
 import DataBase.MySQL_control
+import FinanceDataReader as fdr
 import Telegram_Bot.telegram_bot
-# form_class = uic.loadUiType("pytrader.ui")[0]
+#form_class = uic.loadUiType("pytrader.ui")[0]
 from Kiwoom.CMD_DEFINE import *
 from Kiwoom.Portfolio_Parameter import *
+import collections
 
 class Kiwoom(QAxWidget):
+
     def __init__(self, data_queue=None, order_queue=None):
         super().__init__()
         if data_queue == None:
@@ -53,17 +58,20 @@ class Kiwoom(QAxWidget):
         if order_queue == None:
             order_queue = Queue()
         #self.NB = Naver_Band.Naver_Band.Naver_Band()
+        self.cheguel_meme_queue = Queue()
+        print(threading.active_count())
         self.ROOT_DIR = os.path.abspath(os.curdir)
         self.logging = Logging(self.ROOT_DIR + '\\config\\logging.conf')
-        self.logging.logger.debug("Kiwoom() class start.")
-        date = '2022-02-03'
-        self.logging.logger.debug("{}_Ver".format(date))
+        self.logging.logger.info("Kiwoom() class start.")
+        date = '2022-02-25'
+        self.logging.logger.info("{}_Ver".format(date))
         self.DB = DataBase.MySQL_control.DB_control(self.logging)
 
-        self.data_queue = data_queue
+        #self.data_queue = data_queue
         #self.order_queue = order_queue
         self.realType = RealType()
         self.port_total_dict = {}
+        print(threading.active_count())
         # REAL REG설정
 
         # Telegram Thread Func
@@ -72,6 +80,11 @@ class Kiwoom(QAxWidget):
         self.Tbot = Telegram_Bot.telegram_bot.TeleBot(self.telegram_data_que, self.logging)
 
         self.Tbot.start()
+        print(threading.active_count())
+        # schedule 모듈 Thread start
+        schedule_task = threading.Thread(target=self.Schedule_Task)
+        schedule_task.daemon = True
+        schedule_task.start()
 
         #self.REAL_REG.dynamicCall = self.dynamicCall
         #self.REAL_REG.realType = self.realTypepo
@@ -96,12 +109,13 @@ class Kiwoom(QAxWidget):
         self.screen_calculation_stock = "4000"  # 계산용 스크린 번호
         self.screen_real_stock = "5000"  # 종목별 할당할 스크린 번호
         self.screen_meme_stock = "6000"  # 종목별 할당할 주문용스크린 번호
+        self.screen_get_jango_stock = "8000"  # 계산용 스크린 번호
         self.screen_start_stop_real = "1000"  # 장 시작/종료 실시간 스크린번호
 
         ####### 종목정보 딕셔너리 초기화
         self.ohlcv = {'date': [], 'open': [], 'high': [], 'low': [], 'close': [], 'volume': [], 'trading_value': []}
         self.opw00018_output = {'single': [], 'multi': []}
-        self.tick_ohlcv = {"date": [], "close": [], 'open': [], 'high': [], 'low': []}
+        self.tick_ohlcv = {"date": [], "close": [], 'open': [], 'high': [], 'low': [], 'volume': []}
         self.prev_screen_overwrite= []
 
         ####### 알고리즘 결과종목 저장 경로
@@ -132,16 +146,36 @@ class Kiwoom(QAxWidget):
         self.detail_account_info_event_loop = QEventLoop()  # 예수금 요청용 이벤트루프
         self.not_conclude_account_event_loop = QEventLoop()
         self.get_detail_account_mystock_event_loop = QEventLoop()
+        self.meme_state_jango = QEventLoop()
         #self.detail_account_info_event_loop = QEventLoop()
         self.calculator_event_loop = QEventLoop()
         self.get_detail_account_info()  # 예수금 요청 시그널 포함
         self.get_detail_account_mystock()  # 계좌평가잔고내역 요청 시그널 포함
 
         # 포트폴리오 Task Initialize
-        self.Port_Task_Dict={}
+        self.Port_Task_Dict= collections.defaultdict(dict)
+        self.Port_Que_Dict = collections.defaultdict(dict)
+        self.forbidden_list = collections.defaultdict(list)
+        # 포트폴리오 매매일지
+        self.Port_Meme_History = collections.defaultdict(dict)
+
         # =========================================================================================================================================================
         # <단테 프트폴리오>
         # 포트폴리오 parameter
+        # WHEN UPDATE DB_DATA?
+
+        # Finance df 생성
+
+        value_latest = self.DB.DB_LOAD_TABLE_LIST("stocks_value_list")[-1]
+        eval_latest = self.DB.DB_LOAD_TABLE_LIST("stocks_가치평가")[-1]
+        temp_value = self.DB.DB_LOAD_Table("stocks_value_list", value_latest)
+        temp_eval = self.DB.DB_LOAD_Table("stocks_가치평가", eval_latest)
+
+        temp_eval = temp_eval[['RIM(원)', '숙향(원)', 'EPS성장률(원)', '눈덩이(원)', '야마구치(원)', '무성장가치(원)', 'BPS증가율(퍼센트)',
+                            '가치비교', '저평가수', 'RIM', '숙향', 'EPS성장율', 'roe&pbr', '야마구치', '무성장가치']]
+        self.finance_screen_df = pd.merge(temp_value, temp_eval, how='outer', left_index=True, right_index=True)
+
+        '''
         ADD_NEW_PORT=False
         if ADD_NEW_PORT:
             Buy_Upper_limit = 2
@@ -152,42 +186,77 @@ class Kiwoom(QAxWidget):
                                                        Sell_Upper_Limit, Sell_Lower_Limit, self.logging)
             # kw order/get info signal
             self.portfolio_단테.meme_trigger.connect(self.order_stock)
+        '''
+        self.flag_DayStockSell = False
+        self.flag_ConditionGet = False
         # =========================================================================================================================================================
-        self.Stocks_Portfolio_Initialize()
+        ADD_NEW_PORT = False
+        self.Stocks_Portfolio_Initialize(ADD_NEW_PORT, '마법공식2')
+        #self.WantConditionList = ['단테_하이힐_일봉','단테_하이힐_스윙','단테하이힐_단타','단테하이힐_스윙']
         # 조건식 로드 TEST
         self.condition_dict = {"index": [], "name": []}
         result=self.dynamicCall("GetConditionLoad")
         print(result)
         # 실시간 조건검색 등록
         self.telegram_req_flag = False
-        self.WantConditionList = ['단테_하이힐_일봉', '단테_하이힐_스윙', '단테하이힐_단타', '단테하이힐_스윙']
-
-        temp = self.DB.DB_LOAD_TABLE_LIST("stocks_rim")
-        self.stock_rim = self.DB.DB_LOAD_Table("stocks_rim", temp[-1])
-        self.stock_rim = self.stock_rim.reset_index().set_index('종목')
-        self.stock_code_name = self.stock_rim[['CODE']].copy()
-        del(self.stock_rim)
+        self.DB_tick = 'stocks_tick_10'
+        # finance data load
+        #self.finance_screen_df=None
 
         QTimer.singleShot(3000, self.not_conclude_account)  # 5초 뒤에 미체결 종목들 가져오기 실행
         QTest.qWait(1000)
         self.Tbot.kw_func_req.connect(self.telegram_req_process)
         self.read_code()
-        for condition in self.WantConditionList:
+        now = datetime.datetime.today().strftime('%H:%M')
+        self.today = datetime.datetime.today().strftime('%Y%m%d')
+        now = int(now.replace(":",""))
+
+        for condition in PORT_PARAMETER.WantConditionList:
+            if (condition in PORT_PARAMETER.MorningList) and (now < 931):
+                self.Set_Condition_Receive(condition, 1)
+            elif (condition in PORT_PARAMETER.AfternoonList) and (now > 1500):
+                self.Set_Condition_Receive(condition, 1)
+            elif (condition not in PORT_PARAMETER.MorningList) and (condition not in PORT_PARAMETER.AfternoonList):
+                self.Set_Condition_Receive(condition, 1)
+            else :
+                pass
+
+    # Schdule 모듈
+    # 계좌잔고 관리 기능 추가(22.03.13)
+    def Schedule_Task(self):
+        # 시초가 / 종가매매 스케줄 설정
+        temp =[
+            [["09:"+str(x),"First"] if x>=10 else ["09:0"+str(x),"First"] for x in list(range(30))]+
+            [["15:"+str(x),"Final"] if x>=10 else ["15:0"+str(x),"Final"] for x in list(range(20))]
+            ]
+        self.RealCondition_Schedule = temp[0]
+
+        for TimeSchedule, strategy in self.RealCondition_Schedule:
+            if strategy == 'First':
+                schedule.every().day.at(TimeSchedule).do(self.First_Value_Betting)
+            elif strategy == 'Final':
+                schedule.every().day.at(TimeSchedule).do(self.Final_Value_Betting)
+
+        while True:
+            if self.cheguel_meme_queue.empty():
+                pass
+            else:
+                data = self.cheguel_meme_queue.get()
+                if data == "opw00009":
+                    date = datetime.datetime.today().strftime('%Y%m%d')
+                    self.meme_state_jango_req(date)
+            #print(threading.active_count())
+            schedule.run_pending()
+            time.sleep(0.1)
+
+    def Final_Value_Betting(self):
+        for condition in PORT_PARAMETER.AfternoonList:
             self.Set_Condition_Receive(condition, 1)
 
-        ####### 포트폴리오 로드 file path : ..\..\kiwoom\files\..
-        # 실시간 수신 관련 함수
-        '''  
-        self.korea_market_stocklist = pd.DataFrame(data=None, columns=["code", "name"])
-        kosdaq_list = self.get_code_list_by_market('10')
-        kospi_list = self.get_code_list_by_market('0')
-        total_list = kosdaq_list + kospi_list
-        self.korea_market_stocklist['code'] = total_list
-        self.korea_market_stocklist = self.korea_market_stocklist.set_index('code')
-        for i, code in enumerate(self.korea_market_stocklist.index) :
-            self.korea_market_stocklist.loc[code] = self.get_master_code_name(code)
-        self.korea_market_stocklist.to_excel("f:\\koreamarketlist.xlsx")
-        '''
+    def First_Value_Betting(self):
+        for condition in PORT_PARAMETER.MorningList:
+            self.logging.logger.info("{} - 조건")
+            self.Set_Condition_Receive(condition, 1)
 
     #@pyqtSlot(list, name='telegram_req_process')
     def telegram_req_process(self, req_list) :
@@ -198,7 +267,7 @@ class Kiwoom(QAxWidget):
         elif req_list[0] == meme_CMD :         # 매수_삼성전자_53000_2000000
             try:
                 meme_type = req_list[1].split("_")[0]
-                meme_stock = self.stock_code_name.loc[req_list[1].split("_")[1], 'CODE'].replace("A", "")
+                meme_stock = self.stock_code_name.loc[req_list[1].split("_")[1], 'Symbol']
                 if req_list[1].split("_")[2] == "시장가":
                     if meme_type == '매수':
                         df = fdr.DataReader(meme_stock)
@@ -213,8 +282,9 @@ class Kiwoom(QAxWidget):
                 stock_ratio = format(float(meme_amount/self.use_money),".3f")
 
                 self.screen_number_setting()
-                self.set_realtime_stock(meme_stock, "ETC", req_list[1].split("_")[1], meme_price, meme_type, stock_ratio)
-                self.telegram_data_que.put([meme_CMD, self.portfolio_stock_dict])
+                rtn =self.set_realtime_stock(meme_stock, "etc", req_list[1].split("_")[1], meme_price, meme_type, stock_ratio)
+                if rtn :self.telegram_data_que.put([meme_CMD, self.portfolio_stock_dict])
+                else : self.telegram_data_que.put([message_CMD, "포트폴리오 종목수 최대제한을 넘어섰습니다"])
             except:
                 self.telegram_data_que.put([meme_CMD])
     @staticmethod
@@ -255,20 +325,209 @@ class Kiwoom(QAxWidget):
         self.OnReceiveMsg.connect(self.msg_slot)
         # self.OnReceiveChejanData.connect(self._receive_chejan_data)
 
+    # 포트폴리오 삭제 함수
 
     #===================================================================================================================
+    def Sell_Portfolio(self, port_list=PORT_PARAMETER.SwingConditionList):
+        if type(port_list) == list:
+            for name in port_list:
+                for sCode in self.portfolio_stock_dict[name].keys():
+                    try:
+                        asd = self.account_stock_dict[sCode]
+                        order_success = self.dynamicCall(
+                            "SendOrder(QString, QString, QString, int, QString, int, int, QString, QString)", ["신규매도", self.portfolio_stock_dict[name][sCode]["주문용스크린번호"], self.account_num, 2, sCode,
+                                        asd['매매가능수량'], 0, self.realType.SENDTYPE['거래구분']['시장가'], ""])
+                        if order_success == 0:
+                            self.portfolio_stock_dict[name][sCode]['meme'] = '주문완료'
+                            # self.not_conclude_account()  # 주문작업 후 not_account_dict에 미체결 종목정보 업데이트 필요 -> 주문이 들어갔는지 확인해야 여러번 주문이 안나감
+                        else:
+                            self.logging.logger.debug("주문 전달 실패")
+                        time.sleep(1)
+                    except:
+                        print("미매수 종목임")
+        elif type(port_list) == str:
+            for sCode in self.portfolio_stock_dict[port_list].keys():
+                try:
+                    order_success = self.dynamicCall(
+                        "SendOrder(QString, QString, QString, int, QString, int, int, QString, QString)",
+                        ["신규매도", self.portfolio_stock_dict[port_list][sCode]["주문용스크린번호"], self.account_num, 2, sCode,
+                         asd['매매가능수량'], 0, self.realType.SENDTYPE['거래구분']['시장가'], ""])
+                    if order_success == 0:
+                        self.portfolio_stock_dict[port_list][sCode]['meme'] = '주문완료'
+                        # self.not_conclude_account()  # 주문작업 후 not_account_dict에 미체결 종목정보 업데이트 필요 -> 주문이 들어갔는지 확인해야 여러번 주문이 안나감
+                    else:
+                        self.logging.logger.debug("주문 전달 실패")
+                except:
+                    print("미매수 종목임")
+
+    def Del_Portfolio(self, port):
+        for stock in self.portfolio_stock_dict[port].keys():
+            self.dynamicCall("SetRealRemove(QString, QString)", self.portfolio_stock_dict[port][stock]['스크린번호'],
+                             stock)
+        self.portfolio_stock_dict.pop(port)
+
+
+    def Del_RealCondition(self, condition_name_list=PORT_PARAMETER.SwingConditionList):
+        ScrNo = "0156"
+        for condition_name in condition_name_list:
+            temp=self.condition_dict["index"][self.condition_dict["name"].index(condition_name)]
+            ret = self.dynamicCall("SendConditionStop(QString, QString, int)", str(ScrNo), str(condition_name),
+                                   temp)
+            if ret == 1:
+                self.logging.logger.debug("{} 실시간조건 요청 중단 성공".format(condition_name))
+            else:
+                self.logging.logger.debug("실시간조건 요청 중단 실패")
+
+    def Finance_Sort(self, code):
+        pass
+    def Sort_ThreeStep_Task(self, strConditionName, code):
+        #
+        for port in self.portfolio_stock_dict.copy().keys():
+            if code in self.portfolio_stock_dict[port].keys():
+                flag_new_port = False
+        if strConditionName in self.portfolio_stock_dict.copy().keys():
+            if sType == 'I':
+                rtn = self.set_realtime_stock(code, strConditionName, self.get_master_code_name(code),
+                                              int(self.get_current_price(code)),
+                                              "매수", 0.05)
+                if rtn:
+                    self.telegram_data_que.put(
+                        [message_CMD, "{} : {} 포트폴리오편입 완료".format(strConditionName, self.get_master_code_name(code))])
+                else:
+                    self.telegram_data_que.put([message_CMD, "{} : {} 최대종목수 초과 {}/{}".format(strConditionName,
+                                                                                             self.get_master_code_name(
+                                                                                                 code), len(
+                            self.portfolio_stock_dict[strConditionName].keys()), self.Port_Task_Dict[
+                                                                                                 strConditionName].max_stocks_quatity)])
+
+            elif sType == 'D':
+                try:
+                    self.portfolio_stock_dict[port][code]['meme'] = '삭제'
+                    self.Save_Portfolio_To_DB(port)
+                    self.telegram_data_que.put(
+                        [message_CMD, "{} : {} 포트폴리오삭제 완료".format(strConditionName, self.get_master_code_name(code))])
+                except:
+                    pass
+        else:
+            self.Port_Que_Dict.update({strConditionName: Queue()})
+            self.Port_Task_Dict.update(
+                {strConditionName: REAL_REG_PARSING_ORDER(strConditionName, self.Port_Que_Dict[strConditionName],
+                                                          PORT_PARAMETER.port_parameter[strConditionName][
+                                                              'Buy_Upper_limit'],
+                                                          PORT_PARAMETER.port_parameter[strConditionName][
+                                                              'Buy_Cancel_limit'],
+                                                          PORT_PARAMETER.port_parameter[strConditionName][
+                                                              'Sell_Upper_Limit'],
+                                                          PORT_PARAMETER.port_parameter[strConditionName][
+                                                              'Sell_Lower_Limit'],
+                                                          PORT_PARAMETER.port_parameter[strConditionName][
+                                                              'Stock_Quantity'],
+                                                          self.logging)})
+            self.Port_Task_Dict[strConditionName].meme_trigger.connect(self.order_stock)
+            self.Port_Task_Dict[strConditionName].start()
+            if sType == 'I':
+                self.portfolio_stock_dict.update({strConditionName: {}})
+                rtn = self.set_realtime_stock(code, strConditionName, self.get_master_code_name(code),
+                                              int(self.get_current_price(code)),
+                                              "매수", 0.05)
+                if rtn:
+                    self.telegram_data_que.put(
+                        [message_CMD, "{} : {} 포트폴리오편입 완료".format(strConditionName, self.get_master_code_name(code))])
+                else:
+                    self.telegram_data_que.put(
+                        [message_CMD, "포트폴리오 최대종목수를 넘어섰습니다"])
+            elif sType == 'D':
+                try:
+                    self.portfolio_stock_dict[port][code]['meme'] = '삭제'
+                    self.Save_Portfolio_To_DB(port)
+                    self.telegram_data_que.put([message_CMD, "{} : {} 포트폴리오삭제 완료".format(strConditionName,
+                                                                                         self.get_master_code_name(
+                                                                                             code))])
+                except:
+                    pass
+        return False
     # 조건식 관련 Callback 함수
     def _OnReceiveRealCondition(self, code, sType, strConditionName, strConditionIndex):
-        if strConditionName in self.WantConditionList:
-           for port in self.port_total_dict.keys():
-               if (code not in self.portfolio_stock_dict[port].keys()) & (sType == 'I'):
-                   #텔레그램 전송
-                   text = "{} : {}".format(strConditionName,self.get_master_code_name(code))
-                   self.telegram_data_que.put([message_CMD, text])
-               elif sType == 'D':
-                   try : self.portfolio_stock_dict[port][code]['meme'] = '삭제'
-                   except : pass
+        flag_new_port = True
+        now = datetime.datetime.today().strftime('%H:%M')
+        now = int(now.replace(":", ""))
+        flag_condition = False
+        if strConditionName in self.forbidden_list.keys():
+            pass
+        # 포트가 금지리스트에 없을 경우 만들어준다
+        else:
+            self.forbidden_list[strConditionName] = []
+        # 실시간 종목의 컨디션이 내가 설정한 컨디션의 종목인가?
+        if strConditionName in PORT_PARAMETER.WantConditionList:
+            # 시초가 매매 일경우 09:30까지만 매수
+            if (strConditionName in PORT_PARAMETER.MorningList) and (now < 931):
+                flag_condition = True
+            if (strConditionName in PORT_PARAMETER.AfternoonList) and (now > 1530):
+                flag_condition = True
+            if strConditionName in PORT_PARAMETER.SwingConditionList :
+                flag_condition = True
+            if flag_condition:
+                # 이미 포트에 반영된 종목의 경우 그냥 패스
+                for port in self.portfolio_stock_dict.copy().keys():
+                    if code in self.portfolio_stock_dict[port].keys():
+                        flag_new_port = False
+                if flag_new_port and (code not in self.forbidden_list[strConditionName]):
+                    if strConditionName in self.portfolio_stock_dict.copy().keys():
+                        if sType == 'I':
+                            rtn =  self.set_realtime_stock(code, strConditionName, self.get_master_code_name(code),
+                                                    int(self.get_current_price(code)),
+                                                    "매수", 0.05)
+                            if rtn  :
+                                self.telegram_data_que.put([message_CMD, "{} : {} 포트폴리오편입 완료".format(strConditionName,self.get_master_code_name(code))])
+                            else:
+                                self.telegram_data_que.put([message_CMD, "{} : {} 최대종목수 초과 {}/{}".format(strConditionName,self.get_master_code_name(code), len(self.portfolio_stock_dict[strConditionName].keys()),self.Port_Task_Dict[strConditionName].max_stocks_quatity)])
+                                self.forbidden_list[strConditionName].append(code)
+                        elif sType == 'D':
+                            try:
+                                self.portfolio_stock_dict[port][code]['meme'] = '삭제'
+                                self.Save_Portfolio_To_DB(port)
+                                self.telegram_data_que.put([message_CMD, "{} : {} 포트폴리오삭제 완료".format(strConditionName,self.get_master_code_name(code))])
+                                self.forbidden_list[strConditionName] = []
+                            except:
+                                pass
+                    else:
+                        self.Port_Que_Dict.update({strConditionName: Queue()})
+                        self.Port_Task_Dict.update({strConditionName: REAL_REG_PARSING_ORDER(strConditionName, self.Port_Que_Dict[strConditionName],
+                                                                                 PORT_PARAMETER.port_parameter[strConditionName][
+                                                                                     'Buy_Upper_limit'],
+                                                                                 PORT_PARAMETER.port_parameter[strConditionName][
+                                                                                     'Buy_Cancel_limit'],
+                                                                                 PORT_PARAMETER.port_parameter[strConditionName][
+                                                                                     'Sell_Upper_Limit'],
+                                                                                 PORT_PARAMETER.port_parameter[strConditionName][
+                                                                                     'Sell_Lower_Limit'],
+                                                                                 PORT_PARAMETER.port_parameter[strConditionName]['Stock_Quantity'],
+                                                                                 self.logging)})
+                        self.Port_Task_Dict[strConditionName].meme_trigger.connect(self.order_stock)
+                        self.Port_Task_Dict[strConditionName].start()
+                        if sType == 'I':
+                            self.portfolio_stock_dict.update({strConditionName: {}})
+                            rtn = self.set_realtime_stock(code, strConditionName, self.get_master_code_name(code),
+                                                    int(self.get_current_price(code)),
+                                                    "매수", 0.05)
+                            if rtn :
+                                self.telegram_data_que.put(
+                                    [message_CMD, "{} : {} 포트폴리오편입 완료".format(strConditionName, self.get_master_code_name(code))])
+                            else :
+                                self.telegram_data_que.put(
+                                    [message_CMD,"포트폴리오 최대종목수를 넘어섰습니다"])
+                        elif sType == 'D':
+                            try:
+                                self.portfolio_stock_dict[port][code]['meme'] = '삭제'
+                                self.Save_Portfolio_To_DB(port)
+                                self.telegram_data_que.put([message_CMD, "{} : {} 포트폴리오삭제 완료".format(strConditionName,
+                                                                                                  self.get_master_code_name(
+                                                                                                      code))])
+                            except:
+                                pass
 
+        else:
+            pass
 
 
     def _OnReceiveConditionVer(self,Ret, Msg):
@@ -282,15 +541,12 @@ class Kiwoom(QAxWidget):
                 self.condition_dict["index"].append(str(temp_str[0]))
                 self.condition_dict["name"].append(str(temp_str[1]))
 
-
-
     # 조건식 실시간/1회성 검색 선택 요청함수
     # type 1 => 실시간  0 => 1회성
     def Set_Condition_Receive(self, condition_name, type):
         ScrNo = "0156"
         try:
             ret = self.dynamicCall("SendCondition(QString, QString, int, int)", str(ScrNo), str(condition_name), int(self.condition_dict["index"][self.condition_dict["name"].index(condition_name)]), int(type))
-
             if ret == 1:
                 self.logging.logger.debug("조건검색 조회 요청 성공")
             else:
@@ -369,11 +625,10 @@ class Kiwoom(QAxWidget):
         order_success = self.dynamicCall(
             "SendOrder(QString, QString, QString, int, QString, int, int, QString, QString)", data)
         if order_success == 0 :
-            for port in self.port_total_dict.keys():
-                if data[4] in self.port_total_dict[port].keys():
+            for port in self.portfolio_stock_dict.copy().keys():
+                if data[4] in self.portfolio_stock_dict[port].keys():
                     self.portfolio_stock_dict[port][data[4]]['meme'] ='주문완료'
-
-
+                    self.Save_Portfolio_To_DB(port)
             #self.not_conclude_account()  # 주문작업 후 not_account_dict에 미체결 종목정보 업데이트 필요 -> 주문이 들어갔는지 확인해야 여러번 주문이 안나감
         else:
             self.logging.logger.debug("주문 전달 실패")
@@ -414,7 +669,6 @@ class Kiwoom(QAxWidget):
 
     def comm_rq_data(self, rqname, trcode, next, screen_no):
         self.dynamicCall("CommRqData(QString, QString, int, QString)", rqname, trcode, next, screen_no)
-
 
     def _comm_get_data(self, code, real_type, field_name, index, item_name):
         ret = self.dynamicCall("GetCommData(QString, QString, int, QString)", code, field_name, index, item_name)
@@ -505,6 +759,7 @@ class Kiwoom(QAxWidget):
             self.not_account_stock_dict[sCode].update({"현재가": current_price})
             self.not_account_stock_dict[sCode].update({"(최우선)매도호가": first_sell_price})
             self.not_account_stock_dict[sCode].update({"(최우선)매수호가": first_buy_price})
+            self.cheguel_meme_queue.put("opw00009")
             #self.get_detail_account_info()
         elif int(sGubun) == 1:  # 잔고
 
@@ -557,18 +812,25 @@ class Kiwoom(QAxWidget):
             else:
                 self.use_money = self.use_money + total_buy_price
             if stock_quan == 0:
-                for port in self.port_total_dict.keys():
-                    if sCode in self.port_total_dict[port].keys():
+                for port in self.portfolio_stock_dict.copy().keys():
+                    if sCode in self.portfolio_stock_dict[port].keys():
                         screen_num =self.portfolio_stock_dict[port][sCode]['스크린번호']
                         self.portfolio_stock_dict[port][sCode]['meme'] = '삭제'
                         temp_df = pd.DataFrame(data=self.portfolio_stock_dict[port])
                         temp_df = temp_df.T
                         temp_df = temp_df.reset_index()
                         temp_df = temp_df[temp_df.columns[:6]]
-
                         temp_df.columns=['code', 'name', 'meme_price', 'meme', 'meme_ratio','target_ratio']
                         self.DB.DB_SAVE('stocks_Portfolio', port, temp_df)
                         del self.jango_dict[sCode]
+
+    def Save_Portfolio_To_DB(self, port, skima='stocks_Portfolio'):
+        temp_df = pd.DataFrame(data=self.portfolio_stock_dict[port])
+        temp_df = temp_df.T
+        temp_df.index.name='code'
+        temp_df = temp_df.reset_index()
+        temp_df = temp_df[['code', 'name', 'meme_price', 'meme', 'meme_ratio', 'target_ratio']]
+        self.DB.DB_SAVE(skima, port, temp_df)
 
     def Stocks_Portfolio_Initialize(self, new_port_add=False, port_name=None, port_currency_ratio=0.5):
         portfolio_list = self.DB.DB_LOAD_TABLE_LIST("stocks_portfolio")
@@ -595,18 +857,23 @@ class Kiwoom(QAxWidget):
     def read_code(self):
         #portfolio_list = self.DB.DB_LOAD_Table('system_parameter', 'meme_portfolio', multi_index=False)
         #portfolio_list = portfolio_list.set_index('code')
+        portfolio_quantity = len(self.port_total_dict.keys()) - 1
+        self.portfolio_stock_dict = collections.defaultdict(dict)
         for port in self.port_total_dict.keys():
+            if len(self.port_total_dict[port].keys())==0:
+                self.DB.DB_TABLE_DEL('stocks_portfolio', port)
+                continue
             for jongmok in (list(self.port_total_dict[port].index)):
                 stock_code = jongmok
                 account_code = stock_code.replace("A","")
-                stock_name = self.port_total_dict[port].loc[stock_code][0]
-                stock_price = self.port_total_dict[port].loc[stock_code][1]
+                stock_name = self.port_total_dict[port].loc[stock_code,"name"]
+                stock_price = self.port_total_dict[port].loc[stock_code,"meme_price"]
                 stock_price = abs(stock_price)
-                stock_sell_buy = self.port_total_dict[port].loc[stock_code][2]
+                stock_sell_buy = self.port_total_dict[port].loc[stock_code,"meme"]
                 if stock_sell_buy =='삭제':
                     continue
-                meme_ratio = float(self.port_total_dict[port].loc[stock_code][3])
-                stock_ratio = float(self.port_total_dict[port].loc[stock_code][4])
+                meme_ratio = float(self.port_total_dict[port].loc[stock_code,"meme_ratio"])
+                stock_ratio = float(self.port_total_dict[port].loc[stock_code,"target_ratio"])
                 # 포트폴리오 종목이 account 잔고에 있을때....
                 if account_code in self.account_stock_dict.keys():
                     a = float(self.account_stock_dict[account_code]["매입금액"].replace(",", ""))
@@ -615,10 +882,10 @@ class Kiwoom(QAxWidget):
                     if (stock_ratio * 0.9) < scode_ratio:
                         # account dict 중 비중매입 완료한 경우 계속 감시 필요...조건 만족시 매도 필요
                         #
-                        self.portfolio_stock_dict.update({port:{account_code: {"name": stock_name, "meme_price": int(stock_price),
+                        self.portfolio_stock_dict[port].update({account_code: {"name": stock_name, "meme_price": int(stock_price),
                                                                        "meme": '유지',
                                                                        "meme_ratio": 0,
-                                                                       "target_ratio": stock_ratio}}})
+                                                                       "target_ratio": stock_ratio}})
 
                         # 매수비중 목표치 이상인 종목은 리스트에서 제외시켜 줌
                         #sql = "DELETE FROM {}.{} WHERE {}={};".format('system_parameter', 'meme_portfolio', 'code', stock_code)
@@ -631,10 +898,10 @@ class Kiwoom(QAxWidget):
                         else:
                             # elif stock_price <= (cur_price*1.03):
                             pass
-                        self.portfolio_stock_dict.update({port:{account_code: {"name": stock_name, "meme_price": int(stock_price),
+                        self.portfolio_stock_dict[port].update({account_code: {"name": stock_name, "meme_price": int(stock_price),
                                                                        "meme": stock_sell_buy,
                                                                        "meme_ratio": float(need_ratio),
-                                                                       "target_ratio": float(stock_ratio)}}})
+                                                                       "target_ratio": float(stock_ratio)}})
 
                 # 포트폴리오 종목이 account 잔고에 없을때....
                 else:
@@ -643,8 +910,8 @@ class Kiwoom(QAxWidget):
                         stock_price = cur_price
                     else:
                         pass
-                    self.portfolio_stock_dict.update({port:
-                        {account_code: {"name": stock_name, "meme_price": int(stock_price), "meme": stock_sell_buy, "meme_ratio": float(stock_ratio), "target_ratio": stock_ratio}}})
+                    self.portfolio_stock_dict[port].update(
+                        {account_code: {"name": stock_name, "meme_price": int(stock_price), "meme": stock_sell_buy, "meme_ratio": float(stock_ratio), "target_ratio": stock_ratio}})
 
         # 포트폴리오 리스트에 없는 종목인 경우?
         for stock in self.account_stock_dict.keys():
@@ -655,20 +922,47 @@ class Kiwoom(QAxWidget):
             #meme_ratio = float(self.port_df.loc[stock_code][3])
             #stock_ratio = float(self.port_df.loc[stock_code][4])
             # account 에는 존재하고 포트폴리오에도 존재하는 종목은 위에서 추렸으므로 PASS
-            if stock in self.portfolio_stock_dict[port].keys():
-                pass
+            # account 에는 존재하고 포트폴리오 리스트에 없는 종목은 "ETC"로 분류
+            if len(self.portfolio_stock_dict.keys())!=0:
+                for i, port in enumerate(list(self.portfolio_stock_dict.keys())):
+                    if i == (portfolio_quantity-1) :
+                        if stock in self.portfolio_stock_dict[port].keys():
+                            pass
+                        else:
+                            self.portfolio_stock_dict["etc"].update({stock: {"name": stock_name, "meme_price": int(stock_price),
+                                                                      "meme": '매도',
+                                                                      "meme_ratio": 0,
+                                                                      "target_ratio": 0}})
+                    else:
+                        if stock in self.portfolio_stock_dict[port].keys():
+                            pass
+                        else:
+                            self.portfolio_stock_dict["etc"].update(
+                                {stock: {"name": stock_name, "meme_price": int(stock_price),
+                                         "meme": '매도',
+                                         "meme_ratio": 0,
+                                         "target_ratio": 0}})
             else:
-                self.portfolio_stock_dict[port].update({stock: {"name": stock_name, "meme_price": int(stock_price),
-                                                          "meme": '매도',
-                                                          "meme_ratio": 0,
-                                                          "target_ratio": 0}})
+                self.portfolio_stock_dict["etc"].update(
+                    {stock: {"name": stock_name, "meme_price": int(stock_price),
+                             "meme": '매도',
+                             "meme_ratio": 0,
+                             "target_ratio": 0}})
+        # 포트폴리오에는 저장되어있으나 모의투자경우 종목이 정리되는 경우도 있음
+        # 이경우 포트폴리오 존재... but account dict에는 미존재
+        # 포트폴리오에서 없애주자,,,
+        for port in self.portfolio_stock_dict.copy().keys():
+            for code in self.portfolio_stock_dict[port].copy().keys():
+                if code not in self.account_stock_dict.keys():
+                    self.portfolio_stock_dict[port].pop(code)
 
-        for port in self.port_total_dict.keys():
+        # 포트폴리오 저장
+        for port in self.portfolio_stock_dict.copy().keys():
             temp_data = pd.DataFrame(data=self.portfolio_stock_dict[port])
             temp_data = temp_data.T.reset_index()
             temp_data.rename(columns={'index':'code'}, inplace=True)
             self.DB.DB_SAVE('stocks_portfolio', port, temp_data)
-            self.logging.logger.debug('SUCCESS UPDATE meme_portfolio')
+            self.logging.logger.info('SUCCESS UPDATE meme_portfolio')
 
         self.screen_number_setting()
         QTest.qWait(3000)
@@ -679,15 +973,21 @@ class Kiwoom(QAxWidget):
 
         # kw order/get info signal
         # 각 포트폴리오 TASK 동작 Thread 할당 및 동작 START
-        for port in self.port_total_dict.keys():
-            self.Port_Task_Dict.update({port:REAL_REG_PARSING_ORDER(Queue(), PORT_PARAMETER.port_parameter[port]['Buy_Upper_limit'], PORT_PARAMETER.port_parameter[port]['Buy_Cancel_limit'],
-                                                       PORT_PARAMETER.port_parameter[port]['Sell_Upper_Limit'], PORT_PARAMETER.port_parameter[port]['Sell_Lower_Limit'], self.logging)})
-            self.Port_Task_Dict[port].meme_trigger.connect(self.order_stock)
-            self.Port_Task_Dict[port].start()
-            real_reg_list = set(real_reg_list+list(self.portfolio_stock_dict[port].keys())+list(self.account_stock_dict.keys()))
-        #real_reg_list = set(real_reg_list)
-        #for code in self.portfolio_stock_dict.keys()
-            for code in real_reg_list:
+        for port in list(self.portfolio_stock_dict.copy().keys()):
+            if port in PORT_PARAMETER.port_parameter.copy().keys():
+                self.logging.logger.info("{} - 포트폴리오 관리 Tread 생성 완료".format(port))
+                self.Port_Que_Dict.update({port:Queue()})
+                self.Port_Task_Dict.update({port:REAL_REG_PARSING_ORDER(port, self.Port_Que_Dict[port], PORT_PARAMETER.port_parameter[port]['Buy_Upper_limit'], PORT_PARAMETER.port_parameter[port]['Buy_Cancel_limit'],
+                                                           PORT_PARAMETER.port_parameter[port]['Sell_Upper_Limit'], PORT_PARAMETER.port_parameter[port]['Sell_Lower_Limit'], PORT_PARAMETER.port_parameter[port]['Stock_Quantity'],self.logging)})
+                self.Port_Task_Dict[port].meme_trigger.connect(self.order_stock)
+                self.Port_Task_Dict[port].start()
+                real_reg_list = real_reg_list+list(self.portfolio_stock_dict[port].keys())+list(self.account_stock_dict.keys())
+                #real_reg_list = set(real_reg_list)
+                #for code in self.portfolio_stock_dict.keys()
+            else:
+                self.DB.DB_TABLE_DEL("stocks_portfolio", port)
+        for port in list(self.portfolio_stock_dict.copy().keys()):
+            for code in set(real_reg_list):
                 if code in self.portfolio_stock_dict[port].keys():
                     screen_num = self.portfolio_stock_dict[port][code]['스크린번호']
                 else:
@@ -700,18 +1000,27 @@ class Kiwoom(QAxWidget):
     def set_realtime_stock(self, code, port, name, meme_price, meme_type, stock_ratio):
         screen_num = "5002"
         screen_meme_stock = "6002"
+        # 포트마다 max 등록개수 넘으면 등록하지 않는다...
 
-        #self.portfolio_stock_dict.update({port:{{code: {}}}})
-        self.portfolio_stock_dict.update({port:
-            {code: {"name": name, "meme_price": int(meme_price), "meme": meme_type,
-                          "meme_ratio": float(stock_ratio), "target_ratio": float(stock_ratio)}}})
-        self.portfolio_stock_dict[port][code].update({"스크린번호": screen_num})
-        self.portfolio_stock_dict[port][code].update({"주문용스크린번호": screen_meme_stock})
-        #self.screen_number_setting()
-        fids = self.realType.REALTYPE['주식체결']['체결시간']
-        QTest.qWait(3000)
-        self.dynamicCall("SetRealReg(QString, QString, QString, QString)", screen_num, code, fids, "1")
+        if len(self.portfolio_stock_dict[port].keys()) <= self.Port_Task_Dict[port].max_stocks_quatity:
+            # 뒤에서 금지리스트에 조건문에서 포트 키가 없으면 에러 발생하기에..
+            # 어차피 들어갈거 여기서 미리 만들어주자...
+            # 포트가 이미 금지리스트에 생성되어있을경우? -> 그냥 넘어간다
 
+            self.portfolio_stock_dict[port].update(
+                {code: {"name": name, "meme_price": int(meme_price), "meme": meme_type,
+                              "meme_ratio": float(stock_ratio), "target_ratio": float(stock_ratio)}})
+            self.portfolio_stock_dict[port][code].update({"스크린번호": screen_num})
+            self.portfolio_stock_dict[port][code].update({"주문용스크린번호": screen_meme_stock})
+            #self.screen_number_setting()
+            fids = self.realType.REALTYPE['주식체결']['체결시간']
+            QTest.qWait(3000)
+            self.dynamicCall("SetRealReg(QString, QString, QString, QString)", screen_num, code, fids, "1")
+            self.Save_Portfolio_To_DB(port)
+            rtn = True
+        else:
+            rtn = False
+        return rtn
     '''
     def read_code_fromFile(self):
         if os.path.exists("files/condition_stock.txt"): # 해당 경로에 파일이 있는지 체크한다.
@@ -762,7 +1071,7 @@ class Kiwoom(QAxWidget):
         # 계좌평가잔고내역에 있는 종목들
 
         # 포트폴리오에 담겨있는 종목들
-        for port in self.port_total_dict.keys():
+        for port in self.portfolio_stock_dict.copy().keys():
             for code in self.portfolio_stock_dict[port].keys():
                 if code not in screen_overwrite:
                     screen_overwrite.append(code)
@@ -781,9 +1090,11 @@ class Kiwoom(QAxWidget):
                 if (code in self.portfolio_stock_dict[port].keys()) and (code not in self.prev_screen_overwrite):
                     self.portfolio_stock_dict[port][code].update({"스크린번호": str(self.screen_real_stock)})
                     self.portfolio_stock_dict[port][code].update({"주문용스크린번호": str(self.screen_meme_stock)})
+                elif (code in self.portfolio_stock_dict[port].keys()) and (code in self.prev_screen_overwrite):
+                    del self.portfolio_stock_dict[port][code]
                 elif (code not in self.portfolio_stock_dict[port].keys()) and (code not in self.prev_screen_overwrite):
-                    self.portfolio_stock_dict.update({port:
-                        {code: {"스크린번호": str(self.screen_real_stock), "주문용스크린번호": str(self.screen_meme_stock)}}})
+                    self.portfolio_stock_dict[port].update(
+                        {code: {"스크린번호": str(self.screen_real_stock), "주문용스크린번호": str(self.screen_meme_stock)}})
                 cnt += 1
             self.prev_screen_overwrite = screen_overwrite.copy()
 
@@ -802,14 +1113,17 @@ class Kiwoom(QAxWidget):
             elif value == "2":
                 self.logging.logger.debug("장 종료, 동시호가로 넘어감")
 
+
             elif value == "4":
                 self.logging.logger.debug("3시30분 장 종료")
-                for port in self.port_total_dict.keys():
+
+                for port in self.portfolio_stock_dict.copy().keys():
                     for code in self.portfolio_stock_dict[port].keys():
                         self.dynamicCall("SetRealRemove(QString, QString)", self.portfolio_stock_dict[port][code]['스크린번호'], code)
 
                     QTest.qWait(5000)
-
+                self.tick_data_acq(0)  # 코스피
+                self.tick_data_acq(10)  # 코스닥
                 #self.file_delete()
                 #self.Granbill_calculator_fnc(type='Naver', market='10')
                 #self.Granbill_calculator_fnc(type='Naver', market='0')
@@ -852,15 +1166,20 @@ class Kiwoom(QAxWidget):
             k = abs(int(k))
             # 포트폴리오에는 없지만 realreg에 등록된 경우
             # 장중 추가 어떤 알고리즘에 의해 매수종목으로 등록된 경우?
-            for port in self.port_total_dict.keys():
+            for port in self.portfolio_stock_dict.copy().keys():
                 if sCode not in self.portfolio_stock_dict[port].keys():
                     if sCode in self.account_stock_dict.keys():  # 포트폴리오 매수리스트는 없고 이미 비율대로 매수된 종목일
-                        code_port = 'ETC'
+                        if 'etc' not in self.portfolio_stock_dict.keys():
+                            code_port = 'etc'
+                            self.portfolio_stock_dict.update({code_port:{sCode}})
+                        else:
+                            code_port = 'etc'
                     else:
-                        self.set_realtime_stock(sCode)
+                        code_port = 'etc'
 
                 else:
                     code_port = port
+                    break
 
             self.portfolio_stock_dict[code_port][sCode].update({"체결시간": a})
             self.portfolio_stock_dict[code_port][sCode].update({"현재가": b})
@@ -874,7 +1193,31 @@ class Kiwoom(QAxWidget):
             self.portfolio_stock_dict[code_port][sCode].update({"시가": j})
             self.portfolio_stock_dict[code_port][sCode].update({"저가": k})
 
-            self.data_queue.put([sCode, self.account_stock_dict, self.portfolio_stock_dict, self.jango_dict, self.not_account_stock_dict, self.use_money,self.account_num])
+            for port in self.portfolio_stock_dict.copy().keys():
+                #print("test {} :".format(port))
+                if sCode in self.portfolio_stock_dict[port].keys():
+                    port_name = port
+                    break
+                else:
+                    port_name = 'etc'
+
+            now = datetime.datetime.today().strftime('%H:%M')
+            now = int(now.replace(":", ""))
+            if (now > 940)and(now <= 1500)and(not self.flag_ConditionGet):
+                try:
+                    self.flag_ConditionGet = True
+                    self.Del_RealCondition()
+                except:
+                    self.logging.logger.debug("단타포트폴리오가 존재하지 않습니다")
+
+            elif (now > 1500) and (not self.flag_DayStockSell):
+                for condition in PORT_PARAMETER.AfternoonList:
+                    self.Set_Condition_Receive(condition, 1)
+                self.Sell_Portfolio(PORT_PARAMETER.MorningList)
+                self.flag_DayStockSell = True
+
+            self.Port_Que_Dict[port_name].put([sCode, self.account_stock_dict, self.portfolio_stock_dict[port_name], self.jango_dict, self.not_account_stock_dict, self.use_money, self.account_num, self.finance_screen_df])
+
 
     def _receive_tr_data(self, screen_no, rqname, trcode, record_name, next, unused1, unused2, unused3, unused4):
         if next == '2':
@@ -897,6 +1240,10 @@ class Kiwoom(QAxWidget):
 
         elif rqname == "주식분봉차트조회":
             self._opt10080(screen_no, rqname, trcode, record_name, next)
+        #계좌 포트폴리오 관리용 체결내역 조회
+        elif rqname == "계좌별주문체결현황요청":
+            self._opw00009(screen_no, rqname, trcode, record_name, next)
+
 
     #        try:
     #            self.tr_event_loop.exit()
@@ -951,8 +1298,8 @@ class Kiwoom(QAxWidget):
         account_list = self.dynamicCall("GetLoginInfo(QString)", "ACCNO")  # 계좌번호 반환
         account_num = account_list.split(';')[0]
         self.account_num = account_num
+        self.logging.logger.info("실행 계좌번호 : {}".format(account_num))
         #self.REAL_REG.account_num = account_num
-        self.logging.logger.debug("계좌번호 : %s" % account_num)
 
     # 미체결 종목 현황
     def not_conclude_account(self, sPrevNext="0"):
@@ -965,18 +1312,35 @@ class Kiwoom(QAxWidget):
         self.not_conclude_account_event_loop.exec_()
         #미체결정보 모두 확인 후 코드를 읽자
 
+    def meme_state_jango_req(self, date, sPrevNext="0"):
+        self.dynamicCall("SetInputValue(QString, QString)", "주문일자", date)
+        self.dynamicCall("SetInputValue(QString, QString)", "계좌번호", self.account_num)
+        self.dynamicCall("SetInputValue(QString, QString)", "비밀번호", "")
+        self.dynamicCall("SetInputValue(QString, QString)", "비밀번호입력매체구분", "")
+        self.dynamicCall("SetInputValue(QString, QString)", "주식채권구분", "1")
+        self.dynamicCall("SetInputValue(QString, QString)", "시장구분", "0")
+        self.dynamicCall("SetInputValue(QString, QString)", "매도수구분", "0")
+        self.dynamicCall("SetInputValue(QString, QString)", "조회구분", "1")
+        self.dynamicCall("SetInputValue(QString, QString)", "종목코드", "")
+        self.dynamicCall("SetInputValue(QString, QString)", "시작주문번호", "")
+        self.dynamicCall("CommRqData(QString, QString, int, QString)", "계좌별주문체결현황요청", "opw00009", sPrevNext,
+                         self.screen_get_jango_stock)  # Tr서버로 전송 -Transaction
+        #1초에 5회미만 조건 만족을 위한 대기...
+        QTest.qWait(200)
+        self.meme_state_jango.exec_()
 
     def merge_dict(self):
         self.all_stock_dict.update({"계좌평가잔고내역": self.account_stock_dict})
         self.all_stock_dict.update({'미체결종목': self.not_account_stock_dict})
         self.all_stock_dict.update({'포트폴리오종목': self.portfolio_stock_dict})
 
-    def tick_kiwoom_db(self, code=None, date=None, sPrevNext="0"):
 
+    def tick_kiwoom_db(self, code=None, tick='10', sPrevNext="0"):
+        self.DB_tick = "stocks_tick_"+tick
         QTest.qWait(3600)  # 3.6초마다 딜레이를 준다.
 
         self.dynamicCall("SetInputValue(QString, QString)", "종목코드", code)
-        self.dynamicCall("SetInputValue(QString, QString)", "틱범위", "15")
+        self.dynamicCall("SetInputValue(QString, QString)", "틱범위", tick)
         self.dynamicCall("SetInputValue(QString, QString)", "수정주가구분", "1")
 
         # if date != None:
@@ -998,8 +1362,7 @@ class Kiwoom(QAxWidget):
             self.dynamicCall("SetInputValue(QString, QString)", "기준일자", date)
 
         self.dynamicCall("CommRqData(QString, QString, int, QString)", "주식일봉차트조회", "opt10081", sPrevNext,
-                         self.screen_calculation_stock)  # Tr서버로 전송 -Transaction
-
+                         self.screen_calculation_s+tock)  # Tr서버로 전송 -Transaction
         self.calculator_event_loop.exec_()
 
     def _opw00001(self, rqname, trcode):
@@ -1016,12 +1379,58 @@ class Kiwoom(QAxWidget):
         output_deposit = self._comm_get_data(trcode, "", rqname, 0, "출금가능금액")
         self.output_deposit = int(output_deposit)
 
-        self.logging.logger.debug("예수금 : %s" % self.output_deposit)
+        self.logging.logger.info("예수금 : %s" % self.output_deposit)
 
         self.stop_screen_cancel(self.screen_my_info)
 
         self.detail_account_info_event_loop.exit()
-
+    # 알고리즘 매매 히스토리용 계좌 거래 내역 요청
+    def _opw00009(self, screen_no, rqname, trcode, record_name, next):
+        meme_cnt = self._comm_get_data(trcode, "", rqname, 0, "조회건수")
+        # 종목조회 시 한번에 600개 조회가능함... 600개 넘어가면 NEXT=2로 요청
+        data_cnt = self._get_repeat_cnt(trcode, rqname)
+        for i in range(int(meme_cnt)):
+            gubun = self._comm_get_data(trcode, "", rqname, i, "주식채권구분")
+            if gubun == '1':
+                chaeguel_num = self._comm_get_data(trcode, "", rqname, i, "체결번호")
+                code = self._comm_get_data(trcode, "", rqname, i, "종목번호")
+                meme = self._comm_get_data(trcode, "", rqname, i, "매매구분")
+                stock_amount = self._comm_get_data(trcode, "", rqname, i, "체결수량")
+                meme_price = self._comm_get_data(trcode, "", rqname, i, "체결단가")
+                meme_time = self._comm_get_data(trcode, "", rqname, i, "체결시간")
+                stock_name = self._comm_get_data(trcode, "", rqname, i, "종목명")
+                for i, port in enumerate(self.portfolio_stock_dict.copy().keys()):
+                    if code.replace("A","") in self.portfolio_stock_dict[port].copy().keys():
+                        temp = {chaeguel_num:{
+                        "포트폴리오": port,
+                        "종목번호": code,
+                        "종목명": stock_name,
+                        "매매구분": meme,
+                        "체결수량": stock_amount,
+                        "체결단가": meme_price,
+                        "체결시간": meme_time}}
+                        self.Port_Meme_History.update(temp)
+                        temp_df = pd.DataFrame(temp)
+                        temp_df = temp_df.T
+                        self.DB.DB_SAVE("stocks_meme_history",self.today, temp_df, False, 'append')
+                        break
+                    if i == (len(self.portfolio_stock_dict.copy().keys())-1):
+                        temp = {chaeguel_num: {
+                            "포트폴리오": "etc",
+                            "종목번호": code,
+                            "종목명": stock_name,
+                            "매매구분": meme,
+                            "체결수량": stock_amount,
+                            "체결단가": meme_price,
+                            "체결시간": meme_time}}
+                        self.Port_Meme_History.update(temp)
+                        temp_df = pd.DataFrame(temp)
+                        temp_df = temp_df.T
+                        self.DB.DB_SAVE("stocks_meme_history", self.today, temp_df, False, 'append')
+        self.meme_state_jango.exit()
+        if self.remained_data:
+            pass
+            #self.tick_kiwoom_db(code=code, tick='10', sPrevNext=next)
     def _opt10080(self, screen_no, rqname, trcode, record_name, next):
         code = self._comm_get_data(trcode, "", rqname, 0, "종목코드")
         code = code.strip()
@@ -1034,7 +1443,8 @@ class Kiwoom(QAxWidget):
             high_price = self._comm_get_data(trcode, "", rqname, i, "고가")
             low_price = self._comm_get_data(trcode, "", rqname, i, "저가")
             current_price = self._comm_get_data(trcode, "", rqname, i, "현재가")
-            # value = self._comm_get_data(trcode, "", rqname, i, "거래량")
+            #volume = self._comm_get_data(trcode, "", rqname, i, "거래량")
+            value = self._comm_get_data(trcode, "", rqname, i, "거래량")
             # trading_value = self._comm_get_data(trcode, "", rqname, i, "거래대금")
 
             self.tick_ohlcv['date'].append(date)
@@ -1042,40 +1452,42 @@ class Kiwoom(QAxWidget):
             self.tick_ohlcv['high'].append(int(high_price))
             self.tick_ohlcv['low'].append(int(low_price))
             self.tick_ohlcv['close'].append(abs(int(current_price)))
+            self.tick_ohlcv['volume'].append(int(value))
             # self.ohlcv['volume'].append(int(value))
             # self.ohlcv['trading_value'].append(int(trading_value))
-
-        if next == 2:
-            self.tick_kiwoom_db(code=code, sPrevNext=next)
-
+        #if next == 2:
+        if self.remained_data:
+            self.tick_kiwoom_db(code=code, tick='10', sPrevNext=next)
         else:
-            self.logging.logger.debug("총 일수 %s" % len(self.tick_ohlcv['date']))
-        temp_df = pd.DataFrame(data=self.tick_ohlcv)
-        temp_df = temp_df.set_index("date").fillna(method='ffill')
-        # 이평선 돌파 알고리즘
-        if self.AV_algo_on and not temp_df["close"].dropna().empty:
-            pass_success = self.Trade_algo.Average_Break_Strategy(temp_df, code, 120, self.logging, "tick",
-                                                                  real_trade=True)
-            if pass_success == True:
-                self.logging.logger.debug("조건부 통과됨")
-                code_nm = self.dynamicCall("GetMasterCodeName(QString)", code)
-                f = open("files/condition_stock.txt", "a", encoding="utf8")
-                f.write("%s\t%s\t%s\n" % (code, code_nm, str(self.tick_ohlcv['close'][0])))
-                f.close()
+            temp_df = pd.DataFrame(data=self.tick_ohlcv)
+            temp_df = temp_df.set_index("date").fillna(method='ffill')
+            # 이평선 돌파 알고리즘
+            '''
+            if self.AV_algo_on and not temp_df["close"].dropna().empty:
+                pass_success = self.Trade_algo.Average_Break_Strategy(temp_df, code, 120, self.logging, "tick",
+                                                                      real_trade=True)
+                if pass_success == True:
+                    self.logging.logger.debug("조건부 통과됨")
+                    code_nm = self.dynamicCall("GetMasterCodeName(QString)", code)
+                    f = open("files/condition_stock.txt", "a", encoding="utf8")
+                    f.write("%s\t%s\t%s\n" % (code, code_nm, str(self.tick_ohlcv['close'][0])))
+                    f.close()
+                else:
+                    self.logging.logger.debug("조건부 통과 못함")
+            '''
+            # temp_df = pd.DataFrame(data = self.tick_ohlcv)
+            # temp_df = temp_df.set_index("date").fillna(method='ffill')
+            new_code = code
+            temp_df.columns = [[new_code] * len(temp_df.columns), temp_df.columns]
+            if self.tick_acq_num == 0:
+                self.tick_data = temp_df
             else:
-                self.logging.logger.debug("조건부 통과 못함")
+                self.tick_data = pd.concat([self.tick_data, temp_df], axis=1)
+            # print(self.tick_data)
+            self.DB.DB_SAVE(self.DB_tick, new_code, temp_df[new_code])
+            self.reset_tick_ohlcv()
+            self.calculator_event_loop.exit()
 
-        # temp_df = pd.DataFrame(data = self.tick_ohlcv)
-        # temp_df = temp_df.set_index("date").fillna(method='ffill')
-        new_code = "A" + code
-        temp_df.columns = [[new_code] * len(temp_df.columns), temp_df.columns]
-        if self.tick_acq_num == 0:
-            self.tick_data = temp_df
-        else:
-            self.tick_data = pd.concat([self.tick_data, temp_df], axis=1)
-        # print(self.tick_data)
-        self.reset_tick_ohlcv()
-        self.calculator_event_loop.exit()
 
     def _opt10081(self, screen_no, rqname, trcode, record_name, next):
         code = self._comm_get_data(trcode, "", rqname, 0, "종목코드")
@@ -1104,20 +1516,21 @@ class Kiwoom(QAxWidget):
             self.day_kiwoom_db(code=code, sPrevNext=next)
 
         else:
-            self.logging.logger.debug("총 일수 %s" % len(self.ohlcv['date']))
+            self.logging.logger.info("총 일수 %s" % len(self.ohlcv['date']))
         # 이평선 돌파 알고리즘
         if self.AV_algo_on:
             pass_success = self.Trade_algo.Average_Break_Strategy(self.ohlcv, code, 120, self.logging, "day",
                                                                   real_trade=True)
 
         if pass_success == True:
-            self.logging.logger.debug("조건부 통과됨")
+            #self.logging.logger.info("조건부 통과됨")
             code_nm = self.dynamicCall("GetMasterCodeName(QString)", code)
             f = open("files/condition_stock.txt", "a", encoding="utf8")
             f.write("%s\t%s\t%s\n" % (code, code_nm, str(self.ohlcv['close'][0])))
             f.close()
         else:
-            self.logging.logger.debug("조건부 통과 못함")
+            pass
+            #self.logging.logger.debug("조건부 통과 못함")
 
         self.reset_ohlcv()
         self.calculator_event_loop.exit()
@@ -1175,7 +1588,7 @@ class Kiwoom(QAxWidget):
 
         self.opw00018_output['single'].append(total_earning_rate)
         print(self.opw00018_output['single'])
-        self.logging.logger.debug(
+        self.logging.logger.info(
             "계좌평가잔고내역요청 싱글데이터 : %s - %s - %s" % (
             total_purchase_price, total_eval_profit_loss_price, total_earning_rate))
 
@@ -1206,7 +1619,7 @@ class Kiwoom(QAxWidget):
             self.account_stock_dict[code].update({"매입금액": total_chegual_price})
             self.account_stock_dict[code].update({'매매가능수량': possible_quantity})
 
-        self.logging.logger.debug("sPreNext : %s" % next)
+        #self.logging.logger.debug("sPreNext : %s" % next)
         print("계좌에 가지고 있는 종목은 %s " % cnt)
         if self.remained_data:
             self.get_detail_account_mystock(sPrevNext="2")
@@ -1231,6 +1644,7 @@ class Kiwoom(QAxWidget):
         self.tick_ohlcv['high'] = []
         self.tick_ohlcv['low'] = []
         self.tick_ohlcv['close'] = []
+        self.tick_ohlcv['volume'] = []
 
     def system_para_save(self):
         # 당일 매수가 불가했던 종목들의 경우 로그를 남겨두고 매매를 계속 할것인지 판단하자.,,..,
@@ -1242,14 +1656,18 @@ class Kiwoom(QAxWidget):
     ################################################# 데이타수집 ############################################################
     def tick_data_acq(self, market='10'):
         code_list = self.get_code_list_by_market(market)
-        self.logging.logger.debug("코스닥 갯수 %s " % len(code_list))
+        #self.logging.logger.debug("코스닥 갯수 %s " % len(code_list))
         self.AV_algo_on = True
-        for idx, code in enumerate(code_list):
-            self.tick_acq_num = idx
-            self.dynamicCall("DisconnectRealData(QString)", self.screen_calculation_stock)  # 스크린 연결 끊기
-            self.logging.logger.debug(
-                "%s / %s :  KOSDAQ Stock Code : %s is updating... " % (idx + 1, len(code_list), code))
-            self.tick_kiwoom_db(code=code)
+        table_list = self.DB.DB_LOAD_TABLE_LIST(self.DB_tick)
+        for idx, code in enumerate(tqdm.tqdm(code_list)):
+            #if code in table_list:
+                self.tick_acq_num = idx
+                self.dynamicCall("DisconnectRealData(QString)", self.screen_calculation_stock)  # 스크린 연결 끊기
+                #self.logging.logger.debug(
+                #    "%s / %s :  KOSDAQ Stock Code : %s is updating... " % (idx + 1, len(code_list), code))
+
+                if int(code.replace("K","")) > 15590: self.tick_kiwoom_db(code=code)
+            #else: pass
         self.tick_data = self.tick_data[-900:].dropna(axis=1)
         if market == "10":
             path = self.ROOT_DIR + "\\files\\kodaq_AV_algo_df.xlsx"
@@ -1374,7 +1792,7 @@ class Kiwoom(QAxWidget):
         current_path=Path(current_path)
         # 2. Rim data 최신본 확인
         rim_list = self.DB.DB_LOAD_TABLE_LIST(self.DB_finance_rim)
-        v_path = 'ValueTool\Valuetool'
+        v_path = 'Data\ValueTool\Valuetool'
         path = os.path.join(current_path.parent.parent.parent, v_path)
         excel_path = self.get_latest_file(path, '가치평가 tool')
         try:
@@ -1385,7 +1803,7 @@ class Kiwoom(QAxWidget):
         check_finance_date = self.decision_strategy_date(cur_date)
 
         current_path = Path(os.getcwd())
-        v_path = 'ValueTool\Valuetool'
+        v_path = 'Data\ValueTool\Valuetool'
         total_path = os.path.join(current_path.parent.parent.parent, v_path)
         excel_path = self.get_latest_file(total_path, '가치평가 tool')
         self.logging.logger.debug("가치평가 file_path : %s", excel_path)
@@ -1407,24 +1825,36 @@ class Kiwoom(QAxWidget):
             # 전략 선택
             # ==============================================================================================================
             if quant_strategy == 'PER_ROE':
-                rank = self.Trade_algo.get_value_rank_now(finance_data, value_type='PER', quality_type='ROE', num=30,
-                                                          rim_on=True, fs_comp_del_on=True,
-                                                          BJ_Filter=True, apply_rim_L=2)
-                f = open("files/condition_stock.txt", "a", encoding="utf8")
-                for code in rank.index:
-                    f.write("%s\t%s\t%s\t%s\n" % (code, rank.loc[code]["종목"], rank.loc[code]["현재가"], "매수"))
-                f.close()
+                invest_in_df = self.Trade_algo.make_invest_from_quarter(trailing_index_quarter)
+
+                invest_df = self.Trade_algo.select_code_by_price_excel(invest_in_df, '소형주', rim_on=True,
+                                                                       fs_comp_del_on=True, BJ_Filter=False,
+                                                                       apply_rim_L=2)
+                value_factor = []
+                value_factor.append(['PER', "오름차순", 0.2, None])
+                value_factor.append(['ROE', "내림차순", 0.2, 30])
+
+                rank = self.Trade_algo.ultra_value_strategy_by_kang(invest_df, value_factor, stock_num=20)
+                stock_list = self.DB.DB_LOAD_Table("stocks_lists", "stocks_lists_all")
+                stock_list = stock_list.set_index('Symbol')
+                rank['종목'] = [stock_list.loc[x, 'Name'] for x in rank.index]
 
                 # rank.to_excel(self.quant_result_path + "\\PER_ROE.xlsx")
 
             elif quant_strategy == '마법공식2':
-                rank = self.Trade_algo.get_value_rank_now(finance_data, value_type='PBR', quality_type='GP/A', num=30,
-                                                          rim_on=True, fs_comp_del_on=True,
-                                                          BJ_Filter=True, apply_rim_L=2)
-                f = open("Kiwoom/files/condition_stock.txt", "a", encoding="utf8")
-                for code in rank.index:
-                    f.write("%s\t%s\t%s\t%s\n" % (code, rank.loc[code]["종목"], rank.loc[code]["현재가"], "매수"))
-                f.close()
+                invest_in_df = self.Trade_algo.make_invest_from_quarter(trailing_index_quarter)
+
+                invest_df = self.Trade_algo.select_code_by_price_excel(invest_in_df, '소형주', rim_on=True,
+                                                                       fs_comp_del_on=True, BJ_Filter=True,
+                                                                       apply_rim_L=2)
+                value_factor = []
+                value_factor.append(['PBR', "오름차순", 0.2, None])
+                value_factor.append(['GP_A', "내림차순", 0.0, None])
+                rank = self.Trade_algo.ultra_value_strategy_by_kang(invest_df, value_factor, stock_num=20)
+                stock_list = self.DB.DB_LOAD_Table("stocks_lists", "stocks_lists_all")
+                stock_list = stock_list.set_index('Symbol')
+                rank['종목'] = [stock_list.loc[x, 'Name'] for x in rank.index]
+
                 # rank.to_excel(self.quant_result_path + "\\마법공식2.xlsx")
 
             elif quant_strategy == '마법공식':
@@ -1435,6 +1865,7 @@ class Kiwoom(QAxWidget):
                 for code in rank.index:
                     f.write("%s\t%s\t%s\t%s\n" % (code, rank.loc[code]["종목"], rank.loc[code]["현재가"], "매수"))
                 f.close()
+
             elif quant_strategy == '강환국_울트라_소형주':
                 comp_size = quant_strategy.split("_")[2]
                 invest_in_df = self.Trade_algo.make_invest_from_quarter(trailing_index_quarter)
@@ -1454,10 +1885,6 @@ class Kiwoom(QAxWidget):
                 stock_list=self.DB.DB_LOAD_Table("stocks_lists", "stocks_lists_all")
                 stock_list=stock_list.set_index('Symbol')
                 rank['종목']=[stock_list.loc[x,'Name'] for x in rank.index]
-                f = open("files/condition_stock.txt", "a", encoding="utf8")
-                for code in rank.index:
-                    f.write("%s\t%s\t%s\t%s\n" % (code, rank.loc[code,"종목"], rank.loc[code,"현재가"], "매수"))
-                f.close()
 
             temp = rank[['종목','현재가']]
             temp['meme'] = '매수'
@@ -1504,7 +1931,7 @@ class Kiwoom(QAxWidget):
         meme_list = self.NB.HTH_Algo_fnc()
         for stock in meme_list :
             code = self.korea_market_stocklist[self.korea_market_stocklist['name'] == stock[0]].index[0]
-            self.portfolio_stock_dict.update({code:{"종목명":stock[0], "매수희망가":int(stock[1]), "비중":float(stock[2])}})
+            self.portfolio_stock_dict[port].update({code:{"종목명":stock[0], "매수희망가":int(stock[1]), "비중":float(stock[2])}})
         self.screen_number_setting()
         #print(self.portfolio_stock_dict)
 
@@ -1518,5 +1945,6 @@ if __name__ == "__main__":
     data_queue = Queue()
     order_queue = Queue()
     kiwoom = Kiwoom(data_queue, order_queue)
+    kiwoom.tick_data_acq()
     #kiwoom.quant_algo_fnc('마법공식2')
     app.exec_()

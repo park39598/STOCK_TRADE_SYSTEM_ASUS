@@ -23,7 +23,10 @@ class TeleBot(QThread):
         self.logging = logging
         self.kw_get_que = data_queue
         self.DB = DataBase.MySQL_control.DB_control()
-        self.token = '2111552958:AAFcTY2nJIGt1EWeJ2klZ9m-mjVM5dU0b2g'
+        #pbj_stockbot token
+        #self.token = '2111552958:AAFcTY2nJIGt1EWeJ2klZ9m-mjVM5dU0b2g'
+        # pbj8524_bot token
+        self.token = '5364399476:AAGRyVaGvvqghjMqMYCj9gEYweYhLcuMOdY'
         self.bot = telegram.Bot(self.token)
         update = self.bot.getUpdates()
         #self.chat_id = update[0].message.chat_id

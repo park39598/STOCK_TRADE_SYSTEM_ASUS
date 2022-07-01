@@ -5,6 +5,16 @@ from Finance import finance_data
 from collections import namedtuple
 import datetime
 import numpy as np
+from Finance.Thema_list_Crolling_Infostock import *
+import matplotlib.pyplot as plt
+import seaborn as sns
+import threading
+import Finance.make_quarter_finance_from_valuesheet
+
+plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['font.family'] = 'Malgun Gothic'
+
+#import schedule
 ##04/14
 #알고리즘 구조체변수 구조바꾸기 [0],[1],[2].....
 #알고리즘 현황 TAB수정
@@ -25,7 +35,9 @@ class MyWindow(QMainWindow, form_class):
         # 키움 로그인
         self.kiwoom = Kiwoom()
         #self.kiwoom.comm_connect()
+
         self.UI_Initiation()
+        self.finance_df = None
         self.ongoing = False
         self.stocklist = pd.DataFrame(data=None)
         self.total_algorithm = 0
@@ -40,21 +52,20 @@ class MyWindow(QMainWindow, form_class):
             self.timer3.timeout.connect(self.run_algorithm)
         else:
             pass
-        '''
-        #투자알고리즘 선택버튼
-        self.radioButton_2.clicked.connect(self.quant_algorithm_sel)    #마법공식
-        self.radioButton_3.clicked.connect(self.quant_algorithm_sel)    #신마법공식
-        self.radioButton_4.clicked.connect(self.quant_algorithm_sel)    #저PER저PBR
-        self.radioButton_5.clicked.connect(self.quant_algorithm_sel)    #고ROE저PER
-        self.radioButton_6.clicked.connect(self.quant_algorithm_sel)    #BJ가치투자전략
-        #리밸런싱 선택
-        self.radioButton_7.clicked.connect(self.rebalancing_sel)    #절대모멘텀+동일가중
-        self.radioButton_8.clicked.connect(self.rebalancing_sel)    #스토캐스틱+동일가중
-        self.radioButton_9.clicked.connect(self.rebalancing_sel)    #지수이평선+동일가중
-        self.radioButton_10.clicked.connect(self.rebalancing_sel)   #듀얼모멘텀+동일가중
-        self.radioButton_11.clicked.connect(self.rebalancing_sel)   #BJ리밸런싱
-        self.radioButton_12.clicked.connect(self.rebalancing_sel)   #주기리밸런싱
-        '''
+        self.Thema = Crolling_ThemaList_Infostock()
+        self.Thema.Msg_trigger.connect(self.Gui_Msg)
+
+        self.Thema.UpdateState.connect(self.UpdateProgress)
+        self.progressBar_ThemaUpdate.setMinimum(self.Thema.Updatemin_val)
+        self.progressBar_ThemaUpdate.setMinimum(self.Thema.Updatemax_val)
+        # Thema crolling
+        #   Thema Sector member stocks num
+        self.SectorMemNum = 5
+
+
+    def UpdateProgress(self, state):
+        self.progressBar_ThemaUpdate.setValue(state)
+
     def UI_Initiation(self):
         self.timer.start(1000)
         self.timer.timeout.connect(self.timeout)
@@ -68,11 +79,104 @@ class MyWindow(QMainWindow, form_class):
         self.lineEdit.textChanged.connect(self.code_change)
         self.pushButton.clicked.connect(self.send_order)
         self.pushButton_2.clicked.connect(self.check_balance)
-        #self.pushButton_3.clicked.connect(self.algorithm_add)  # 알고리즘 추가
-        #self.pushButton_4.clicked.connect(self.get_trade_list)
-        #self.pushButton_8.clicked.connect(self.update_PriceData)
-
+        self.pushButton_OPW00009.clicked.connect(self.kiwoom.meme_state_jango_req)
         self.check_rebalance_time()
+        # THEMA TAB
+        self.pushButton_ThemaUpdate.clicked.connect(self.DB_ThemaUpdate)
+        self.pushButton_ThemaDisplay.clicked.connect(self.DB_ThemaDisplay)
+
+        # UPDATE BOTTON
+        self.pushButton_QFinance_update.clicked.connect(lambda : self.Update_task("QFinance"))
+        self.pushButton_eval_update.clicked.connect(lambda: self.Update_task("eval"))
+        self.pushButton_value_update.clicked.connect(lambda: self.Update_task("value"))
+
+        value_latest = self.kiwoom.DB.DB_LOAD_LATEST_TABLE("stocks_value_list")
+        eval_latest = self.kiwoom.DB.DB_LOAD_LATEST_TABLE("stocks_가치평가")
+        qfinance_latest = self.kiwoom.DB.DB_LOAD_LATEST_TABLE("stocks_finance")
+        price_table = self.kiwoom.DB.DB_LOAD_Table("stocks_price", "a005930")
+        price_latest = price_table.index[-1]
+        self.lineEdit_value.setText(str(value_latest))
+        self.lineEdit_eval.setText(str(eval_latest))
+        self.lineEdit_qfinance.setText(str(qfinance_latest))
+        self.lineEdit_price.setText(str(price_latest.strftime('%Y%m%d')))
+
+    def Update_task(self, type_update):
+        if type_update == 'QFinance':
+            Make_Thema_Profit_List_task = threading.Thread(target=self.QFinance_update)
+            Make_Thema_Profit_List_task.daemon = True
+            Make_Thema_Profit_List_task.start()
+        elif type_update == 'value':
+            Make_Thema_Profit_List_task = threading.Thread(target=self.Value_update)
+            Make_Thema_Profit_List_task.daemon = True
+            Make_Thema_Profit_List_task.start()
+        elif type_update == "eval":
+            Make_Thema_Profit_List_task = threading.Thread(target=self.Eval_update)
+            Make_Thema_Profit_List_task.daemon = True
+            Make_Thema_Profit_List_task.start()
+
+    def Value_update(self):
+        current_path = Path(os.getcwd())
+        v_path = 'ValueTool\Valuetool'
+        path = os.path.join(current_path.parent.parent, v_path)
+        #excel_path = Finance.make_quarter_finance_from_valuesheet.get_latest_file(path, 'value')
+        Get_excel = Finance.make_quarter_finance_from_valuesheet.GET_EXCEL_DATA(path)
+        Get_excel.Save_Value_Info()
+        Get_excel.app.kill()
+        value_latest = self.kiwoom.DB.DB_LOAD_LATEST_TABLE("stocks_value_list")
+        self.lineEdit_value.setText(str(value_latest))
+
+    def Eval_update(self):
+        current_path = Path(os.getcwd())
+        v_path = 'ValueTool\Valuetool'
+        path = os.path.join(current_path.parent.parent, v_path)
+        Get_eval = Finance.make_quarter_finance_from_valuesheet.GET_RIM_DATA(path)
+        Get_eval.get_eval_info()
+        Get_eval.app.kill()
+        eval_latest = self.kiwoom.DB.DB_LOAD_LATEST_TABLE("stocks_가치평가")
+        self.lineEdit_eval.setText(str(eval_latest))
+
+    def QFinance_update(self):
+        current_path = Path(os.getcwd())
+        v_path = 'ValueTool\Valuetool'
+        path = os.path.join(current_path.parent.parent, v_path)
+        excel_path = Finance.make_quarter_finance_from_valuesheet.get_latest_file(path, 'value')
+        Get_excel = Finance.make_quarter_finance_from_valuesheet.GET_EXCEL_DATA(excel_path)
+        Get_excel.Get_Stocks_Finance_Quarter()
+        Get_excel.app.kill()
+        qfinance_latest = self.kiwoom.DB.DB_LOAD_LATEST_TABLE("stocks_finance")
+        self.lineEdit_qfinance.setText(str(qfinance_latest))
+
+    def DB_ThemaDisplay(self):
+        period_list = ['0주전','1주전', '2주전', '3주전', '4주전', '5일', '10일', '15일', '20일', '25일']
+        df = self.Thema.Make_Thema_Period_Profit()
+        fig = plt.figure(figsize=(10, 12))
+        for i, period in enumerate(tqdm.tqdm(period_list)):
+            df = df.sort_values(by=period, ascending=False)
+            df = df.iloc[:10]
+            #print(df.head())
+            ax_i=fig.add_subplot(5, 2, i+1)
+            #sns.set(font_scale=1)
+            p=sns.barplot(data=df[[period]].T, ax=ax_i)
+            p.axes.set_title(period, fontsize=10)
+            p.tick_params(labelsize=8)
+        plt.tight_layout()
+        plt.subplots_adjust(hspace=0.35)
+        plt.show()
+
+    def DB_ThemaUpdate(self):
+        # Thema list 업데이트 from 인포스탁
+        self.Thema.Get_Thema_Number_Name()
+        # Thema 수익률 리스트 작성
+        end = datetime.datetime.now()
+        start = end - datetime.timedelta(weeks=6)
+        Make_Thema_Profit_List_task = threading.Thread(target=lambda : self.Thema.Make_Thema_Profit_List(start, end))
+        Make_Thema_Profit_List_task.daemon = True
+        Make_Thema_Profit_List_task.start()
+
+
+    def Gui_Msg(self, string):
+        QMessageBox.information(self, "MSG", string)
+
     def init_systemparameter(self):
         #parameter load
         try:
@@ -161,7 +265,6 @@ class MyWindow(QMainWindow, form_class):
         self.timer3.timeout.connect(self.run_algorithm)
         SQLITE_control.System_Parameter_SAVE(self.algorithm[0], self.algorithm[1], self.algorithm[2])
         QMessageBox.about(self, "message", "알고리즘 저장완료!")
-
 
     def update_PriceData(self):
         price_data = finance_data.Price_data.make_total_price_df()
@@ -293,7 +396,6 @@ class MyWindow(QMainWindow, form_class):
     def send_order(self):
         order_type_lookup = {'신규매수': 1, '신규매도': 2, '매수취소': 3, '매도취소': 4}
         hoga_lookup = {'지정가': "00", '시장가': "03"}
-
         RQName = "send_order_msg"
         sScreenNo = "0101"
         sAccNo = self.comboBox.currentText()
@@ -396,5 +498,7 @@ class MyWindow(QMainWindow, form_class):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = MyWindow()
+
     myWindow.show()
+
     app.exec_()

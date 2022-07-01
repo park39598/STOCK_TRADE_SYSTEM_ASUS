@@ -25,24 +25,28 @@ thread_num = 4
 class GET_RIM_DATA():
     def __init__(self, path):
         self.app = xw.App(visible=False)
+        self.path = path
         # 파일 상장법인목록
         #self.wb = xw.Book(path)
         self.DB = DataBase.MySQL_control.DB_control()
         sort_val = "가치평가"
-        self.file_list = [file for file in os.listdir(path) if ((file.endswith(".xlsb")) & (sort_val in file))]
-        for file in tqdm.tqdm(self.file_list):
-            real_path=os.path.join(path,file)
+        self.eval_file_list = [file for file in os.listdir(path) if ((file.endswith(".xlsb")) & (sort_val in file))]
+        
+                
+    def get_eval_info(self):
+        for file in tqdm.tqdm(self.eval_file_list):
+            real_path=os.path.join(self.path, file)
             table_name = re.findall("\d+", file)
             if len(table_name)==1 : table_name=table_name[0]
             else: table_name=table_name[1]
             try:
-                self.get_total_info(real_path,table_name)
+                self.get_eval_file(real_path,table_name)
             except:
                 print(file)
-        self.app.kill()
+        #self.app.kill()
 
-
-    def get_total_info(self, path, table_name):
+    # 가치평가 & Rim file DB SAVE
+    def get_eval_file(self, path, table_name):
         self.wb = xw.Book(path)
         self.종합 = self.wb.sheets['종합']
         self.rim = self.wb.sheets['RIM']
@@ -55,6 +59,7 @@ class GET_RIM_DATA():
         temp_df=temp_df.iloc[1:]
         sort_index=[x for x in temp_df.index if x!=None ]
         temp_df=temp_df.loc[sort_index]
+        temp_df.columns = [x.replace("%", "퍼센트") for x in temp_df.columns]
         self.DB.DB_SAVE("stocks_가치평가", table_name, temp_df)
         temp_df = pd.DataFrame(temp_val2)
         temp_df.iloc[0] = temp_df.iloc[0].map(lambda x: str(x).replace(" ", ""))
@@ -63,18 +68,17 @@ class GET_RIM_DATA():
         temp_df = temp_df.iloc[1:]
         sort_index = [x for x in temp_df.index if x != None]
         temp_df = temp_df.loc[sort_index]
-        self.DB.DB_SAVE("stocks_rim",table_name, temp_df)
-        #
+        self.DB.DB_SAVE("stocks_rim",table_name, temp_df)        
         self.wb.close()
 
 
 class GET_EXCEL_DATA():
     def __init__(self, path):
-
         self.app = xw.App(visible=False)
         # 파일 상장법인목록
-
-        self.wb = xw.Book(path)
+        self.excel_path = self.get_latest_file(path, 'value')
+        self.path_value = path
+        self.wb = xw.Book(self.excel_path)
         self.DB = DataBase.MySQL_control.DB_control()
         self.관심종목 = self.wb.sheets['관심종목']
         self.업종 = self.wb.sheets['업종']
@@ -89,8 +93,8 @@ class GET_EXCEL_DATA():
         self.DB_Value = "stocks_value_list"
         self.DB_Finance = "stocks_finance"
         self.DB_ROE = "system_parameter"
-        self.title = re.findall('\d+', path)[-1]
-
+        self.title = re.findall('\d+', self.excel_path)[-1]
+        
         self.DB = DataBase.MySQL_control.DB_control()
         self.DB_Finance = "stocks_finance"
     '''
@@ -125,6 +129,27 @@ class GET_EXCEL_DATA():
         df.columns = df.iloc[0]
         df = df.iloc[1:].set_index(df.columns[0])
         return df
+    
+    def Save_Value_Info(self):
+        sort_val = "value"
+        file_list = [file for file in os.listdir(self.path_value) if ((file.endswith(".xlsb")) & (sort_val in file))]
+        #app = xw.App(visible=False)
+        for file in tqdm.tqdm(file_list):
+            real_path = os.path.join(self.path_value, file)
+            table_name = re.findall("\d+", file)
+            if len(table_name) == 1:
+                table_name = table_name[0]
+            else:
+                table_name = table_name[1]
+            try:
+                self.wb = xw.Book(real_path)
+                self.종합 = self.wb.sheets['종합']
+                df = self.Get_Total_Info()
+
+                self.wb.close()
+                self.DB.DB_SAVE(self.DB_Value, table_name, df)
+            except:
+                print(file)
 
     def Get_Total_Info(self, start_cell="A5", end_cell="BJ2500"):
         temp = self.종합.range(start_cell + ":" + end_cell).value
@@ -132,7 +157,7 @@ class GET_EXCEL_DATA():
         df.iloc[0]=df.iloc[0].replace(" ","")
         df.columns = df.iloc[0]
         df = df.iloc[1:].set_index(df.columns[0]).dropna().drop_duplicates(keep='first')
-        df.columns = [x.replace(" ","").replace("/","_") for x in df.columns]
+        df.columns = [x.replace(" ","").replace("/","_").replace("%", "퍼센트") for x in df.columns]
         #df = df.drop(["OCF/A "],axis=1)
         # df.dropna().reset_index().set_index("종목")
         return df
@@ -173,6 +198,7 @@ class GET_EXCEL_DATA():
 
     def Get_Total_List(self):
         total = self.Get_Total_Info()
+        
         #total=total.reset_index()
         self.DB.DB_SAVE(self.DB_Value, self.title, total)
         return total
@@ -488,36 +514,34 @@ class GET_EXCEL_DATA():
 
         return ROE_data
 
-def get_latest_file(path, type='value tool'):
-    make_time_max=0
-    prev_ctime=0
-    for num,file in enumerate(os.listdir(path)):
-        if type in file:
-            if ".xlsb" in file:
-                ctime = os.path.getctime(os.path.join(path,file))
-                if num==0:
-                    latest_file=file
-                    prev_ctime=ctime
-                elif ctime>prev_ctime:
-                    latest_file=file
-                    prev_ctime=ctime
-                else:
-                    continue
-    return os.path.join(path,latest_file)
+    def get_latest_file(self, path, type_val='value'):
+        make_time_max=0
+        prev_ctime=0
+        for num,file in enumerate(os.listdir(path)):
+            if type_val in file:
+                if ".xlsb" in file:
+                    ctime = os.path.getctime(os.path.join(path,file))
+                    if num==0:
+                        latest_file=file
+                        prev_ctime=ctime
+                    elif ctime>prev_ctime:
+                        latest_file=file
+                        prev_ctime=ctime
+                    else:
+                        continue
+        return os.path.join(path,latest_file)
 if __name__ == "__main__":
     current_path = Path(os.getcwd())
     v_path = 'ValueTool\Valuetool'
     path = os.path.join(current_path.parent.parent.parent, v_path)
-    excel_path=get_latest_file(path,'value tool')
-    print(excel_path)
+
     #exel_path=r'ValueTool\차단해제및재무분기데이터 수집\20_4Q_21_1Q\value tool 20210723.xlsb'
-    rim_path = r'F:\OneDrive - Office 365\ValueTool\Valuetool'
-
+    # eval data update to DB
+    Get_eval = GET_RIM_DATA(path)
+    Get_eval.get_eval_info()
     # 분기데이터 추출 엑셀매크로 실행
-    #test=GET_RIM_DATA(path)
-    test=GET_EXCEL_DATA(excel_path)
-    test.Get_Stocks_Finance_Quarter()
-
+    #test=GET_EXCEL_DATA(path)
+    #test.Get_Stocks_Finance_Quarter()
     # rim, 가치평가 sheet table 업데이트 시.,,..,
     #test = GET_RIM_DATA(rim_path)
 

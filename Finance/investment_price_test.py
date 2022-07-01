@@ -4,7 +4,7 @@ Created on Thu Mar 26 15:33:27 2020
 
 @author: PARK BUMJIN
 """
-
+from matplotlib import font_manager
 from pykrx import stock
 import pandas as pd
 import requests

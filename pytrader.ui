@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1181</width>
-    <height>785</height>
+    <width>1023</width>
+    <height>717</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>PyTrader v0.4</string>
+   <string>PBJ_TRADER V0.1</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -23,22 +23,22 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1181</width>
-      <height>761</height>
+      <width>1021</width>
+      <height>681</height>
      </rect>
     </property>
     <property name="currentIndex">
      <number>0</number>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="PBJ_Trader">
      <attribute name="title">
-      <string>Tab 1</string>
+      <string>PBJ_Trader</string>
      </attribute>
      <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>950</x>
-        <y>360</y>
+        <x>800</x>
+        <y>370</y>
         <width>93</width>
         <height>28</height>
        </rect>
@@ -52,7 +52,7 @@
        <rect>
         <x>230</x>
         <y>140</y>
-        <width>801</width>
+        <width>761</width>
         <height>201</height>
        </rect>
       </property>
@@ -206,7 +206,7 @@
      <widget class="QCheckBox" name="checkBox">
       <property name="geometry">
        <rect>
-        <x>830</x>
+        <x>690</x>
         <y>370</y>
         <width>96</width>
         <height>19</height>
@@ -424,7 +424,7 @@
        <rect>
         <x>210</x>
         <y>10</y>
-        <width>831</width>
+        <width>791</width>
         <height>351</height>
        </rect>
       </property>
@@ -437,8 +437,8 @@
        <rect>
         <x>210</x>
         <y>410</y>
-        <width>831</width>
-        <height>301</height>
+        <width>791</width>
+        <height>241</height>
        </rect>
       </property>
       <property name="title">
@@ -449,8 +449,8 @@
         <rect>
          <x>30</x>
          <y>30</y>
-         <width>791</width>
-         <height>261</height>
+         <width>751</width>
+         <height>201</height>
         </rect>
        </property>
        <property name="rowCount">
@@ -494,7 +494,7 @@
        <rect>
         <x>230</x>
         <y>30</y>
-        <width>801</width>
+        <width>761</width>
         <height>101</height>
        </rect>
       </property>
@@ -533,212 +533,730 @@
        </property>
       </column>
      </widget>
+     <widget class="QPushButton" name="pushButton_OPW00009">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>360</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>계좌체결조회</string>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>404</y>
+        <width>206</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QGroupBox" name="groupBox_10">
+         <property name="title">
+          <string>Update_Data</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pushButton_value_update">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>ValueSheet</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="pushButton_Price">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Price UPDATE</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_eval_update">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>가치평가Sheet</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QProgressBar" name="progressBar_update">
+            <property name="value">
+             <number>24</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="lineEdit_eval">
+            <property name="styleSheet">
+             <string notr="true">font: 8pt &quot;Segoe UI&quot;;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLineEdit" name="lineEdit_qfinance">
+            <property name="styleSheet">
+             <string notr="true">font: 8pt &quot;Segoe UI&quot;;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pushButton_QFinance_update">
+            <property name="font">
+             <font>
+              <family>Segoe UI</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Quarter_Finance</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="lineEdit_value">
+            <property name="styleSheet">
+             <string notr="true">font: 8pt &quot;Segoe UI&quot;;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLineEdit" name="lineEdit_price">
+            <property name="styleSheet">
+             <string notr="true">font: 8pt &quot;Segoe UI&quot;;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string>Tab 2</string>
+      <string>Thema_List</string>
      </attribute>
-     <widget class="QGroupBox" name="groupBox_4">
+     <widget class="QWidget" name="formLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>10</y>
-        <width>331</width>
-        <height>711</height>
+        <x>50</x>
+        <y>130</y>
+        <width>891</width>
+        <height>481</height>
        </rect>
       </property>
-      <property name="title">
-       <string>알고리즘1</string>
-      </property>
-      <widget class="QTableWidget" name="tableWidget_4">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>311</width>
-         <height>461</height>
-        </rect>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>311</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>311</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="rowCount">
-        <number>1</number>
-       </property>
-       <row/>
-       <column>
-        <property name="text">
-         <string>종목명</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>수익률</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>총금액</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>수량</string>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>7</pointsize>
-         </font>
-        </property>
-       </column>
-      </widget>
+      <layout class="QFormLayout" name="formLayout_ThemaGraph"/>
      </widget>
-     <widget class="QGroupBox" name="groupBox_5">
+     <widget class="QWidget" name="gridLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>450</x>
-        <y>10</y>
-        <width>331</width>
-        <height>711</height>
+        <x>50</x>
+        <y>40</y>
+        <width>224</width>
+        <height>80</height>
        </rect>
       </property>
-      <property name="title">
-       <string>알고리즘1</string>
-      </property>
-      <widget class="QTableWidget" name="tableWidget_5">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>311</width>
-         <height>461</height>
-        </rect>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>311</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>311</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="rowCount">
-        <number>1</number>
-       </property>
-       <row/>
-       <column>
-        <property name="text">
-         <string>종목명</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>수익률</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>총금액</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>수량</string>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>7</pointsize>
-         </font>
-        </property>
-       </column>
-      </widget>
-     </widget>
-     <widget class="QGroupBox" name="groupBox_6">
-      <property name="geometry">
-       <rect>
-        <x>830</x>
-        <y>10</y>
-        <width>331</width>
-        <height>711</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>알고리즘1</string>
-      </property>
-      <widget class="QTableWidget" name="tableWidget_6">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>20</y>
-         <width>311</width>
-         <height>461</height>
-        </rect>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>311</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>311</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="rowCount">
-        <number>1</number>
-       </property>
-       <row/>
-       <column>
-        <property name="text">
-         <string>종목명</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>수익률</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>총금액</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>수량</string>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>7</pointsize>
-         </font>
-        </property>
-       </column>
-      </widget>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_ThemaDisplay">
+         <property name="text">
+          <string>THEMA_DISPLAY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton_ThemaUpdate">
+         <property name="text">
+          <string>THEMA_UPDATE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QProgressBar" name="progressBar_ThemaUpdate">
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QProgressBar" name="progressBar_2">
+         <property name="value">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_4">
+    <widget class="QWidget" name="Algo_Monitor">
      <attribute name="title">
-      <string>쪽</string>
+      <string>Algo_Monitor</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>1007</width>
+        <height>606</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>900</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>알고리즘1</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <item>
+           <widget class="QTableWidget" name="tableWidget_4">
+            <property name="minimumSize">
+             <size>
+              <width>311</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>311</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="rowCount">
+             <number>1</number>
+            </property>
+            <row/>
+            <column>
+             <property name="text">
+              <string>종목명</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>수익률</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>총금액</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>수량</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>State</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout">
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>수익률</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>손익</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>편입종목수</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEdit_3"/>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="lineEdit_6"/>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="lineEdit_7"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>샤프지수</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="lineEdit_8"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>실현손익</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="lineEdit_9"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>알고리즘</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="lineEdit_20"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>알고리즘1</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QTableWidget" name="tableWidget_5">
+            <property name="minimumSize">
+             <size>
+              <width>311</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>311</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="rowCount">
+             <number>1</number>
+            </property>
+            <row/>
+            <column>
+             <property name="text">
+              <string>종목명</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>수익률</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>총금액</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>수량</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>State</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_2">
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>수익률</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_19">
+               <property name="text">
+                <string>손익</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_20">
+               <property name="text">
+                <string>편입종목수</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="lineEdit_10"/>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="lineEdit_11"/>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="lineEdit_12"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>샤프지수</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="lineEdit_13"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_22">
+               <property name="text">
+                <string>실현손익</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="lineEdit_14"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEdit_21"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_29">
+               <property name="text">
+                <string>알고리즘</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="title">
+          <string>알고리즘1</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QTableWidget" name="tableWidget_6">
+            <property name="minimumSize">
+             <size>
+              <width>311</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>311</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="rowCount">
+             <number>1</number>
+            </property>
+            <row/>
+            <column>
+             <property name="text">
+              <string>종목명</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>수익률</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>총금액</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>수량</string>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_9">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>State</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_3">
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>수익률</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>손익</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_25">
+               <property name="text">
+                <string>편입종목수</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="lineEdit_15"/>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="lineEdit_16"/>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="lineEdit_17"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_26">
+               <property name="text">
+                <string>샤프지수</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="lineEdit_18"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_27">
+               <property name="text">
+                <string>실현손익</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QLineEdit" name="lineEdit_19"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEdit_22"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_30">
+               <property name="text">
+                <string>알고리즘</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="BackTest">
+     <attribute name="title">
+      <string>BackTest</string>
      </attribute>
     </widget>
-    <widget class="QWidget" name="tab_3">
+    <widget class="QWidget" name="Collector">
      <attribute name="title">
-      <string>쪽</string>
+      <string>Collector</string>
      </attribute>
     </widget>
    </widget>
@@ -749,7 +1267,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1181</width>
+     <width>1023</width>
      <height>21</height>
     </rect>
    </property>
