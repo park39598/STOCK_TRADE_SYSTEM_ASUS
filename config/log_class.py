@@ -10,11 +10,11 @@ class Logging():
         self.log_path = log_path
 
         logging.config.fileConfig(self.config_path)
-        self.logger = logging.getLogger('Kiwoom')
-        self.kiwoom_log()
+        self.logger = logging.getLogger('PBJ_Trader')
+        self.Trader_Log()
 
     #로그설정
-    def kiwoom_log(self):
+    def Trader_Log(self):
         fh = logging.FileHandler(self.log_path+'/{:%Y-%m-%d}.log'.format(datetime.now()), encoding="utf-8")
         formatter = logging.Formatter('[%(asctime)s] I %(filename)s | %(name)s-%(funcName)s-%(lineno)04d I %(levelname)-8s > %(message)s')
 

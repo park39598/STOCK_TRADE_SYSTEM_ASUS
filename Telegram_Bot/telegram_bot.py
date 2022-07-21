@@ -31,6 +31,7 @@ class TeleBot(QThread):
         update = self.bot.getUpdates()
         #self.chat_id = update[0].message.chat_id
         self.chat_id = 931477629
+
         # updater
         updater = Updater(token=self.token, use_context=True)
         self.dispatcher = updater.dispatcher
@@ -77,6 +78,7 @@ class TeleBot(QThread):
         help_msg="price 조회 : /p 종목명\r\n" \
                  "rim 가격 : /r 종목명\r\n" \
                  "조건식리스트 : /a 종목명\r\n" \
+                 "주식매매 : /mm 매수or매도_종목명(한글)_매수가격_매수량\r\n" \
                  "조건검색 종목조회 : /s 조건검색식명\r\n"
         context.bot.send_message(chat_id=update.effective_chat.id, text=help_msg)
         context.bot.send_message(chat_id=update.effective_chat.id, text="지수조회 : /b 지수명_Start_Year")
@@ -107,7 +109,8 @@ class TeleBot(QThread):
                 df=df.T
                 file=self.render_mpl_table(df, header_columns=1, col_width=1.5, row_height=0.5, font_size=9)
                 self.temp_context.bot.send_photo(chat_id=self.temp_update.effective_chat.id, photo=open(file, 'rb'))
-                os.remove(file)
+                try: os.remove(file)
+                except: pass
                 del(self.temp_update,self.temp_context)
             else:
                 self.temp_context.bot.send_message(chat_id=self.temp_update.effective_chat.id, text="주문이 전달되지 못했습니다TT")
@@ -191,7 +194,7 @@ class TeleBot(QThread):
             time.sleep(0.5)
             if not self.kw_get_que.empty():
                 data = self.kw_get_que.get()
-                self.logging.logger.debug("get data type :%s" % data[0])
+                #self.logging.logger.debug("get data type :%s" % data[0])
                 # 기본적 매수 조건들
                 self.Send_Bot_Msg(data)
 

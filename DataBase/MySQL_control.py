@@ -213,8 +213,15 @@ class DB_control(Create_DB):
         self.cursor.execute(sql)
         #INSERT INTO system_parameter.meme_portfolio(code, name, meme_price, meme, ratio) VALUES(271, 'parkbumjin', 200, 1700, 0.3)
 
-
-
+    def DB_EXECUTE_CMD(self, skima, query):
+        self.create_cursor(skima)
+        sql = query
+        self.cursor.execute(sql)
+        table_temp_list = self.cursor.fetchall()
+        table_list = []
+        for table in table_temp_list:
+            table_list.append(table[0])
+        return table_list
     '''
     def System_Parameter_SAVE(self, algo1=None, algo2=None, algo3=None):
         temp_df = pd.DataFrame(index=['algo1','algo2','algo3'], columns=['start', 'end', 'algorithm'])

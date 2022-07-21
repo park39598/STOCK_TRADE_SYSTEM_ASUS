@@ -28,12 +28,17 @@ class MyWindow(QMainWindow, form_class):
         self.setupUi(self)
         self.timer = QTimer(self)
         self.timer2 = QTimer(self)
+        self.ROOT_DIR = os.path.abspath(os.curdir)
+        self.logging = Logging(self.ROOT_DIR + '\\config\\logging.conf')
+
+        date = '2022-07-01'
+        self.logging.logger.info("{}_Ver".format(date))
 
         self.fs = finance_data.Finance_data()
         self.pr = finance_data.Price_data()
         self.quant = python_quant.Quant_Strategy()
         # 키움 로그인
-        self.kiwoom = Kiwoom()
+        self.kiwoom = Kiwoom(logging=self.logging)
         #self.kiwoom.comm_connect()
 
         self.UI_Initiation()
@@ -52,7 +57,7 @@ class MyWindow(QMainWindow, form_class):
             self.timer3.timeout.connect(self.run_algorithm)
         else:
             pass
-        self.Thema = Crolling_ThemaList_Infostock()
+        self.Thema = Crolling_ThemaList_Infostock(self.logging)
         self.Thema.Msg_trigger.connect(self.Gui_Msg)
 
         self.Thema.UpdateState.connect(self.UpdateProgress)

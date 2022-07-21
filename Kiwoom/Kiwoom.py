@@ -51,7 +51,7 @@ import collections
 
 class Kiwoom(QAxWidget):
 
-    def __init__(self, data_queue=None, order_queue=None):
+    def __init__(self, logging=False, data_queue=None, order_queue=None):
         super().__init__()
         if data_queue == None:
             data_queue = Queue()
@@ -60,18 +60,18 @@ class Kiwoom(QAxWidget):
         #self.NB = Naver_Band.Naver_Band.Naver_Band()
         self.cheguel_meme_queue = Queue()
         print(threading.active_count())
-        self.ROOT_DIR = os.path.abspath(os.curdir)
-        self.logging = Logging(self.ROOT_DIR + '\\config\\logging.conf')
+
+        self.logging = logging
+        #self.logging = Logging(self.ROOT_DIR + '\\config\\logging.conf')
         self.logging.logger.info("Kiwoom() class start.")
-        date = '2022-02-25'
-        self.logging.logger.info("{}_Ver".format(date))
+
         self.DB = DataBase.MySQL_control.DB_control(self.logging)
 
         #self.data_queue = data_queue
         #self.order_queue = order_queue
         self.realType = RealType()
         self.port_total_dict = {}
-        print(threading.active_count())
+        #(threading.active_count())
         # REAL REG설정
 
         # Telegram Thread Func
@@ -80,7 +80,7 @@ class Kiwoom(QAxWidget):
         self.Tbot = Telegram_Bot.telegram_bot.TeleBot(self.telegram_data_que, self.logging)
 
         self.Tbot.start()
-        print(threading.active_count())
+        #print(threading.active_count())
         # schedule 모듈 Thread start
         schedule_task = threading.Thread(target=self.Schedule_Task)
         schedule_task.daemon = True
@@ -196,7 +196,7 @@ class Kiwoom(QAxWidget):
         # 조건식 로드 TEST
         self.condition_dict = {"index": [], "name": []}
         result=self.dynamicCall("GetConditionLoad")
-        print(result)
+        #print(result)
         # 실시간 조건검색 등록
         self.telegram_req_flag = False
         self.DB_tick = 'stocks_tick_10'
@@ -267,7 +267,10 @@ class Kiwoom(QAxWidget):
         elif req_list[0] == meme_CMD :         # 매수_삼성전자_53000_2000000
             try:
                 meme_type = req_list[1].split("_")[0]
-                meme_stock = self.stock_code_name.loc[req_list[1].split("_")[1], 'Symbol']
+                skima = "stocks_lists"
+                query = "SELECT Symbol FROM {}.stocks_lists_all where Name='{}';".format(skima,str(req_list[1].split("_")[1]))
+                meme_stock = self.DB.DB_EXECUTE_CMD(skima, query)[0].replace('A','')
+                #meme_stock = self.stock_code_name.loc[req_list[1].split("_")[1], 'Symbol']
                 if req_list[1].split("_")[2] == "시장가":
                     if meme_type == '매수':
                         df = fdr.DataReader(meme_stock)
@@ -287,6 +290,7 @@ class Kiwoom(QAxWidget):
                 else : self.telegram_data_que.put([message_CMD, "포트폴리오 종목수 최대제한을 넘어섰습니다"])
             except:
                 self.telegram_data_que.put([meme_CMD])
+
     @staticmethod
     def change_format_money(data):
         strip_data = data.lstrip('-0')
@@ -535,7 +539,7 @@ class Kiwoom(QAxWidget):
             name_list = self.dynamicCall("GetConditionNameList()").split(";")
             name_list = [x for x in name_list if len(x)>0]
 
-            print(name_list)
+            #print(name_list)
             for condition in name_list:
                 temp_str=condition.split("^")
                 self.condition_dict["index"].append(str(temp_str[0]))
@@ -1412,7 +1416,7 @@ class Kiwoom(QAxWidget):
                         self.Port_Meme_History.update(temp)
                         temp_df = pd.DataFrame(temp)
                         temp_df = temp_df.T
-                        self.DB.DB_SAVE("stocks_meme_history",self.today, temp_df, False, 'append')
+                        self.DB.DB_SAVE("stocks_meme_history", self.today, temp_df, False, 'append')
                         break
                     if i == (len(self.portfolio_stock_dict.copy().keys())-1):
                         temp = {chaeguel_num: {
